@@ -54,7 +54,7 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/jakarta.mail/jakarta.mail-api -->
-       <dependency>
+      <!-- <dependency>
             <groupId>jakarta.mail</groupId>
             <artifactId>jakarta.mail-api</artifactId>
             <version>2.1.2</version>
@@ -66,7 +66,7 @@
                 <groupId>com.sun.mail</groupId>
                 <artifactId>jakarta.mail</artifactId>
                 <version>2.0.1</version>
-            </dependency>
+            </dependency> -->
 
 
         <!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
@@ -74,26 +74,13 @@
             <groupId>javax.mail</groupId>
             <artifactId>javax.mail-api</artifactId>
             <version>1.5.6</version>
-
-        <exclusions>
-            <exclusion>
-                <artifactId>activation</artifactId>
-                <groupId>javax.activation</groupId>
-            </exclusion>
-        </exclusions>
         </dependency>
         <!-- 1.4.7 -->
 
         <dependency>
             <groupId>com.sun.mail</groupId>
-            <artifactId>javax.mail</artifactId>
-            <version>1.5.6</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>activation</artifactId>
-                    <groupId>javax.activation</groupId>
-                </exclusion>
-            </exclusions>
+            <artifactId>jakarta.mail</artifactId>
+            <version>1.6.3</version>
         </dependency>
 
 

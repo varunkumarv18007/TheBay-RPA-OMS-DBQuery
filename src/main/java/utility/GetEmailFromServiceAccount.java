@@ -8,8 +8,9 @@ import javax.mail.search.*;
 import java.util.regex.*;
 public class GetEmailFromServiceAccount {
     static String otp;
+    static String strExceptionMessage;
     public static void main(String args[]) throws Exception {
-        GetMailOTP("1234");
+
     }
     public static String GetMailOTP(String partialotp) throws MessagingException,IOException,Exception {
         Session session = Session.getDefaultInstance(new Properties());
@@ -27,32 +28,36 @@ public class GetEmailFromServiceAccount {
             //combine search term
             SearchTerm searchTerm = new AndTerm(unseenFlagTerm, sender);
             Message[] messages = inbox.search(searchTerm);
-            System.out.println("Email count: "+messages.length);
+            Log.info("Getting OTP mail...");
+            Log.info("Email count: "+messages.length);
+
             ArrayList<Message> listmessage = new ArrayList<Message>();
             // Reverse the array so that we get latest unread emails
             Collections.reverse(Arrays.asList(messages));
             //Get the top 30 emails
             for(int i=0;i<=30;i++) {
-                System.out.println(messages[i].getContent());
-                System.out.println(i+". "+messages[i].getSubject()+". Date: "+messages[i].getReceivedDate());
                 Pattern regexpattern =Pattern.compile(partialotp+"[0-9]{6}");
                 Matcher matchregex =regexpattern.matcher(messages[i].getContent().toString());
                 if (messages[i].getSubject().contains(Constants.OTP_MAIL_SUBJECT)) {
-                    System.out.println(messages[i].getContent());
+                    Log.info(messages[i].getContent().toString());
+                    //System.out.println(messages[i].getContent());
                     messages[i].setFlag(Flags.Flag.SEEN, true);
                     listmessage.add(messages[i]);
                 }
 
                 if (matchregex.find()) {
-                    System.out.println(matchregex.group(0));
+
                     otp =matchregex.group(0);
+                    Log.info("OTP captured from mail body: "+otp);
                     break;
                 }
             }
 
       }
         catch (Exception e) {
-            throw e;
+            strExceptionMessage="Failure in getting OTP mail. Exception message: "+e.getMessage()+'\n'+"Exception source: "+e.getCause();
+            Log.error(strExceptionMessage);
+            throw new RuntimeException(strExceptionMessage);
         }
         return otp;
     }

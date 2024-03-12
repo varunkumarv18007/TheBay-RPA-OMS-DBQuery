@@ -1,10 +1,7 @@
 package utility;
 
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.DataFormatter;
-import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.IOException;
@@ -17,34 +14,54 @@ public class ReadExcelInput {
     static DataFormatter dataFormatter;
     static XSSFWorkbook workbook;
     static  XSSFSheet workSheet;
+    static CellStyle cs;
     static int columnNum;
+
+    static Cell cell;
+    static Row row;
+
+    static String strExceptionMessage;
     public static void main(String args[]) throws IOException {
         getDataFromSheet();
     }
     public static String[][] getDataFromSheet() throws IOException {
-         workbook = new XSSFWorkbook("C:\\Users\\H895876\\Pictures\\BAY OMoC Monitoring via RPA.xlsx");
-        workSheet = workbook.getSheet(Constants.INPUT_SHEET);
-        noOfRows = 0;
-        columnNum = 0;
-        for (Row row : workSheet) {
-            if (row.getCell(columnNum) != null) {
-                noOfRows += 1;
+
+        try {
+            Log.info("Reading OMS DB Query input file...");
+            workbook = new XSSFWorkbook("C:\\TheBay-RPA-OMS-DBQuery\\BAY OMoC Monitoring via RPA.xlsx");
+
+            workSheet = workbook.getSheet(Constants.INPUT_SHEET);
+            Log.info("Worksheet: " + workSheet.getSheetName());
+            noOfRows = 0;
+            columnNum = 0;
+            for (Row row : workSheet) {
+                if (row.getCell(columnNum) != null) {
+                    noOfRows += 1;
+                }
             }
-        }
-        noOfColumns= workSheet.getRow(0).getLastCellNum();
-        System.out.println("Column count: "+noOfColumns);
-        System.out.println("Row count: "+noOfRows);
-        String[][] dataTable = new String[noOfRows][noOfColumns];
-        for (int i = 0; i < noOfRows; i++) {
-            Row row = workSheet.getRow(i);
-            for (int j = 0; j < noOfColumns; j++) {
-                Cell cell = row.getCell(j);
-                dataTable[i][j] = getCellValueAsString(cell);
-                System.out.println(dataTable[i][j]);
+            noOfColumns = workSheet.getRow(0).getLastCellNum();
+            Log.info("Rows count: " + noOfRows);
+            Log.info("Column count: " + noOfColumns);
+
+            String[][] dataTable = new String[noOfRows][noOfColumns];
+            for (int i = 0; i < noOfRows; i++) {
+
+                row = workSheet.getRow(i);
+                for (int j = 0; j < noOfColumns; j++) {
+                    cell = row.getCell(j);
+                    dataTable[i][j] = getCellValueAsString(cell);
+                    System.out.println(dataTable[i][j]);
+                }
             }
+            workbook.close();
+            return dataTable;
         }
-        workbook.close();
-        return dataTable;
+        catch(Exception e){
+            strExceptionMessage="Failure in reading excel input file. Exception message: "+e.getMessage()+'\n'+"Exception source: "+e.getCause();
+            Log.error(strExceptionMessage);
+            throw new RuntimeException(strExceptionMessage);
+
+        }
     }
     private static String getCellValueAsString(Cell cell) {
         CellType cellType = cell.getCellType();

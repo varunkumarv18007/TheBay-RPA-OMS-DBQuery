@@ -33,19 +33,17 @@ public class ExecuteDbQueryPage extends BaseFunctions {
     public ExecuteDbQueryPage(WebDriver driver) {
         this.driver = driver;
     }
-    public String[][] entersqlquery(String[][] inputdata) throws InterruptedException {
-        this.inputdata = inputdata;
-        System.out.println("Datatable count: " + Arrays.stream(inputdata).count());
-        inputdata[0][11] = "ResultCount";
+    public String[][] entersqlquery(String[][] argInputdata) throws InterruptedException {
+        argInputdata[0][11] = "ResultCount";
         wait = new WebDriverWait(driver, Constants.WAIT_TIME);
-        for (int i = 1; i < Arrays.stream(inputdata).count(); i++) {
-            if (inputdata[i][2].equals("24/7")) {
+        for (int i = 1; i < Arrays.stream(argInputdata).count(); i++) {
+            if (argInputdata[i][2].equals("24/7")) {
                 runquery = true;
             }
             else {
-                startTime = DateTimeParse.GetTime(inputdata[i][2]);
+                startTime = DateTimeParse.GetTime(argInputdata[i][2]);
                 System.out.println("Start time: " + startTime);
-                endTime = DateTimeParse.GetTime(inputdata[i][3]);
+                endTime = DateTimeParse.GetTime(argInputdata[i][3]);
 
                 System.out.println("End time: " + endTime);
                 currentTime = DateTimeParse.GetCurrentDateTime();
@@ -56,22 +54,28 @@ public class ExecuteDbQueryPage extends BaseFunctions {
                 }
                 else {
                     runquery = false;
+
                 }
             }
             if (runquery) {
+                Log.info("Query "+argInputdata[i][1]+" is in runtime window");
                 click(sqleditorelement,wait);
                 clearTextField(sqleditorelement,wait);
-                sqlquery = inputdata[i][7];
+                sqlquery = argInputdata[i][7];
                 type(sqleditorelement,sqlquery,wait);
                 click(runquerybtnelement,wait);
                 doesNotExist = waitUntilElementDisappear(loaderElement,wait);
                 System.out.println("Loader disappeared: " + doesNotExist);
                 resultcount = getText(countcolumn,wait);
-                inputdata[i][11] = resultcount;
-                System.out.println("Printing from table: " + inputdata[i][11]);
+                argInputdata[i][11] = resultcount;
+                //System.out.println("Printing from table: " + argInputdata[i][11]);
+            }
+            else {
+                Log.info("Query "+argInputdata[i][1]+" is not in runtime window");
+                argInputdata[i][11]="";
             }
         }
-        return inputdata;
+        return argInputdata;
     }
 }
 

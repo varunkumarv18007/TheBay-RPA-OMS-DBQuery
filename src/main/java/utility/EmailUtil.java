@@ -8,26 +8,34 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import utility.*;
 
 public class EmailUtil {
-    public static void main(String args[]) {
-        sendMail();
+    String to;
+    String from;
+
+    String username;
+    String password;
+    String host;
+    int port;
+    public void main(String args[]) {
     }
 
-    public static void sendMail() {
+    public void sendMail(String subject, String mailbody) {
         // Recipient's email ID needs to be mentioned.
-        String to = "varunkumar.venkatesh@hbc.com";
+        to = Constants.MAIL_TO;
         // Sender's email ID needs to be mentioned
-        String from = "rpa@hbc.com";
-        final String username = "rpa@hbc.com";//change accordingly
-        final String password = "xnzicmnejdvfxnzx";//change accordingly
+        from = Constants.SENDMAIL_FROM;
+        username = Constants.SENDMAIL_FROM;//change accordingly
+       password = Constants.SENDMAIL_PASSWORD;//change accordingly
         // Assuming you are sending email through relay.jangosmtp.net
-        String host = "mail.hbc.com";
+        host = Constants.SMTP_HOST;
+        port = Constants.SMTP_PORT;
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.host", host);
-        props.put("mail.smtp.port", "25");
+        props.put("mail.smtp.port", 25);
         // Get the Session object.
         Session session = Session.getInstance(props,
                 new javax.mail.Authenticator() {
@@ -44,11 +52,9 @@ public class EmailUtil {
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(to));
             // Set Subject: header field
-            message.setSubject("Testing Subject");
+            message.setSubject(subject);
             // Send the actual HTML message, as big as you like
-            message.setContent(
-                    "<h1>This is actual message embedded in HTML tags</h1>",
-                    "text/html");
+            message.setContent(mailbody,"text/html");
             // Send message
             Transport.send(message);
             System.out.println("Sent message successfully....");
