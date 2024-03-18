@@ -475,3 +475,169 @@
 2024-03-12 10:33:00,082 INFO  [Log] Worksheet: Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml 
 2024-03-12 10:33:00,083 INFO  [Log] Rows count: 11 
 2024-03-12 10:33:00,084 INFO  [Log] Column count: 12 
+2024-03-14 07:30:18,456 INFO  [Log] Killing Processes... 
+2024-03-14 07:30:18,491 INFO  [Log] Kill process executed 
+2024-03-14 07:30:23,116 INFO  [Log] Deleted cookies 
+2024-03-14 07:30:24,266 ERROR [Log] Failed to login to IBM application. Exception message: unknown error: net::ERR_BAD_SSL_CLIENT_AUTH_CERT
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1a41d399398f729c5e392183d9120dcf, get {url=https://hudsn-prod-1.oms.supply-chain.ibm.com/smcfs/yfshttpdbi/sterlingdbqueryclient.jsp}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50988}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50988/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a41d399398f729c5e392183d9120dcf
+Exception source: null 
+2024-03-14 07:30:24,267 INFO  [Log] Killing Processes... 
+2024-03-14 07:30:24,278 INFO  [Log] Kill process executed 
+2024-03-14 07:30:26,037 INFO  [Log] Deleted cookies 
+2024-03-14 07:30:26,929 ERROR [Log] Failed to login to IBM application. Exception message: unknown error: net::ERR_BAD_SSL_CLIENT_AUTH_CERT
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f709773662a537289fcb564137e07ece, get {url=https://hudsn-prod-1.oms.supply-chain.ibm.com/smcfs/yfshttpdbi/sterlingdbqueryclient.jsp}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f709773662a537289fcb564137e07ece
+Exception source: null 
+2024-03-14 07:30:26,929 INFO  [Log] Killing Processes... 
+2024-03-14 07:30:27,039 INFO  [Log] Kill process executed 
+2024-03-14 07:30:28,653 INFO  [Log] Deleted cookies 
+2024-03-14 07:30:29,436 ERROR [Log] Failed to login to IBM application. Exception message: unknown error: net::ERR_BAD_SSL_CLIENT_AUTH_CERT
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77b22593b0a151d7cf7670e524671f3d, get {url=https://hudsn-prod-1.oms.supply-chain.ibm.com/smcfs/yfshttpdbi/sterlingdbqueryclient.jsp}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51032/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77b22593b0a151d7cf7670e524671f3d
+Exception source: null 
+2024-03-14 07:30:29,438 INFO  [Log] Killing Processes... 
+2024-03-14 07:30:29,449 INFO  [Log] Kill process executed 
+2024-03-14 07:30:30,921 INFO  [Log] Capturing partial OTP from IBM page 
+2024-03-14 07:43:13,564 INFO  [Log] Killing Processes... 
+2024-03-14 07:43:13,589 INFO  [Log] Kill process executed 
+2024-03-14 07:43:16,545 INFO  [Log] Deleted cookies 
+2024-03-14 07:43:17,593 ERROR [Log] Failed to login to IBM application. Exception message: unknown error: net::ERR_BAD_SSL_CLIENT_AUTH_CERT
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ee882aa9c60823ecf9a6f758095386e, get {url=https://hudsn-prod-1.oms.supply-chain.ibm.com/smcfs/yfshttpdbi/sterlingdbqueryclient.jsp}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51246/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee882aa9c60823ecf9a6f758095386e
+Exception source: null 
+2024-03-14 07:43:17,594 INFO  [Log] Killing Processes... 
+2024-03-14 07:43:17,606 INFO  [Log] Kill process executed 
+2024-03-14 07:43:19,293 INFO  [Log] Deleted cookies 
+2024-03-14 07:43:20,639 ERROR [Log] Failed to login to IBM application. Exception message: unknown error: net::ERR_CONNECTION_ABORTED
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe8454fc8db6f5ea151a295bead89c52, get {url=https://hudsn-prod-1.oms.supply-chain.ibm.com/smcfs/yfshttpdbi/sterlingdbqueryclient.jsp}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51268}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51268/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe8454fc8db6f5ea151a295bead89c52
+Exception source: null 
+2024-03-14 07:43:20,639 INFO  [Log] Killing Processes... 
+2024-03-14 07:43:20,651 INFO  [Log] Kill process executed 
+2024-03-14 07:43:22,115 INFO  [Log] Deleted cookies 
+2024-03-14 07:43:23,034 ERROR [Log] Failed to login to IBM application. Exception message: unknown error: net::ERR_BAD_SSL_CLIENT_AUTH_CERT
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71c107af5aaacd0d8b67eab27914302f, get {url=https://hudsn-prod-1.oms.supply-chain.ibm.com/smcfs/yfshttpdbi/sterlingdbqueryclient.jsp}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51290/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c107af5aaacd0d8b67eab27914302f
+Exception source: null 
+2024-03-14 07:43:23,034 INFO  [Log] Killing Processes... 
+2024-03-14 07:43:23,046 INFO  [Log] Kill process executed 
+2024-03-14 07:43:24,369 INFO  [Log] Capturing partial OTP from IBM page 
+2024-03-14 07:46:23,612 INFO  [Log] Killing Processes... 
+2024-03-14 07:46:23,649 INFO  [Log] Kill process executed 
+2024-03-14 07:46:25,648 INFO  [Log] Deleted cookies 
+2024-03-14 07:46:28,249 INFO  [Log] Launched IBM application in chrome 
+2024-03-14 07:46:28,615 INFO  [Log] Entered username 
+2024-03-14 07:46:31,021 INFO  [Log] Clicked on Sign-in 
+2024-03-14 07:46:31,021 INFO  [Log] Killing Processes... 
+2024-03-14 07:46:31,035 INFO  [Log] Kill process executed 
+2024-03-14 07:46:32,424 INFO  [Log] Capturing partial OTP from IBM page 
+2024-03-14 07:49:13,864 INFO  [Log] Killing Processes... 
+2024-03-14 07:49:13,889 INFO  [Log] Kill process executed 
+2024-03-14 07:49:15,780 INFO  [Log] Deleted cookies 
+2024-03-14 07:49:17,890 INFO  [Log] Launched IBM application in chrome 
+2024-03-14 07:49:18,258 INFO  [Log] Entered username 
+2024-03-14 07:49:20,501 INFO  [Log] Clicked on Sign-in 
+2024-03-14 07:49:20,503 INFO  [Log] Capturing partial OTP from IBM page 
+2024-03-14 07:49:22,733 INFO  [Log] Partial OTP captured: 9392- 
+2024-03-14 07:54:15,978 INFO  [Log] Killing Processes... 
+2024-03-14 07:54:16,007 INFO  [Log] Kill process executed 
+2024-03-14 07:54:18,269 INFO  [Log] Deleted cookies 
+2024-03-14 07:54:20,526 INFO  [Log] Launched IBM application in chrome 
+2024-03-14 07:54:20,902 INFO  [Log] Entered username 
+2024-03-14 07:54:21,677 ERROR [Log] Failed to login to IBM application. Exception message: Type into failed due to exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=password, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51567}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51567/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Exception source: null 
+2024-03-14 07:54:21,677 INFO  [Log] Killing Processes... 
+2024-03-14 07:54:21,688 INFO  [Log] Kill process executed 
+2024-03-14 07:54:23,410 INFO  [Log] Deleted cookies 
+2024-03-14 07:54:25,600 INFO  [Log] Launched IBM application in chrome 
+2024-03-14 07:54:25,946 INFO  [Log] Entered username 
+2024-03-14 07:54:26,171 ERROR [Log] Failed to login to IBM application. Exception message: Type into failed due to exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=password, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51597/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Exception source: null 
+2024-03-14 07:54:26,171 INFO  [Log] Killing Processes... 
+2024-03-14 07:54:26,181 INFO  [Log] Kill process executed 
+2024-03-14 07:54:27,606 INFO  [Log] Deleted cookies 
+2024-03-14 07:54:29,804 INFO  [Log] Launched IBM application in chrome 
+2024-03-14 07:54:30,145 INFO  [Log] Entered username 
+2024-03-14 07:54:30,355 ERROR [Log] Failed to login to IBM application. Exception message: Type into failed due to exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=password, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Exception source: null 
+2024-03-14 07:54:30,356 INFO  [Log] Capturing partial OTP from IBM page 
+2024-03-14 07:54:30,357 ERROR [Log] Failure in capturing partial OTP. Exception message: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=//*[@id="mfa-text-wrap"]/div/span[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Exception source: null 
+2024-03-14 07:54:30,369 INFO  [Log] Killing Processes... 
+2024-03-14 07:54:30,380 INFO  [Log] Kill process executed 
+2024-03-14 07:54:32,424 INFO  [Log] Deleted cookies 
+2024-03-14 07:54:34,487 INFO  [Log] Launched IBM application in chrome 
+2024-03-14 07:54:34,861 INFO  [Log] Entered username 
+2024-03-14 07:54:35,072 ERROR [Log] Failed to login to IBM application. Exception message: Type into failed due to exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=password, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51653/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Exception source: null 
+2024-03-14 07:54:35,072 INFO  [Log] Killing Processes... 
+2024-03-14 07:54:35,083 INFO  [Log] Kill process executed 
+2024-03-14 07:54:37,430 INFO  [Log] Deleted cookies 
+2024-03-14 07:54:39,575 INFO  [Log] Launched IBM application in chrome 
+2024-03-14 07:54:39,926 INFO  [Log] Entered username 
+2024-03-14 07:54:40,167 ERROR [Log] Failed to login to IBM application. Exception message: Type into failed due to exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=password, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\AWS_RP~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51682/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Exception source: null 
+2024-03-14 07:54:40,167 INFO  [Log] Killing Processes... 
+2024-03-14 07:54:40,179 INFO  [Log] Kill process executed 
+2024-03-14 07:54:42,221 INFO  [Log] Deleted cookies 

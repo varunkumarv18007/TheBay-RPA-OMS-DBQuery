@@ -28,7 +28,7 @@ public class ReadExcelInput {
 
         try {
             Log.info("Reading OMS DB Query input file...");
-            workbook = new XSSFWorkbook("C:\\TheBay-RPA-OMS-DBQuery\\BAY OMoC Monitoring via RPA.xlsx");
+            workbook = new XSSFWorkbook(Constants.INPUT_FILE);
 
             workSheet = workbook.getSheet(Constants.INPUT_SHEET);
             Log.info("Worksheet: " + workSheet.getSheetName());

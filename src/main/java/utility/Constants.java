@@ -6,9 +6,9 @@ public class Constants {
    public static String LOG4J_XML ="log4j.xml";
    public static String KILL_PROCESS = "taskkill /F /IM chrome.exe /T";
 
-   public static String CHROMEDRIVER_PATH ="C:\\chromedriver\\chromedriver-win64\\chromedriver-win64\\chromedriver (2).exe";
-   //public static String CHROMEDRIVER_PATH = "C:\\Chrome\\chromedriver-win64" +
-           //"\\chromedriver.exe";
+   public static String CHROMEDRIVER_PATH =".\\chromedriver\\chromedriver-win64\\chromedriver-win64\\chromedriver (2).exe";
+
+   public  static String INPUT_FILE="C:\\TheBay-RPA-OMS-DBQuery\\BAY OMoC Monitoring via RPA.xlsx";
    public static String OMS_URL = "https://hudsn-prod-1.oms.supply-chain.ibm.com/smcfs/yfshttpdbi/sterlingdbqueryclient.jsp";
    public static  String USER_NAME = "srvc_oms_automation@hbc.com";
    public static String PASSWORD = "HBCINDIAPassw0rd9";
@@ -36,6 +36,8 @@ public class Constants {
            " completed it's run. The queries listed below have either passed the warning threshold or triggered an error in IBM.<br/><br/>Please see details below.<br/><br/>{0}";
 
 public static String MAIL_CC="varun.kumarv@sakscloudservices.com";
+
+public static String MAIL_BCC="";
 
    public  static String SENDMAIL_FROM="rpa@hbc.com";
 

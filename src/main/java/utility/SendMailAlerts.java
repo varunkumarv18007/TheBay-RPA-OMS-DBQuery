@@ -1,11 +1,15 @@
 package utility;
 
+import utility.email.SendEmail;
+import utility.email.SendEmailUtil;
+import utility.*;
+
 import java.util.Map;
 
-public class SendMailAlerts extends EmailUtil{
+public class SendMailAlerts extends SendEmail {
 
     String htmlText;
-    public void sendMailAlert(Map<String,String> mapData)
+    public void sendMailAlert(Map<String,String> mapData) throws Exception
     {
         htmlText=Constants.HTML_TABLEHEADER;
         for (Map.Entry<String,String> map : mapData.entrySet())
@@ -15,8 +19,10 @@ public class SendMailAlerts extends EmailUtil{
                     + "<td>" + map.getValue() + "</td>"+"</tr>";
         }
 
-        if (!mapData.isEmpty()) {
-            sendMail(Constants.CRITICAL_MAILSUBJECT, Constants.CRITICAL_MAILBODY.replace("{0}",htmlText));
+        if (!mapData.isEmpty())
+        {
+            sendEmail();
+           //sendMail(Constants.CRITICAL_MAILSUBJECT, Constants.CRITICAL_MAILBODY.replace("{0}",htmlText));
         }
     }
 }
