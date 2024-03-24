@@ -8,10 +8,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.seleniumhq.jetty9.server.handler.ContextHandler;
 import java.util.Collections;
 
+
+
 public class UtilClass {
 
+    ChromeOptions chromeOptions;
     String strExceptionMessage;
-    static WebDriver driver;
+    WebDriver driver;
     public void setDriver(WebDriver driver1) {
 
         driver = driver1;
@@ -30,8 +33,9 @@ public class UtilClass {
     public void createDriver() {
 
         try {
+            Log.info("Launching chrome driver");
             System.setProperty("webdriver.chrome.driver", Constants.CHROMEDRIVER_PATH);
-            ChromeOptions chromeOptions = new ChromeOptions();
+             chromeOptions = new ChromeOptions();
             chromeOptions.setExperimentalOption("useAutomationExtension", false);
             chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
             chromeOptions.addArguments("--remote-allow-origins=*");
@@ -53,7 +57,6 @@ public class UtilClass {
         catch(Exception e){
             strExceptionMessage="Error in opening chrome driver. Exception message: "+e.getMessage()+'\n'+"Exception cause: "+e.getCause();
             Log.error(strExceptionMessage);
-
             throw new RuntimeException(strExceptionMessage);
         }
     }

@@ -13,9 +13,12 @@ public class Constants {
    public static  String USER_NAME = "srvc_oms_automation@hbc.com";
    public static String PASSWORD = "HBCINDIAPassw0rd9";
    public static Duration WAIT_TIME = Duration.ofSeconds(60);
+    public static Duration LOGIN_ERROR_WAIT_TIME=Duration.ofSeconds(10);
    public static String MAIL_PROTOCOL = "imaps";
    public static String IMAP_SERVER = "imap.gmail.com";
    public static int IMAP_PORT = 993;
+
+   public static int EMAIL_DELAY=120000;
    public static String MAILBOX_FOLDER = "Inbox";
    public static String SENDER_MAILADDRESS = "ibmacct@iam.ibm.com";
    public static String OTP_MAIL_SUBJECT =
@@ -30,10 +33,10 @@ public class Constants {
    public static String WARNING_MAILSUBJECT="WARNING/ERROR - OMS Database Query Monitoring- Alert";
 
    public static String CRITICAL_MAILBODY="Hi Team<br/><br/>The BOT has successfully completed it's run. The queries " +
-           "listed below have passed the Critical threshold.<br/><br/>Please see below:<br/><br/>{0}";
+           "listed below have passed the Critical threshold.<br/><br/>Please see below:<br/><br/>%s";
 
    public static String WARNING_MAILBODY="Hi Team<br/><br/>The BOT has successfully" +
-           " completed it's run. The queries listed below have either passed the warning threshold or triggered an error in IBM.<br/><br/>Please see details below.<br/><br/>{0}";
+           " completed it's run. The queries listed below have either passed the warning threshold or triggered an error in IBM.<br/><br/>Please see details below.<br/><br/%s";
 
 public static String MAIL_CC="varun.kumarv@sakscloudservices.com";
 
@@ -43,7 +46,7 @@ public static String MAIL_BCC="";
 
    public static String SENDMAIL_PASSWORD="xnzicmnejdvfxnzx";
 
-   public static String MAIL_TO="varunkumar.venkatesh@hbc.com";
+   public static String MAIL_TO="varunkumar.venkatesh@hbc.com,varun.kumarv@sakscloudservices.com";
 
    public static String SMTP_HOST="mail.hbc.com";
 
@@ -56,7 +59,23 @@ public static String MAIL_BCC="";
            + "<td><b>Query Result Count<b></td>"
            + "</tr>";
 
+   public static String SQLDB_CONNECTION_STRING="jdbc:sqlserver://thebay-rds-uipath-dev.cyeuvydpkw6m.us-east-1.rds.amazonaws.com;" +
+           "databaseName=TheBayUipathOrchestratorDev;encrypt=true;trustServerCertificate=true";
 
+   public static String SQLDB_USERNAME="bayrpasqladmin";
 
+   public static String SQLDB_PASSWORD="chlp7#r!b=sWa9&7";
+
+   public static  String QUEUE_NAME="TheBay_OMS_DbQuery";
+
+   public static String INSERT_INTODB_QUERY="INSERT into RPADev.TheBay_OMS_DBQuery" +
+           ".interim" +
+           "(work_item_id,queue_name,state,status,detail)" +
+           " " +
+           "Values (?,?,?,?,?)";
+
+   public static String SELECTQUERY_GETQUEUEITEM ="Select * from RPADev.TheBay_OMS_DBQuery.interim where status = ? and work_item_id = ?";
+
+   public static String UPDATEQUERY_GETQUEUEITEM="UPDATE RPADev.TheBay_OMS_DBQuery.interim SET status = ? WHERE status = ? and work_item_id= ?";
 
 }

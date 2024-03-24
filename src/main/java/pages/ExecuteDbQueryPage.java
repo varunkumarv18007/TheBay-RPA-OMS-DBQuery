@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utility.Constants;
@@ -30,8 +31,12 @@ public class ExecuteDbQueryPage extends BaseFunctions {
     WebElement countcolumn;
 @FindBy (id="loader")
     WebElement loaderElement;
+
+@FindBy (id="errorDiv")
+WebElement errorElement;
     public ExecuteDbQueryPage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver,this);
     }
     public String[][] entersqlquery(String[][] argInputdata) throws InterruptedException {
         argInputdata[0][11] = "ResultCount";
@@ -58,17 +63,28 @@ public class ExecuteDbQueryPage extends BaseFunctions {
                 }
             }
             if (runquery) {
-                Log.info("Query "+argInputdata[i][1]+" is in runtime window");
-                click(sqleditorelement,wait);
-                clearTextField(sqleditorelement,wait);
-                sqlquery = argInputdata[i][7];
-                type(sqleditorelement,sqlquery,wait);
-                click(runquerybtnelement,wait);
-                doesNotExist = waitUntilElementDisappear(loaderElement,wait);
-                System.out.println("Loader disappeared: " + doesNotExist);
-                resultcount = getText(countcolumn,wait);
-                argInputdata[i][11] = resultcount;
-                //System.out.println("Printing from table: " + argInputdata[i][11]);
+                try {
+                    Log.info("Query " + argInputdata[i][1] + " is in runtime window");
+                    click(sqleditorelement, wait);
+                    clearTextField(sqleditorelement, wait);
+                    sqlquery = argInputdata[i][7];
+                    type(sqleditorelement, sqlquery, wait);
+                    click(runquerybtnelement, wait);
+                    doesNotExist = waitUntilElementDisappear(loaderElement, wait);
+                    System.out.println("Loader disappeared: " + doesNotExist);
+                    boolean boolResultCountExists = waitForElementToAppear(countcolumn,wait);
+                    if(boolResultCountExists) {
+                        resultcount = getText(countcolumn, wait);
+                        argInputdata[i][11] = resultcount;
+                    } else if (waitForElementToAppear(errorElement,wait)) {
+                        argInputdata[i][11]=getText(errorElement,wait);
+
+                    }
+                    //System.out.println("Printing from table: " + argInputdata[i][11]);
+                } catch (Exception e) {
+                      String strExceptionMessage="Failure in executing SQL query due to: "+e.getMessage()+'\n'+" Exception source: "+e.getCause();
+                      throw new RuntimeException(strExceptionMessage);
+                }
             }
             else {
                 Log.info("Query "+argInputdata[i][1]+" is not in runtime window");

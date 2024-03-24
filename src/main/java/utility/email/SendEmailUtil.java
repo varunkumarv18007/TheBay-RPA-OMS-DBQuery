@@ -1,7 +1,6 @@
 package utility.email;
 
 import utility.Constants;
-import utility.SendMailAlerts;
 
 import java.util.Properties;
 import javax.activation.DataHandler;
@@ -43,7 +42,7 @@ public class SendEmailUtil {
 
     public void sendMail() throws Exception {
 
-        from="";
+
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");

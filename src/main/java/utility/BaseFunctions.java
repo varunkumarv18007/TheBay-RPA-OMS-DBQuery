@@ -41,4 +41,16 @@ public class BaseFunctions extends UtilClass {
         driver=getDriver();
         wait = new WebDriverWait(driver,Constants.WAIT_TIME);
     }
+
+    public boolean waitForElementToAppear(WebElement webElement, WebDriverWait waitTime){
+
+        try {
+            waitTime.until(ExpectedConditions.visibilityOf(webElement));
+            return true;
+        }
+        catch(Exception e){
+            return false;
+        }
+
+    }
 }

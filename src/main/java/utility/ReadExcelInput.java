@@ -8,23 +8,21 @@ import java.io.IOException;
 import java.util.Arrays;
 import utility.Constants;
 public class ReadExcelInput {
-    static int noOfRows;
-    static int noOfColumns;
-    static String val="";
-    static DataFormatter dataFormatter;
-    static XSSFWorkbook workbook;
-    static  XSSFSheet workSheet;
-    static CellStyle cs;
-    static int columnNum;
+     int noOfRows;
+     int noOfColumns;
+     String val="";
+     DataFormatter dataFormatter;
+     XSSFWorkbook workbook;
+      XSSFSheet workSheet;
+     CellStyle cs;
+     int columnNum;
 
-    static Cell cell;
-    static Row row;
+     Cell cell;
+     Row row;
 
-    static String strExceptionMessage;
-    public static void main(String args[]) throws IOException {
-        getDataFromSheet();
-    }
-    public static String[][] getDataFromSheet() throws IOException {
+     String strExceptionMessage;
+
+    public  String[][] getDataFromSheet() throws Exception {
 
         try {
             Log.info("Reading OMS DB Query input file...");
@@ -63,7 +61,7 @@ public class ReadExcelInput {
 
         }
     }
-    private static String getCellValueAsString(Cell cell) {
+    private String getCellValueAsString(Cell cell) {
         CellType cellType = cell.getCellType();
         switch (cellType) {
             case STRING:

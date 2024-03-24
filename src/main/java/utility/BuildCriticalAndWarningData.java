@@ -5,21 +5,21 @@ import utility.email.SendEmail;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-public class BuildCriticalAndWarningData extends SendMailAlerts
-{
+public class BuildCriticalAndWarningData extends GenerateHTMLBody {
     Map<String, String> criticaldata = new HashMap<>();
     Map<String, String> warningdata = new HashMap<>();
 
     String htmlText;
     String warningThreshold;
     String criticalThreshold;
+    String htmlbody;
 
     public void buildCriticalAndWarningData(String[][] strarrayoutputdata) throws Exception {
-        htmlText=Constants.HTML_TABLEHEADER;
+        htmlText = Constants.HTML_TABLEHEADER;
         for (int i = 1; i < Arrays.stream(strarrayoutputdata).count(); i++) {
 
-            String warningThreshold = strarrayoutputdata[i][5];
-            String criticalThreshold = strarrayoutputdata[i][6];
+            warningThreshold = strarrayoutputdata[i][5];
+            criticalThreshold = strarrayoutputdata[i][6];
             System.out.println("Warning threshold: " + strarrayoutputdata[i][5]);
             System.out.println("Critical threshold: " + strarrayoutputdata[i][6]);
             System.out.println("Result count: " + strarrayoutputdata[i][11]);
@@ -35,6 +35,7 @@ public class BuildCriticalAndWarningData extends SendMailAlerts
                             strarrayoutputdata[i][11]);
                 } else if ((Integer.parseInt(strarrayoutputdata[i][11]) <= Integer.parseInt(strarrayoutputdata[i][6]))) {
                     //Add Alert name to Warning table
+                    Log.info("Adding item to critical hashmap: " + strarrayoutputdata[i][0]);
                     criticaldata.put(strarrayoutputdata[i][0],
                             strarrayoutputdata[i][11]);
                 } else {
@@ -42,40 +43,29 @@ public class BuildCriticalAndWarningData extends SendMailAlerts
                 }
             }
         }
+
         SendEmail email = new SendEmail();
-        email.setBody(Constants.CRITICAL_MAILBODY);
-        email.setSubject(Constants.CRITICAL_MAILSUBJECT);
-        sendMailAlert(criticaldata);
-        email.setBody(Constants.WARNING_MAILBODY);
-        email.setSubject(Constants.WARNING_MAILSUBJECT);
-        sendMailAlert(warningdata);
-        //SendEmail email=new SendEmail();
+        email.setfrom(Constants.SENDMAIL_FROM);
+        email.setTo(Constants.MAIL_TO);
+        System.out.println(
+                criticaldata.size());
+        if (criticaldata!=null) {
+            //System.out.println("html body: "+generateHtmlBody(criticaldata));
+           htmlbody= String.format(Constants.CRITICAL_MAILBODY,generateHtmlBody(criticaldata));
 
-       // htmlText=Constants.HTML_TABLEHEADER;
-//            for (Map.Entry<String,String> map : criticaldata.entrySet())
-//            {
-//                System.out.println("Printing critical data");
-//                System.out.println("Key:"+map.getKey());
-//                System.out.println("Value:"+map.getValue());
-//                htmlText=htmlText+"<tr align='center' border ='2'>"+"<td>" + map.getKey() + "</td>"
-//                        + "<td>" + map.getValue() + "</td>"+"</tr>";
-//            }
-//            if (!criticaldata.isEmpty()) {
-//                sendMail(Constants.CRITICAL_MAILSUBJECT, Constants.CRITICAL_MAILBODY.replace("{0}",htmlText));
-//            }
+           email.setSubject(Constants.CRITICAL_MAILSUBJECT);
+            email.setBody(htmlbody);
+            email.sendEmail();
 
-//        htmlText=Constants.HTML_TABLEHEADER;
-//            for (Map.Entry<String,String> map : warningdata.entrySet())
-//            {
-//                htmlText=htmlText+"<tr align='center'>"+"<td>" + map.getKey() + "</td>"
-//                        + "<td>" + map.getValue() + "</td>"+"</tr>";
-//
-//            }
-//        if (!warningdata.isEmpty()) {
-//            sendMail(Constants.WARNING_MAILSUBJECT, Constants.WARNING_MAILBODY.replace("{0}",htmlText));
-//        }
+
+        }
+        if (warningdata!=null) {
+            htmlbody= String.format(Constants.WARNING_MAILBODY,generateHtmlBody(warningdata));
+            email.setSubject(Constants.WARNING_MAILSUBJECT);
+            email.setBody(htmlbody);
+            email.sendEmail();
         }
 
+    }
+
 }
-
-

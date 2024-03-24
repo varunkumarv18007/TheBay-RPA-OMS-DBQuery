@@ -19,12 +19,27 @@ public class SendEmail {
     private String bcc; //optional
     private String[] attachments; //optional
 
+    public SendEmail(){
+
+    }
+
+    public SendEmail(String from, String to, String subject, String body, String cc, String bcc, String [] attachments){
+        this.from=from;
+        this.cc=cc;
+        this.to=to;
+        this.bcc=bcc;
+        this.body=body;
+        this.subject=subject;
+        this.attachments=attachments;
+
+    }
+
     // Getters and setters for email attributes
     public String getFrom() {
         return from;
     }
 
-    public void setFrom(String from) {
+    public void setfrom(String from) {
         this.from = from;
     }
 
@@ -76,6 +91,12 @@ public class SendEmail {
         this.attachments = attachments;
     }
 
+
+//    public static void main(String args[]) throws MessagingException, IOException {
+//        SendEmail email=new SendEmail();
+//        email.sendEmail();
+//
+//    }
     // Method to send the email
     public void sendEmail() throws MessagingException, IOException {
         Properties props = new Properties();
@@ -94,31 +115,37 @@ public class SendEmail {
             }
         });
 
+        //SendEmail email = new SendEmail();
+
+        //email.setBody("Test");
+       // email.setSubject("test");
+
         // Create a multipart message
         MimeMessage message = new MimeMessage(session);
-        message.setFrom(new InternetAddress(this.from));
-        message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(this.to));
+        //email.setTo("varun.kumarv@sakscloudservices.com");
+        message.setFrom(new InternetAddress(getFrom()));
+        message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(getTo()));
 
         if (this.cc != null && !this.cc.isEmpty()) {
-            message.setRecipients(Message.RecipientType.CC, InternetAddress.parse(this.cc));
+            message.setRecipients(Message.RecipientType.CC, InternetAddress.parse(getCc()));
         }
 
         if (this.bcc != null && !this.bcc.isEmpty()) {
-            message.setRecipients(Message.RecipientType.BCC, InternetAddress.parse(this.bcc));
+            message.setRecipients(Message.RecipientType.BCC, InternetAddress.parse(getBcc()));
         }
 
-        message.setSubject(this.subject);
+        message.setSubject(getSubject());
 
         // Create the message body
         MimeBodyPart messageBodyPart = new MimeBodyPart();
-        messageBodyPart.setContent(this.body, "text/html");
+        messageBodyPart.setContent(getBody(), "text/html");
 
         Multipart multipart = new MimeMultipart();
         multipart.addBodyPart(messageBodyPart);
 
         // Add attachments if any
-        if (this.attachments != null) {
-            for (String attachment : this.attachments) {
+        if (getAttachments() != null) {
+            for (String attachment : getAttachments()) {
                 MimeBodyPart attachmentBodyPart = new MimeBodyPart();
                 DataSource source = new FileDataSource(attachment);
                 attachmentBodyPart.setDataHandler(new DataHandler(source));
@@ -134,23 +161,5 @@ public class SendEmail {
         System.out.println("Email sent successfully.");
     }
 
-    public static void setEmailProps(String[] args) {
-        SendEmail email = new SendEmail();
-        email.setFrom("rpa@hbc.com");
-        email.setTo("varun.kumarv@sakscloudservices.com");
-        email.setSubject("Test Subject");
-        email.setBody("<html><body><h1>Hello!</h1><p>This is a test email with HTML body.</p></body></html>");
-
-//     email.setCc("cc@example.com");
-
-//      email.setBcc("bcc@example.com");
-
-//       email.setAttachments(new String[]{"path_to_attachment1", "path_to_attachment2"}); // Provide paths to attachments if any
-
-        try {
-            email.sendEmail();
-        } catch (Exception e){
-            throw new RuntimeException("Send email failed. Exception message: "+e.getMessage()+". "+"Exception cause: "+e.getCause());
-        }
     }
-}
+

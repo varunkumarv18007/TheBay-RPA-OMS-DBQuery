@@ -6,7 +6,7 @@
 
     <test name="Test performer" >
         <classes>
-            <class name="bots.HB_OMS_DbQuery_Performer" />
+            <class name="bots.HBOMSDbQueryPerformer" />
         </classes>
     </test>
 </suite>
