@@ -3,6 +3,9 @@ package utility;
 
 import java.time.Duration;
 public class Constants {
+
+   public static String DBQUERY_PROPERTYFILE="propertyfiles/dbquery" +
+           ".properties";
    public static String LOG4J_XML ="log4j.xml";
    public static String KILL_PROCESS = "taskkill /F /IM chrome.exe /T";
 
@@ -11,7 +14,7 @@ public class Constants {
    public  static String INPUT_FILE="C:\\TheBay-RPA-OMS-DBQuery\\BAY OMoC Monitoring via RPA.xlsx";
    public static String OMS_URL = "https://hudsn-prod-1.oms.supply-chain.ibm.com/smcfs/yfshttpdbi/sterlingdbqueryclient.jsp";
    public static  String USER_NAME = "srvc_oms_automation@hbc.com";
-   public static String PASSWORD = "HBCINDIAPassw0rd9";
+   public static String PASSWORD = "HBCINDIAPassw0rd10";
    public static Duration WAIT_TIME = Duration.ofSeconds(60);
     public static Duration LOGIN_ERROR_WAIT_TIME=Duration.ofSeconds(10);
    public static String MAIL_PROTOCOL = "imaps";

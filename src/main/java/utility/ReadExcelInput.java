@@ -1,6 +1,8 @@
 package utility;
 
 
+import exceptionutil.ApplicationException;
+import logutil.Log;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -27,7 +29,6 @@ public class ReadExcelInput {
         try {
             Log.info("Reading OMS DB Query input file...");
             workbook = new XSSFWorkbook(Constants.INPUT_FILE);
-
             workSheet = workbook.getSheet(Constants.INPUT_SHEET);
             Log.info("Worksheet: " + workSheet.getSheetName());
             noOfRows = 0;
@@ -43,12 +44,11 @@ public class ReadExcelInput {
 
             String[][] dataTable = new String[noOfRows][noOfColumns];
             for (int i = 0; i < noOfRows; i++) {
-
                 row = workSheet.getRow(i);
                 for (int j = 0; j < noOfColumns; j++) {
                     cell = row.getCell(j);
                     dataTable[i][j] = getCellValueAsString(cell);
-                    System.out.println(dataTable[i][j]);
+
                 }
             }
             workbook.close();
@@ -57,7 +57,7 @@ public class ReadExcelInput {
         catch(Exception e){
             strExceptionMessage="Failure in reading excel input file. Exception message: "+e.getMessage()+'\n'+"Exception source: "+e.getCause();
             Log.error(strExceptionMessage);
-            throw new RuntimeException(strExceptionMessage);
+            throw new ApplicationException(strExceptionMessage);
 
         }
     }

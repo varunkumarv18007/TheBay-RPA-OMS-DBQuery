@@ -1,7 +1,6 @@
 package utility;
 
-import utility.email.SendEmail;
-import utility.email.SendEmailUtil;
+import emailutil.SendEmail;
 import utility.*;
 
 import java.util.Map;

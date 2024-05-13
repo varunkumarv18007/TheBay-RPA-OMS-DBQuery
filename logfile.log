@@ -3021,3 +3021,1805 @@ Exception source: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bound
 2024-03-24 18:21:52,277 INFO  [Log] Adding item to critical hashmap: Shipment - Vendor 
 2024-03-24 18:21:52,639 INFO  [Log] Setting queue status 
 2024-03-24 18:21:52,646 INFO  [Log] Transaction set to Successful for work_item_id: 2024-03-24T18:21:13.043150300 
+2024-05-06 22:59:41,289 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 22:59:41,292 INFO  [Log] BOT user: H895876 
+2024-05-06 22:59:41,292 INFO  [Log] Killing Excel process 
+2024-05-06 22:59:42,632 INFO  [Log] Excel process with PID 2856 killed successfully. 
+2024-05-06 22:59:42,651 INFO  [Log] Excel process with PID 24660 killed successfully. 
+2024-05-06 22:59:42,651 INFO  [Log] Killing Chrome process 
+2024-05-06 22:59:43,777 INFO  [Log] Launching chrome driver 
+2024-05-06 22:59:47,787 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 22:59:47,788 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 22:59:47,789 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:04:02,431 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 23:04:02,434 INFO  [Log] BOT user: H895876 
+2024-05-06 23:04:02,434 INFO  [Log] Killing Excel process 
+2024-05-06 23:04:03,037 INFO  [Log] Killing Chrome process 
+2024-05-06 23:04:03,608 INFO  [Log] Launching chrome driver 
+2024-05-06 23:04:06,863 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:04:06,863 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:04:06,863 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:15:21,669 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 23:15:21,673 INFO  [Log] BOT user: H895876 
+2024-05-06 23:15:21,674 INFO  [Log] Killing Excel process 
+2024-05-06 23:15:22,393 INFO  [Log] Killing Chrome process 
+2024-05-06 23:15:23,047 INFO  [Log] Launching chrome driver 
+2024-05-06 23:15:26,107 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:15:26,108 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:15:26,108 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:17:15,347 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 23:17:15,348 INFO  [Log] BOT user: H895876 
+2024-05-06 23:17:15,348 INFO  [Log] Killing Excel process 
+2024-05-06 23:17:15,996 INFO  [Log] Killing Chrome process 
+2024-05-06 23:17:16,583 INFO  [Log] Launching chrome driver 
+2024-05-06 23:17:19,586 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:17:19,587 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:17:19,587 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:18:12,794 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 23:18:12,797 INFO  [Log] BOT user: H895876 
+2024-05-06 23:18:12,798 INFO  [Log] Killing Excel process 
+2024-05-06 23:18:13,494 INFO  [Log] Killing Chrome process 
+2024-05-06 23:18:14,182 INFO  [Log] Launching chrome driver 
+2024-05-06 23:18:17,615 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:18:17,615 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:18:17,615 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:20:30,865 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 23:20:30,869 INFO  [Log] BOT user: H895876 
+2024-05-06 23:20:30,869 INFO  [Log] Killing Excel process 
+2024-05-06 23:20:31,646 INFO  [Log] Killing Chrome process 
+2024-05-06 23:20:32,465 INFO  [Log] Launching chrome driver 
+2024-05-06 23:20:35,630 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:20:35,630 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:20:35,630 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:25:02,725 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 23:25:02,728 INFO  [Log] BOT user: H895876 
+2024-05-06 23:25:02,728 INFO  [Log] Killing Excel process 
+2024-05-06 23:25:03,350 INFO  [Log] Killing Chrome process 
+2024-05-06 23:25:04,075 INFO  [Log] Launching chrome driver 
+2024-05-06 23:25:07,265 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:25:07,266 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:25:07,266 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:29:42,506 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 23:29:42,510 INFO  [Log] BOT user: H895876 
+2024-05-06 23:29:42,510 INFO  [Log] Killing Excel process 
+2024-05-06 23:29:43,056 INFO  [Log] Killing Chrome process 
+2024-05-06 23:29:43,660 INFO  [Log] Launching chrome driver 
+2024-05-06 23:29:46,741 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:29:46,742 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:29:46,742 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:30:54,747 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 23:30:54,751 INFO  [Log] BOT user: H895876 
+2024-05-06 23:30:54,751 INFO  [Log] Killing Excel process 
+2024-05-06 23:30:55,493 INFO  [Log] Killing Chrome process 
+2024-05-06 23:30:56,079 INFO  [Log] Launching chrome driver 
+2024-05-06 23:30:58,980 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:30:58,980 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:30:58,980 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:34:44,608 INFO  [Log] Property file loaded: .\propertyfiles\dbquery.properties 
+2024-05-06 23:34:44,612 INFO  [Log] BOT user: H895876 
+2024-05-06 23:34:44,612 INFO  [Log] Killing Excel process 
+2024-05-06 23:34:45,232 INFO  [Log] Killing Chrome process 
+2024-05-06 23:34:45,818 INFO  [Log] Launching chrome driver 
+2024-05-06 23:34:49,057 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:34:49,058 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:34:49,059 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:38:37,448 INFO  [Log] Property file loaded: propertyfiles\dbquery.properties 
+2024-05-06 23:38:37,452 INFO  [Log] BOT user: H895876 
+2024-05-06 23:38:37,454 INFO  [Log] Killing Excel process 
+2024-05-06 23:38:38,016 INFO  [Log] Killing Chrome process 
+2024-05-06 23:38:38,625 INFO  [Log] Launching chrome driver 
+2024-05-06 23:38:41,668 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:38:41,668 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:38:41,668 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 124.0.6367.91 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'C-5CG1243LBR1', ip: '192.168.43.219'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-06 23:40:12,357 INFO  [Log] Property file loaded: propertyfiles\dbquery.properties 
+2024-05-06 23:41:27,630 INFO  [Log] BOT user: H895876 
+2024-05-06 23:41:27,630 INFO  [Log] Killing Excel process 
+2024-05-06 23:41:35,339 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-06 23:42:09,744 INFO  [Log] BOT user: H895876 
+2024-05-06 23:42:09,744 INFO  [Log] Killing Excel process 
+2024-05-06 23:42:18,731 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-07 12:59:38,981 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-07 12:59:38,982 INFO  [Log] BOT user: H895876 
+2024-05-07 12:59:38,982 INFO  [Log] Killing Excel process 
+2024-05-07 12:59:39,171 INFO  [Log] Killing Chrome process 
+2024-05-07 12:59:39,399 INFO  [Log] Launching chrome driver 
+2024-05-07 13:00:31,267 INFO  [Log] Deleted cookies 
+2024-05-07 13:00:46,246 INFO  [Log] Launched IBM application in chrome 
+2024-05-07 13:00:46,529 INFO  [Log] Entered username 
+2024-05-07 13:00:48,991 INFO  [Log] Clicked on Sign-in 
+2024-05-07 13:00:49,034 ERROR [Log] Login error: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:00:49,034 ERROR [Log] Initialisation failure: Failed to login to IBM application due to: Incorrect IBMid or password. Please try again!
+Exception source: exceptionutil.ApplicationException: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:00:49,034 ERROR [Log] Initialisation failure: Failed to login to IBM application due to: Incorrect IBMid or password. Please try again!
+Exception source: exceptionutil.ApplicationException: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:15:41,138 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-07 13:15:41,139 INFO  [Log] BOT user: H895876 
+2024-05-07 13:15:41,140 INFO  [Log] Killing Excel process 
+2024-05-07 13:15:41,355 INFO  [Log] Killing Chrome process 
+2024-05-07 13:15:41,537 INFO  [Log] Launching chrome driver 
+2024-05-07 13:15:43,678 INFO  [Log] Deleted cookies 
+2024-05-07 13:17:10,528 INFO  [Log] Launched IBM application in chrome 
+2024-05-07 13:17:10,738 INFO  [Log] Entered username 
+2024-05-07 13:17:16,685 INFO  [Log] Clicked on Sign-in 
+2024-05-07 13:17:16,735 ERROR [Log] Login error: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:17:16,735 ERROR [Log] Initialisation failure: Failed to login to IBM application due to: Incorrect IBMid or password. Please try again!
+Exception source: exceptionutil.ApplicationException: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:17:16,735 ERROR [Log] Initialisation failure: Failed to login to IBM application due to: Incorrect IBMid or password. Please try again!
+Exception source: exceptionutil.ApplicationException: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:17:16,752 ERROR [Log] Failure in sending email due to: Initialisation failure: Failed to login to IBM application due to: Incorrect IBMid or password. Please try again!
+Exception source: exceptionutil.ApplicationException: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:21:05,067 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-07 13:21:18,241 INFO  [Log] BOT user: H895876 
+2024-05-07 13:22:00,758 INFO  [Log] Killing Excel process 
+2024-05-07 13:22:18,097 INFO  [Log] Killing Chrome process 
+2024-05-07 13:22:18,253 INFO  [Log] Launching chrome driver 
+2024-05-07 13:22:22,172 INFO  [Log] Deleted cookies 
+2024-05-07 13:22:54,514 INFO  [Log] Launched IBM application in chrome 
+2024-05-07 13:22:54,997 INFO  [Log] Entered username 
+2024-05-07 13:23:03,531 INFO  [Log] Clicked on Sign-in 
+2024-05-07 13:23:03,771 ERROR [Log] Login error: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:23:03,772 ERROR [Log] Initialisation failure: Failed to login to IBM application due to: Incorrect IBMid or password. Please try again!
+Exception source: exceptionutil.ApplicationException: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:23:33,551 ERROR [Log] Initialisation failure: Failed to login to IBM application due to: Incorrect IBMid or password. Please try again!
+Exception source: exceptionutil.ApplicationException: Incorrect IBMid or password. Please try again! 
+2024-05-07 13:34:36,423 ERROR [Log] Failure in sending email due to: Unable to Send the Email because - java.io.FileNotFoundException: src\main\resources\propertyfiles\email.properties (The system cannot find the path specified) 
+2024-05-07 13:49:30,717 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-07 13:49:30,719 INFO  [Log] BOT user: H895876 
+2024-05-07 13:49:30,719 INFO  [Log] Killing Excel process 
+2024-05-07 13:49:31,312 INFO  [Log] Killing Chrome process 
+2024-05-07 13:49:31,844 INFO  [Log] Launching chrome driver 
+2024-05-07 13:49:35,559 INFO  [Log] Deleted cookies 
+2024-05-07 13:50:07,301 INFO  [Log] Launched IBM application in chrome 
+2024-05-07 14:02:16,250 ERROR [Log] Initialisation failure: inStream parameter is null 
+2024-05-07 14:02:16,251 ERROR [Log] Initialisation failure: inStream parameter is null 
+2024-05-07 14:02:16,309 ERROR [Log] Failure in sending email due to: Cannot invoke "String.length()" because "s" is null 
+2024-05-07 14:11:02,624 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-07 14:11:02,626 INFO  [Log] BOT user: H895876 
+2024-05-07 14:11:02,626 INFO  [Log] Killing Excel process 
+2024-05-07 14:11:03,107 INFO  [Log] Excel process with PID 12644 killed successfully. 
+2024-05-07 14:11:03,110 INFO  [Log] Launching chrome driver 
+2024-05-07 14:11:08,307 INFO  [Log] Deleted cookies 
+2024-05-07 14:11:16,279 INFO  [Log] Launched IBM application in chrome 
+2024-05-07 14:11:17,376 INFO  [Log] Entered username 
+2024-05-07 14:11:19,702 INFO  [Log] Clicked on Sign-in 
+2024-05-07 14:11:30,060 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-07 14:12:30,603 ERROR [Log] Failure in capturing partial OTP. Exception message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="mfa-text-wrap"]/div/span[1]' (tried for 60 second(s) with 500 milliseconds interval)
+Exception source: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mfa-text-wrap"]/div/span[1]"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acd01d22f6db76efa7f854273a786a55, findElement {using=xpath, value=//*[@id="mfa-text-wrap"]/div/span[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\H895876\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56860/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: acd01d22f6db76efa7f854273a786a55 
+2024-05-07 14:12:30,604 ERROR [Log] Initialisation failure: Failure in capturing partial OTP. Exception message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="mfa-text-wrap"]/div/span[1]' (tried for 60 second(s) with 500 milliseconds interval)
+Exception source: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mfa-text-wrap"]/div/span[1]"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acd01d22f6db76efa7f854273a786a55, findElement {using=xpath, value=//*[@id="mfa-text-wrap"]/div/span[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\H895876\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56860/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: acd01d22f6db76efa7f854273a786a55 
+2024-05-07 14:12:30,604 ERROR [Log] Initialisation failure: Failure in capturing partial OTP. Exception message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="mfa-text-wrap"]/div/span[1]' (tried for 60 second(s) with 500 milliseconds interval)
+Exception source: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mfa-text-wrap"]/div/span[1]"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acd01d22f6db76efa7f854273a786a55, findElement {using=xpath, value=//*[@id="mfa-text-wrap"]/div/span[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\H895876\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56860/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: acd01d22f6db76efa7f854273a786a55 
+2024-05-07 14:12:30,637 ERROR [Log] Failure in sending email due to: Unable to Send the Email because - java.lang.NullPointerException: inStream parameter is null 
+2024-05-07 14:18:12,483 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-07 14:18:12,484 INFO  [Log] BOT user: H895876 
+2024-05-07 14:18:12,484 INFO  [Log] Killing Excel process 
+2024-05-07 14:18:12,992 INFO  [Log] Launching chrome driver 
+2024-05-07 14:18:16,191 INFO  [Log] Deleted cookies 
+2024-05-07 14:18:29,166 INFO  [Log] Launched IBM application in chrome 
+2024-05-07 14:18:29,807 INFO  [Log] Entered username 
+2024-05-07 14:18:33,096 INFO  [Log] Clicked on Sign-in 
+2024-05-07 14:18:43,333 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-07 14:19:43,539 ERROR [Log] Failure in capturing partial OTP. Exception message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="mfa-text-wrap"]/div/span[1]' (tried for 60 second(s) with 500 milliseconds interval)
+Exception source: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mfa-text-wrap"]/div/span[1]"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f31b7d183788b2e638f91356016eeacb, findElement {using=xpath, value=//*[@id="mfa-text-wrap"]/div/span[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\H895876\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57714/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f31b7d183788b2e638f91356016eeacb 
+2024-05-07 14:19:43,540 ERROR [Log] Initialisation failure: Failure in capturing partial OTP. Exception message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="mfa-text-wrap"]/div/span[1]' (tried for 60 second(s) with 500 milliseconds interval)
+Exception source: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mfa-text-wrap"]/div/span[1]"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f31b7d183788b2e638f91356016eeacb, findElement {using=xpath, value=//*[@id="mfa-text-wrap"]/div/span[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\H895876\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57714/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f31b7d183788b2e638f91356016eeacb 
+2024-05-07 14:19:43,540 ERROR [Log] Initialisation failure: Failure in capturing partial OTP. Exception message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="mfa-text-wrap"]/div/span[1]' (tried for 60 second(s) with 500 milliseconds interval)
+Exception source: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mfa-text-wrap"]/div/span[1]"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f31b7d183788b2e638f91356016eeacb, findElement {using=xpath, value=//*[@id="mfa-text-wrap"]/div/span[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\H895876\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57714/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f31b7d183788b2e638f91356016eeacb 
+2024-05-07 14:19:43,619 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-07 14:19:50,702 INFO  [Log] Email sent successfully. 
+2024-05-10 12:51:13,881 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-10 12:51:13,883 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-10 12:51:13,883 INFO  [Log] Killing Excel process 
+2024-05-10 12:51:14,110 INFO  [Log] Launching chrome driver 
+2024-05-10 12:51:28,129 INFO  [Log] Deleted cookies 
+2024-05-10 12:51:30,483 INFO  [Log] Launched IBM application in chrome 
+2024-05-10 12:51:35,378 INFO  [Log] Entered username 
+2024-05-10 12:51:37,234 INFO  [Log] Clicked on Sign-in 
+2024-05-10 12:51:37,319 ERROR [Log] Login error: Incorrect IBMid or password. Please try again! 
+2024-05-10 12:51:37,319 ERROR [Log] Initialisation failure: Failed to login to IBM application due to: Incorrect IBMid or password. Please try again!
+Exception source: exceptionutil.ApplicationException: Incorrect IBMid or password. Please try again! 
+2024-05-10 12:51:37,320 ERROR [Log] Initialisation failure: Failed to login to IBM application due to: Incorrect IBMid or password. Please try again!
+Exception source: exceptionutil.ApplicationException: Incorrect IBMid or password. Please try again! 
+2024-05-10 12:51:37,389 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-10 12:51:37,707 INFO  [Log] Email sent successfully. 
+2024-05-10 13:25:52,971 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-10 13:25:52,973 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-10 13:25:52,973 INFO  [Log] Killing Excel process 
+2024-05-10 13:25:53,234 INFO  [Log] Launching chrome driver 
+2024-05-10 13:25:56,274 INFO  [Log] Deleted cookies 
+2024-05-10 13:25:58,347 INFO  [Log] Launched IBM application in chrome 
+2024-05-10 13:25:58,832 INFO  [Log] Entered username 
+2024-05-10 13:26:01,275 INFO  [Log] Clicked on Sign-in 
+2024-05-10 13:26:11,538 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-10 13:26:11,868 INFO  [Log] Partial OTP captured: 9219- 
+2024-05-10 13:28:13,191 INFO  [Log] Getting OTP mail... 
+2024-05-10 13:28:13,191 INFO  [Log] Email count: 9 
+2024-05-10 13:28:13,702 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpmYTllNTI1NjRmMzEyNmZjMWIwMWUxZTU1YjA5MTNjODo2OjJlZTQ6OTJkNzg3N2IyMDNiNzdhNjQ2YjQyMDhkYjA4ZTExM2I0Mjc2Y2I0YTEzMzhlMjBkNjI5OGQyNzkxNGM3YmVmZTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">9219-717443</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpmYTllNTI1NjRmMzEyNmZjMWIwMWUxZTU1YjA5MTNjODo2OjI3OTI6ODdiNzIwODFjZDIxZGNiZGY1OTBiZmFjODU2MGM0NjBlN2U4YzM3NzMwMTZlMTEwNTQ4MTE3NTVkYjVjMTU4NjpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpmYTllNTI1NjRmMzEyNmZjMWIwMWUxZTU1YjA5MTNjODo2OmE1YWE6ZTAxMGFjNmQzMjg2ZWNkYTJmYjhiMTBmODI4NTc1NDlkY2VjZjMwNmViZjY1NGQwM2Q3YjQ1YjFkNTM4NzFjNTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpmYTllNTI1NjRmMzEyNmZjMWIwMWUxZTU1YjA5MTNjODo2OjIzMDg6YTc4MDk2Y2ZjMzFiNGU5YjAyZDk1OTA5YzRkYmQyMWUwNzg4NjQyNWEyMDM0OTgyOGRiODViNTFmM2ZiNjQxYTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-10 13:28:13,777 INFO  [Log] OTP captured from mail body: 9219-717443 
+2024-05-10 13:28:13,779 INFO  [Log] Split OTP by - 
+2024-05-10 13:28:13,779 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-10 13:28:13,779 INFO  [Log] Verification code: 717443 
+2024-05-10 13:28:19,327 INFO  [Log] Verification code entered 
+2024-05-10 13:28:19,329 ERROR [Log] Initialisation failure: Cannot invoke "queueutils.QueueItemUtils.addQueueItem(String, java.util.List, java.util.List)" because "this.queueUtils" is null 
+2024-05-10 13:28:19,329 ERROR [Log] Initialisation failure: Cannot invoke "queueutils.QueueItemUtils.addQueueItem(String, java.util.List, java.util.List)" because "this.queueUtils" is null 
+2024-05-10 13:28:19,357 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-10 13:28:19,476 INFO  [Log] Email sent successfully. 
+2024-05-13 02:46:09,197 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 02:46:09,198 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 02:46:09,198 INFO  [Log] Killing Excel process 
+2024-05-13 02:46:09,470 INFO  [Log] Launching chrome driver 
+2024-05-13 02:46:13,324 INFO  [Log] Deleted cookies 
+2024-05-13 02:46:15,476 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 02:46:15,978 INFO  [Log] Entered username 
+2024-05-13 02:46:18,851 INFO  [Log] Clicked on Sign-in 
+2024-05-13 02:46:29,160 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 02:46:29,211 INFO  [Log] Partial OTP captured: 8210- 
+2024-05-13 02:48:30,269 INFO  [Log] Getting OTP mail... 
+2024-05-13 02:48:30,270 INFO  [Log] Email count: 9 
+2024-05-13 02:48:30,752 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo1ZmY5MzFiYTVjYTJhNTg4MmE1YjNhZTYxYzE4NDgyMzo2OmJhNTU6NTQxZjU4MWQ2MDIzNGYzMzRkMzVjN2RlOTQ1ZGJhNDZlODM0YmE3ZGE4ODdlZmFmNGI0OWE5ZTJkYThkMjk0NzpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">8210-431814</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo1ZmY5MzFiYTVjYTJhNTg4MmE1YjNhZTYxYzE4NDgyMzo2OmVlMjI6MzIyZTVkOWEwZjgxZDMzZTAwM2JkOTRlNmJkNDM3NTZlODUxZDc3ZjNkMDYxMjI5M2ZmYjA3ODI3OTVmNjBkMjpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo1ZmY5MzFiYTVjYTJhNTg4MmE1YjNhZTYxYzE4NDgyMzo2OmMzOWI6YzNkYWE4OTk4ZGU1YmJiMDNhNDIyYmQ4MGI0ZTk5MzM3YjQzNWQ4MDAxNTZhNDcyOTgyMDNmMWI0NWI3NTg2MzpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo1ZmY5MzFiYTVjYTJhNTg4MmE1YjNhZTYxYzE4NDgyMzo2OjIyZTI6NGNlNGVlMjg4MTg2OWU4NGMxNDNkMWNiMWE3YWFmYTg5ZGE3NTE5Njg2Y2RjZmE2Y2JmM2ZjNzMwN2ZmNDUxNTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 02:48:30,826 INFO  [Log] OTP captured from mail body: 8210-431814 
+2024-05-13 02:48:30,828 INFO  [Log] Split OTP by - 
+2024-05-13 02:48:30,828 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 02:48:30,828 INFO  [Log] Verification code: 431814 
+2024-05-13 02:48:35,378 INFO  [Log] Verification code entered 
+2024-05-13 02:48:36,305 INFO  [Log] Updated columns for id: 23 
+2024-05-13 02:48:36,307 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-13 02:48:39,642 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-13 02:48:39,644 INFO  [Log] Rows count: 11 
+2024-05-13 02:48:39,644 INFO  [Log] Column count: 12 
+2024-05-13 02:48:40,347 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 02:48:40,348 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 02:48:40,348 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 02:49:18,337 INFO  [Log] Loader disappeared: true 
+2024-05-13 02:49:18,398 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 02:49:21,813 INFO  [Log] Loader disappeared: true 
+2024-05-13 02:49:21,870 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 02:49:37,178 INFO  [Log] Loader disappeared: true 
+2024-05-13 02:49:37,232 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 02:49:37,233 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 02:49:38,313 INFO  [Log] Loader disappeared: true 
+2024-05-13 02:49:38,369 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 02:49:38,369 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 02:49:39,355 INFO  [Log] Loader disappeared: true 
+2024-05-13 02:49:39,411 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 02:49:39,413 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,413 INFO  [Log] Warning threshold: 10 
+2024-05-13 02:49:39,414 INFO  [Log] Critical threshold: 4 
+2024-05-13 02:49:39,414 INFO  [Log] Result count:  
+2024-05-13 02:49:39,414 INFO  [Log] Result value is blank for Alert: Every 30mins 
+2024-05-13 02:49:39,414 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,414 INFO  [Log] Warning threshold: 10 
+2024-05-13 02:49:39,414 INFO  [Log] Critical threshold: 5 
+2024-05-13 02:49:39,414 INFO  [Log] Result count:  
+2024-05-13 02:49:39,414 INFO  [Log] Result value is blank for Alert: Every 30mins 
+2024-05-13 02:49:39,414 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,414 INFO  [Log] Warning threshold: 10 
+2024-05-13 02:49:39,414 INFO  [Log] Critical threshold: 0 
+2024-05-13 02:49:39,414 INFO  [Log] Result count: 1 
+2024-05-13 02:49:39,414 INFO  [Log] Adding item to warning hashmap: Order Release counts to DC 
+2024-05-13 02:49:39,414 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,414 INFO  [Log] Warning threshold: 5 
+2024-05-13 02:49:39,415 INFO  [Log] Critical threshold: 0 
+2024-05-13 02:49:39,415 INFO  [Log] Result count: 1 
+2024-05-13 02:49:39,415 INFO  [Log] Adding item to warning hashmap: Order Release counts to Store 
+2024-05-13 02:49:39,415 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,415 INFO  [Log] Warning threshold: 10 
+2024-05-13 02:49:39,415 INFO  [Log] Critical threshold: 5 
+2024-05-13 02:49:39,415 INFO  [Log] Result count: 1 
+2024-05-13 02:49:39,415 INFO  [Log] Adding item to critical hashmap: Order Release-Vendor 
+2024-05-13 02:49:39,415 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,415 INFO  [Log] Warning threshold: 10 
+2024-05-13 02:49:39,415 INFO  [Log] Critical threshold: 5 
+2024-05-13 02:49:39,415 INFO  [Log] Result count:  
+2024-05-13 02:49:39,415 INFO  [Log] Result value is blank for Alert: Every 30mins 
+2024-05-13 02:49:39,415 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,415 INFO  [Log] Warning threshold: 10 
+2024-05-13 02:49:39,415 INFO  [Log] Critical threshold: 0 
+2024-05-13 02:49:39,415 INFO  [Log] Result count: 50 
+2024-05-13 02:49:39,415 INFO  [Log] No warning or critical values 
+2024-05-13 02:49:39,416 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,416 INFO  [Log] Warning threshold: 10 
+2024-05-13 02:49:39,416 INFO  [Log] Critical threshold: 5 
+2024-05-13 02:49:39,416 INFO  [Log] Result count:  
+2024-05-13 02:49:39,416 INFO  [Log] Result value is blank for Alert: Every 30mins 
+2024-05-13 02:49:39,416 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,416 INFO  [Log] Warning threshold: 10 
+2024-05-13 02:49:39,416 INFO  [Log] Critical threshold: 5 
+2024-05-13 02:49:39,416 INFO  [Log] Result count: 235 
+2024-05-13 02:49:39,416 INFO  [Log] No warning or critical values 
+2024-05-13 02:49:39,416 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 02:49:39,416 INFO  [Log] Warning threshold: 10 
+2024-05-13 02:49:39,416 INFO  [Log] Critical threshold: 5 
+2024-05-13 02:49:39,416 INFO  [Log] Result count:  
+2024-05-13 02:49:39,416 INFO  [Log] Result value is blank for Alert: Every 30mins 
+2024-05-13 02:49:39,425 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 02:49:39,596 INFO  [Log] Email sent successfully. 
+2024-05-13 02:49:39,598 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 02:49:39,736 INFO  [Log] Email sent successfully. 
+2024-05-13 02:49:39,742 INFO  [Log] Updated columns for id: 23 
+2024-05-13 02:49:39,743 INFO  [Log] Updating Transaction status 
+2024-05-13 03:11:28,513 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 03:11:28,515 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 03:11:28,515 INFO  [Log] Killing Excel process 
+2024-05-13 03:11:29,135 INFO  [Log] Launching chrome driver 
+2024-05-13 03:11:32,596 INFO  [Log] Deleted cookies 
+2024-05-13 03:11:35,605 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 03:11:36,116 INFO  [Log] Entered username 
+2024-05-13 03:11:38,919 INFO  [Log] Clicked on Sign-in 
+2024-05-13 03:11:49,432 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 03:11:49,483 INFO  [Log] Partial OTP captured: 4416- 
+2024-05-13 03:13:50,594 INFO  [Log] Getting OTP mail... 
+2024-05-13 03:13:50,595 INFO  [Log] Email count: 9 
+2024-05-13 03:13:51,052 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo5OWYxNDE4NjhjMTJiOGVmMWNhMDQ5MzI2OTBlNWJjODo2OmFlZTk6M2MxY2ExNWNmYjQwZDk5MDQ2N2UxZDJhOGU0MDgxOWY4YTg0M2ExYTAwYWI3ZDJmNjBkOTExMzE0ZGFkNjM4NTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">4416-804534</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo5OWYxNDE4NjhjMTJiOGVmMWNhMDQ5MzI2OTBlNWJjODo2OjU4ZGE6MDI3ODg2NDk0ZDJhZjIzNTJhOTc1NGU1Nzg5MDQwNTYyYzEyZDUyMDlmYzMxNjQ1NzIwNDdjZjljNzI5NTU5MTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo5OWYxNDE4NjhjMTJiOGVmMWNhMDQ5MzI2OTBlNWJjODo2OjBjMTM6ZDQ3NWE2MzJlZjIyMWM4MDU4NzQ3NDk5ZGU0N2NiMjA1ZjQzNjZiMjViZmMxMWNkMDI0MTQxNzI0M2Y0MDE0MjpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo5OWYxNDE4NjhjMTJiOGVmMWNhMDQ5MzI2OTBlNWJjODo2OjY4MWU6N2ZiMTVmZWRlYjFkMTcxM2I1MjBhNGRjZWJhNDc2YzI5Njg1ZTJkZGE3MzliZDk0OTA4MDU0OTJmYzE0ZDMwYzpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 03:13:51,123 INFO  [Log] OTP captured from mail body: 4416-804534 
+2024-05-13 03:13:51,125 INFO  [Log] Split OTP by - 
+2024-05-13 03:13:51,125 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 03:13:51,125 INFO  [Log] Verification code: 804534 
+2024-05-13 03:13:56,252 INFO  [Log] Verification code entered 
+2024-05-13 03:13:56,588 INFO  [Log] Updated columns for id: 24 
+2024-05-13 03:13:56,590 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-13 03:13:57,966 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-13 03:13:57,969 INFO  [Log] Rows count: 11 
+2024-05-13 03:13:57,970 INFO  [Log] Column count: 12 
+2024-05-13 03:13:58,141 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:13:58,141 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:13:58,141 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:14:07,516 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:14:07,579 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:14:10,951 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:14:11,012 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:14:16,397 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:14:16,455 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:14:16,455 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:14:17,535 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:14:17,592 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:14:17,592 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:14:18,595 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:14:18,651 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:14:18,654 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,654 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:14:18,654 INFO  [Log] Critical threshold: 4 
+2024-05-13 03:14:18,654 INFO  [Log] Result count:  
+2024-05-13 03:14:18,654 INFO  [Log] Result value is blank for Alert: Create Order CallCenter Count 
+2024-05-13 03:14:18,654 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,654 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:14:18,654 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:14:18,654 INFO  [Log] Result count:  
+2024-05-13 03:14:18,654 INFO  [Log] Result value is blank for Alert: Create Order POS Count 
+2024-05-13 03:14:18,654 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,654 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:14:18,655 INFO  [Log] Critical threshold: 0 
+2024-05-13 03:14:18,655 INFO  [Log] Result count: 1 
+2024-05-13 03:14:18,655 INFO  [Log] Adding item to warning hashmap: Order Release counts to DC 
+2024-05-13 03:14:18,655 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,655 INFO  [Log] Warning threshold: 5 
+2024-05-13 03:14:18,655 INFO  [Log] Critical threshold: 0 
+2024-05-13 03:14:18,655 INFO  [Log] Result count: 1 
+2024-05-13 03:14:18,655 INFO  [Log] Adding item to warning hashmap: Order Release counts to Store 
+2024-05-13 03:14:18,655 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,655 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:14:18,655 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:14:18,655 INFO  [Log] Result count: 1 
+2024-05-13 03:14:18,655 INFO  [Log] Adding item to critical hashmap: Order Release-Vendor 
+2024-05-13 03:14:18,655 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,655 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:14:18,655 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:14:18,655 INFO  [Log] Result count:  
+2024-05-13 03:14:18,656 INFO  [Log] Result value is blank for Alert: Shipment - DC 
+2024-05-13 03:14:18,656 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,656 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:14:18,656 INFO  [Log] Critical threshold: 0 
+2024-05-13 03:14:18,656 INFO  [Log] Result count: 50 
+2024-05-13 03:14:18,656 INFO  [Log] No warning or critical values 
+2024-05-13 03:14:18,656 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,656 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:14:18,656 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:14:18,656 INFO  [Log] Result count:  
+2024-05-13 03:14:18,656 INFO  [Log] Result value is blank for Alert: Shipment - Vendor 
+2024-05-13 03:14:18,656 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,656 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:14:18,656 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:14:18,656 INFO  [Log] Result count: 224 
+2024-05-13 03:14:18,656 INFO  [Log] No warning or critical values 
+2024-05-13 03:14:18,656 INFO  [Log] Queue name: Every 30mins 
+2024-05-13 03:14:18,656 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:14:18,656 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:14:18,656 INFO  [Log] Result count:  
+2024-05-13 03:14:18,656 INFO  [Log] Result value is blank for Alert: Invoices  Sales - Published 
+2024-05-13 03:14:18,659 INFO  [Log] Sending Critical email alert 
+2024-05-13 03:14:18,665 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 03:14:18,806 INFO  [Log] Email sent successfully. 
+2024-05-13 03:14:18,806 INFO  [Log] Sending warning email alert 
+2024-05-13 03:14:18,808 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 03:14:18,934 INFO  [Log] Email sent successfully. 
+2024-05-13 03:14:18,938 INFO  [Log] Updated columns for id: 24 
+2024-05-13 03:14:18,938 INFO  [Log] Updating Transaction status 
+2024-05-13 03:24:50,176 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 03:24:50,177 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 03:24:50,177 INFO  [Log] Killing Excel process 
+2024-05-13 03:24:50,365 INFO  [Log] Launching chrome driver 
+2024-05-13 03:24:52,796 INFO  [Log] Deleted cookies 
+2024-05-13 03:24:54,695 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 03:24:55,186 INFO  [Log] Entered username 
+2024-05-13 03:24:57,679 INFO  [Log] Clicked on Sign-in 
+2024-05-13 03:25:07,987 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 03:25:08,052 INFO  [Log] Partial OTP captured: 0399- 
+2024-05-13 03:27:09,329 INFO  [Log] Getting OTP mail... 
+2024-05-13 03:27:09,330 INFO  [Log] Email count: 9 
+2024-05-13 03:27:09,809 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzowMmQ0NzViM2MzNDQzM2UyMDEwZTQzOTk4ZTM3YWM1ODo2OjdhNjQ6YzhlYTM4NWIwZWJmOTNjNDkwNjNiMDMxMzIxODFhZjhkOTE2MDI0OGRmNmJkYjg3NGNmNmUxOGFiMDJjOWU1OTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">0399-121365</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzowMmQ0NzViM2MzNDQzM2UyMDEwZTQzOTk4ZTM3YWM1ODo2OjhkZjQ6MDk5MjJhMjIyYmE3MDRmZTdhOTBlZTVkMjk5MzE0OTc2M2E0ZWFmOWMwNzYzZWQ1ZDc4NzNkMDM2N2JhODNjZDpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzowMmQ0NzViM2MzNDQzM2UyMDEwZTQzOTk4ZTM3YWM1ODo2OjA4ZDc6ZDc0NzAzN2E5MDhkMWM2YmEzNjUwOGY3MTU5Y2RhOWE3ZWEzNGY0ZDlkMjU2ZWVlOTA4Mzg5ZWU2Yjg2MjdiMjpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzowMmQ0NzViM2MzNDQzM2UyMDEwZTQzOTk4ZTM3YWM1ODo2OjJmM2I6NDgzYTI4NjEyMzNiZGU5MjI3NjUzYTg5MzI1Y2Y3YWY4YmNkMjJiZmEyODlkOWQ0NTlkZTk2MTcyZTRlZjg0NDpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 03:27:09,882 INFO  [Log] OTP captured from mail body: 0399-121365 
+2024-05-13 03:27:09,884 INFO  [Log] Split OTP by - 
+2024-05-13 03:27:09,884 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 03:27:09,884 INFO  [Log] Verification code: 121365 
+2024-05-13 03:27:14,266 INFO  [Log] Verification code entered 
+2024-05-13 03:27:14,613 INFO  [Log] Updated columns for id: 25 
+2024-05-13 03:27:14,615 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-13 03:27:15,971 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-13 03:27:15,973 INFO  [Log] Rows count: 11 
+2024-05-13 03:27:15,973 INFO  [Log] Column count: 12 
+2024-05-13 03:27:16,130 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:27:16,130 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:27:16,130 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:27:20,315 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:27:20,380 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:27:20,380 INFO  [Log] count value: 1 
+2024-05-13 03:27:20,380 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:27:23,829 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:27:23,895 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:27:23,895 INFO  [Log] count value: 1 
+2024-05-13 03:27:23,895 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:27:28,803 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:27:28,858 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:27:28,858 INFO  [Log] count value: 1 
+2024-05-13 03:27:28,858 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:27:28,858 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:27:29,940 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:27:29,996 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:27:29,996 INFO  [Log] count value: 50 
+2024-05-13 03:27:29,996 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:27:29,996 INFO  [Log] Query Every 30mins is in runtime window 
+2024-05-13 03:27:31,003 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:27:31,057 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:27:31,057 INFO  [Log] count value: 222 
+2024-05-13 03:27:31,058 INFO  [Log] Query Every 30mins is not in runtime window 
+2024-05-13 03:27:31,060 INFO  [Log] Queue name: Create Order CallCenter Count 
+2024-05-13 03:27:31,060 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:27:31,060 INFO  [Log] Critical threshold: 4 
+2024-05-13 03:27:31,060 INFO  [Log] Result count:  
+2024-05-13 03:27:31,060 INFO  [Log] Result value is blank for Alert: Create Order CallCenter Count 
+2024-05-13 03:27:31,060 INFO  [Log] Queue name: Create Order POS Count 
+2024-05-13 03:27:31,060 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:27:31,061 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:27:31,061 INFO  [Log] Result count:  
+2024-05-13 03:27:31,061 INFO  [Log] Result value is blank for Alert: Create Order POS Count 
+2024-05-13 03:27:31,061 INFO  [Log] Queue name: Order Release counts to DC 
+2024-05-13 03:27:31,061 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:27:31,061 INFO  [Log] Critical threshold: 0 
+2024-05-13 03:27:31,061 INFO  [Log] Result count: 1 
+2024-05-13 03:27:31,061 INFO  [Log] Adding item to warning hashmap: Order Release counts to DC 
+2024-05-13 03:27:31,061 INFO  [Log] Queue name: Order Release counts to Store 
+2024-05-13 03:27:31,061 INFO  [Log] Warning threshold: 5 
+2024-05-13 03:27:31,061 INFO  [Log] Critical threshold: 0 
+2024-05-13 03:27:31,061 INFO  [Log] Result count: 1 
+2024-05-13 03:27:31,061 INFO  [Log] Adding item to warning hashmap: Order Release counts to Store 
+2024-05-13 03:27:31,061 INFO  [Log] Queue name: Order Release-Vendor 
+2024-05-13 03:27:31,061 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:27:31,061 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:27:31,061 INFO  [Log] Result count: 1 
+2024-05-13 03:27:31,062 INFO  [Log] Adding item to critical hashmap: Order Release-Vendor 
+2024-05-13 03:27:31,062 INFO  [Log] Queue name: Shipment - DC 
+2024-05-13 03:27:31,062 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:27:31,062 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:27:31,062 INFO  [Log] Result count:  
+2024-05-13 03:27:31,062 INFO  [Log] Result value is blank for Alert: Shipment - DC 
+2024-05-13 03:27:31,062 INFO  [Log] Queue name: Shipments - Store Packed 
+2024-05-13 03:27:31,062 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:27:31,062 INFO  [Log] Critical threshold: 0 
+2024-05-13 03:27:31,062 INFO  [Log] Result count: 50 
+2024-05-13 03:27:31,062 INFO  [Log] No warning or critical values 
+2024-05-13 03:27:31,062 INFO  [Log] Queue name: Shipment - Vendor 
+2024-05-13 03:27:31,062 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:27:31,062 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:27:31,062 INFO  [Log] Result count:  
+2024-05-13 03:27:31,062 INFO  [Log] Result value is blank for Alert: Shipment - Vendor 
+2024-05-13 03:27:31,062 INFO  [Log] Queue name: Emails 
+2024-05-13 03:27:31,062 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:27:31,062 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:27:31,062 INFO  [Log] Result count: 222 
+2024-05-13 03:27:31,063 INFO  [Log] No warning or critical values 
+2024-05-13 03:27:31,063 INFO  [Log] Queue name: Invoices  Sales - Published 
+2024-05-13 03:27:31,063 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:27:31,063 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:27:31,063 INFO  [Log] Result count:  
+2024-05-13 03:27:31,063 INFO  [Log] Result value is blank for Alert: Invoices  Sales - Published 
+2024-05-13 03:27:31,065 INFO  [Log] Sending Critical email alert 
+2024-05-13 03:27:31,071 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 03:27:31,207 INFO  [Log] Email sent successfully. 
+2024-05-13 03:27:31,207 INFO  [Log] Sending warning email alert 
+2024-05-13 03:27:31,208 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 03:27:31,341 INFO  [Log] Email sent successfully. 
+2024-05-13 03:27:31,345 INFO  [Log] Updated columns for id: 25 
+2024-05-13 03:27:31,345 INFO  [Log] Updating Transaction status 
+2024-05-13 03:48:01,839 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 03:48:01,841 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 03:48:01,841 INFO  [Log] Killing Excel process 
+2024-05-13 03:48:02,030 INFO  [Log] Launching chrome driver 
+2024-05-13 03:48:06,261 INFO  [Log] Deleted cookies 
+2024-05-13 03:48:08,318 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 03:48:08,799 INFO  [Log] Entered username 
+2024-05-13 03:48:11,128 INFO  [Log] Clicked on Sign-in 
+2024-05-13 03:48:21,362 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 03:48:21,423 INFO  [Log] Partial OTP captured: 7988- 
+2024-05-13 03:50:22,685 INFO  [Log] Getting OTP mail... 
+2024-05-13 03:50:22,685 INFO  [Log] Email count: 9 
+2024-05-13 03:50:23,155 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyNGIxNjM3OTk2NjAzYjM5MzU0Mjg1OTc4ZjlhMmI3ODo2OmFiODA6NTcwNzhjZDMwOWQyZjc0ZGVhYzVjMGMwMzdjYjRjNWFiMDQzOWVkNzhjYmQ1ZGVhNmIyZDk4MWFlODEwN2EzZDpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">7988-926475</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyNGIxNjM3OTk2NjAzYjM5MzU0Mjg1OTc4ZjlhMmI3ODo2OmE1NmU6YmRlNzg3NmRjMTgxYzA3NzhlM2Y5OWMzMzk0N2U5MzczZjJhMjljNzhiZGE3NmE1ZDA2ODQzMzIyNzVjOWZiYjpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyNGIxNjM3OTk2NjAzYjM5MzU0Mjg1OTc4ZjlhMmI3ODo2OjY5NmY6Mzc2OGEwZDE2MzJmYjlmYWFhYWQ3MDU0NmZmZWNlYTZmNTk1YzU5NzZmOThhZmU2MDA5MWE4MzFiZGMxZjVjYjpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyNGIxNjM3OTk2NjAzYjM5MzU0Mjg1OTc4ZjlhMmI3ODo2OmU5NDI6NTkxZDFhMDA1NjUzZDVjNDU1MDU3ZmUxMTA2N2M0ODBhOThiODBkMGZkOGM5NDdjN2YxY2RlYTBlMTc5ZTY2YTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 03:50:23,227 INFO  [Log] OTP captured from mail body: 7988-926475 
+2024-05-13 03:50:23,229 INFO  [Log] Split OTP by - 
+2024-05-13 03:50:23,229 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 03:50:23,230 INFO  [Log] Verification code: 926475 
+2024-05-13 03:50:27,433 INFO  [Log] Verification code entered 
+2024-05-13 03:50:27,769 INFO  [Log] Updated columns for id: 26 
+2024-05-13 03:50:27,771 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-13 03:50:29,158 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-13 03:50:29,160 INFO  [Log] Rows count: 11 
+2024-05-13 03:50:29,160 INFO  [Log] Column count: 12 
+2024-05-13 03:50:29,312 INFO  [Log] Query Create Order CallCenter Count is not in runtime window 
+2024-05-13 03:50:29,313 INFO  [Log] Query Create Order POS Count is not in runtime window 
+2024-05-13 03:50:29,313 INFO  [Log] Query: Order Release counts to DC 
+2024-05-13 03:50:29,313 INFO  [Log] Query Order Release counts to DC is in runtime window 
+2024-05-13 03:50:33,448 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:50:33,510 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:50:33,511 INFO  [Log] count value: 1 
+2024-05-13 03:50:33,511 INFO  [Log] Query: Order Release counts to Store 
+2024-05-13 03:50:33,511 INFO  [Log] Query Order Release counts to Store is in runtime window 
+2024-05-13 03:50:37,498 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:50:37,557 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:50:37,557 INFO  [Log] count value: 1 
+2024-05-13 03:50:37,557 INFO  [Log] Query: Order Release-Vendor 
+2024-05-13 03:50:37,557 INFO  [Log] Query Order Release-Vendor is in runtime window 
+2024-05-13 03:50:42,472 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:50:42,528 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:50:42,528 INFO  [Log] count value: 1 
+2024-05-13 03:50:42,529 INFO  [Log] Query Shipment - DC is not in runtime window 
+2024-05-13 03:50:42,529 INFO  [Log] Query: Shipments - Store Packed 
+2024-05-13 03:50:42,529 INFO  [Log] Query Shipments - Store Packed is in runtime window 
+2024-05-13 03:50:43,612 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:50:43,669 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:50:43,669 INFO  [Log] count value: 50 
+2024-05-13 03:50:43,670 INFO  [Log] Query Shipment - Vendor is not in runtime window 
+2024-05-13 03:50:43,670 INFO  [Log] Query: Emails 
+2024-05-13 03:50:43,670 INFO  [Log] Query Emails is in runtime window 
+2024-05-13 03:50:44,677 INFO  [Log] Loader disappeared: true 
+2024-05-13 03:50:44,736 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 03:50:44,736 INFO  [Log] count value: 232 
+2024-05-13 03:50:44,736 INFO  [Log] Query Invoices  Sales - Published is not in runtime window 
+2024-05-13 03:50:44,739 INFO  [Log] Queue name: Create Order CallCenter Count 
+2024-05-13 03:50:44,739 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:50:44,739 INFO  [Log] Critical threshold: 4 
+2024-05-13 03:50:44,739 INFO  [Log] Result count:  
+2024-05-13 03:50:44,739 INFO  [Log] Result value is blank for Alert: Create Order CallCenter Count 
+2024-05-13 03:50:44,739 INFO  [Log] Queue name: Create Order POS Count 
+2024-05-13 03:50:44,739 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:50:44,739 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:50:44,739 INFO  [Log] Result count:  
+2024-05-13 03:50:44,739 INFO  [Log] Result value is blank for Alert: Create Order POS Count 
+2024-05-13 03:50:44,740 INFO  [Log] Queue name: Order Release counts to DC 
+2024-05-13 03:50:44,740 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:50:44,740 INFO  [Log] Critical threshold: 0 
+2024-05-13 03:50:44,740 INFO  [Log] Result count: 1 
+2024-05-13 03:50:44,740 INFO  [Log] Adding item to warning hashmap: Order Release counts to DC 
+2024-05-13 03:50:44,740 INFO  [Log] Queue name: Order Release counts to Store 
+2024-05-13 03:50:44,740 INFO  [Log] Warning threshold: 5 
+2024-05-13 03:50:44,740 INFO  [Log] Critical threshold: 0 
+2024-05-13 03:50:44,740 INFO  [Log] Result count: 1 
+2024-05-13 03:50:44,740 INFO  [Log] Adding item to warning hashmap: Order Release counts to Store 
+2024-05-13 03:50:44,740 INFO  [Log] Queue name: Order Release-Vendor 
+2024-05-13 03:50:44,740 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:50:44,740 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:50:44,740 INFO  [Log] Result count: 1 
+2024-05-13 03:50:44,740 INFO  [Log] Adding item to critical hashmap: Order Release-Vendor 
+2024-05-13 03:50:44,741 INFO  [Log] Queue name: Shipment - DC 
+2024-05-13 03:50:44,741 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:50:44,741 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:50:44,741 INFO  [Log] Result count:  
+2024-05-13 03:50:44,741 INFO  [Log] Result value is blank for Alert: Shipment - DC 
+2024-05-13 03:50:44,741 INFO  [Log] Queue name: Shipments - Store Packed 
+2024-05-13 03:50:44,741 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:50:44,741 INFO  [Log] Critical threshold: 0 
+2024-05-13 03:50:44,741 INFO  [Log] Result count: 50 
+2024-05-13 03:50:44,741 INFO  [Log] No warning or critical values 
+2024-05-13 03:50:44,741 INFO  [Log] Queue name: Shipment - Vendor 
+2024-05-13 03:50:44,741 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:50:44,741 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:50:44,741 INFO  [Log] Result count:  
+2024-05-13 03:50:44,741 INFO  [Log] Result value is blank for Alert: Shipment - Vendor 
+2024-05-13 03:50:44,741 INFO  [Log] Queue name: Emails 
+2024-05-13 03:50:44,741 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:50:44,741 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:50:44,741 INFO  [Log] Result count: 232 
+2024-05-13 03:50:44,742 INFO  [Log] No warning or critical values 
+2024-05-13 03:50:44,742 INFO  [Log] Queue name: Invoices  Sales - Published 
+2024-05-13 03:50:44,742 INFO  [Log] Warning threshold: 10 
+2024-05-13 03:50:44,742 INFO  [Log] Critical threshold: 5 
+2024-05-13 03:50:44,742 INFO  [Log] Result count:  
+2024-05-13 03:50:44,742 INFO  [Log] Result value is blank for Alert: Invoices  Sales - Published 
+2024-05-13 03:50:44,744 INFO  [Log] Sending Critical email alert 
+2024-05-13 03:50:44,751 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 03:50:44,931 INFO  [Log] Email sent successfully. 
+2024-05-13 03:50:44,931 INFO  [Log] Sending warning email alert 
+2024-05-13 03:50:44,933 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 03:50:45,055 INFO  [Log] Email sent successfully. 
+2024-05-13 03:50:45,062 INFO  [Log] Updated columns for id: 26 
+2024-05-13 03:50:45,062 INFO  [Log] Updating Transaction status 
+2024-05-13 03:58:29,581 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 03:58:29,582 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 03:58:29,583 INFO  [Log] Killing Excel process 
+2024-05-13 03:58:29,776 INFO  [Log] Launching chrome driver 
+2024-05-13 03:58:33,097 INFO  [Log] Deleted cookies 
+2024-05-13 03:58:35,572 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 03:58:36,098 INFO  [Log] Entered username 
+2024-05-13 03:58:38,314 INFO  [Log] Clicked on Sign-in 
+2024-05-13 03:58:48,437 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 03:58:48,489 INFO  [Log] Partial OTP captured: 6415- 
+2024-05-13 04:00:49,695 INFO  [Log] Getting OTP mail... 
+2024-05-13 04:00:49,695 INFO  [Log] Email count: 9 
+2024-05-13 04:00:50,181 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzowZWYwZmI3ZjJhOWY4MDg3MTM1ODE0ZjRjOTQwNzIwODo2OjkzOTk6ZTAzODA1ZWI1MTY4YmZkYWUzZmU5YjdhZTgzOTdhMjM2OTI3ZjlkZmJmZGZhODNiZDk0OTQwZjEwYjZlZDk1ZDpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">6415-868330</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzowZWYwZmI3ZjJhOWY4MDg3MTM1ODE0ZjRjOTQwNzIwODo2OjM4N2U6N2NhYjZkOTM1MTI2MTkyY2RjMzRiNTBkODIxMDU3OWIzM2I5ZDcyZGY3YTQ5NWJhYjQ5NDgyNTA0Y2VkNmI0ZDpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzowZWYwZmI3ZjJhOWY4MDg3MTM1ODE0ZjRjOTQwNzIwODo2OmQwMzk6NTM0OWZkZTliNWVmYWM5ZDg4MGIxMDQ0ZDY5MTY3ZjdiMDY0OTIyZWVhYWQyNzcxNDc0YzU5M2FjM2FhZTdkMzpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzowZWYwZmI3ZjJhOWY4MDg3MTM1ODE0ZjRjOTQwNzIwODo2OmM1Yjg6ZTEyYWQxZWE2OTlkNzIwZDJhMDBjMzgyYmIyZTNmZTI2NzMzNWNhNWJkZTIxNGNlZDIxMmFkMjA1YjFmZTAyNTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 04:00:50,260 INFO  [Log] OTP captured from mail body: 6415-868330 
+2024-05-13 04:00:50,261 INFO  [Log] Split OTP by - 
+2024-05-13 04:00:50,262 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 04:00:50,262 INFO  [Log] Verification code: 868330 
+2024-05-13 04:00:57,719 INFO  [Log] Verification code entered 
+2024-05-13 04:00:58,068 INFO  [Log] Updated columns for id: 27 
+2024-05-13 04:00:58,070 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-13 04:00:59,451 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-13 04:00:59,453 INFO  [Log] Rows count: 11 
+2024-05-13 04:00:59,453 INFO  [Log] Column count: 12 
+2024-05-13 04:00:59,632 INFO  [Log] Query Create Order CallCenter Count is not in runtime window 
+2024-05-13 04:00:59,632 INFO  [Log] Query Create Order POS Count is not in runtime window 
+2024-05-13 04:00:59,633 INFO  [Log] Query: Order Release counts to DC 
+2024-05-13 04:00:59,633 INFO  [Log] Query Order Release counts to DC is in runtime window 
+2024-05-13 04:01:03,767 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:01:03,831 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 04:01:03,831 INFO  [Log] count value: 50 
+2024-05-13 04:01:03,831 INFO  [Log] Query: Order Release counts to Store 
+2024-05-13 04:01:03,831 INFO  [Log] Query Order Release counts to Store is in runtime window 
+2024-05-13 04:01:07,776 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:01:07,832 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 04:01:07,832 INFO  [Log] count value: 78 
+2024-05-13 04:01:07,832 INFO  [Log] Query: Order Release-Vendor 
+2024-05-13 04:01:07,833 INFO  [Log] Query Order Release-Vendor is in runtime window 
+2024-05-13 04:01:12,233 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:01:12,297 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 04:01:12,297 INFO  [Log] count value: 43 
+2024-05-13 04:01:12,298 INFO  [Log] Query Shipment - DC is not in runtime window 
+2024-05-13 04:01:12,298 INFO  [Log] Query: Shipments - Store Packed 
+2024-05-13 04:01:12,298 INFO  [Log] Query Shipments - Store Packed is in runtime window 
+2024-05-13 04:01:13,403 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:02:13,978 INFO  [Log] Checking for Result count with one column 
+2024-05-13 04:02:13,978 INFO  [Log] count value: 50 
+2024-05-13 04:02:13,979 INFO  [Log] Query Shipment - Vendor is not in runtime window 
+2024-05-13 04:02:13,979 INFO  [Log] Query: Emails 
+2024-05-13 04:02:13,979 INFO  [Log] Query Emails is in runtime window 
+2024-05-13 04:02:14,995 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:03:15,356 INFO  [Log] Checking for Result count with one column 
+2024-05-13 04:03:15,356 INFO  [Log] count value: 215 
+2024-05-13 04:03:15,357 INFO  [Log] Query Invoices  Sales - Published is not in runtime window 
+2024-05-13 04:03:15,359 INFO  [Log] Queue name: Create Order CallCenter Count 
+2024-05-13 04:03:15,359 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:03:15,359 INFO  [Log] Critical threshold: 4 
+2024-05-13 04:03:15,359 INFO  [Log] Result count:  
+2024-05-13 04:03:15,359 INFO  [Log] Result value is blank for Alert: Create Order CallCenter Count 
+2024-05-13 04:03:15,359 INFO  [Log] Queue name: Create Order POS Count 
+2024-05-13 04:03:15,359 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:03:15,360 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:03:15,360 INFO  [Log] Result count:  
+2024-05-13 04:03:15,360 INFO  [Log] Result value is blank for Alert: Create Order POS Count 
+2024-05-13 04:03:15,360 INFO  [Log] Queue name: Order Release counts to DC 
+2024-05-13 04:03:15,360 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:03:15,360 INFO  [Log] Critical threshold: 0 
+2024-05-13 04:03:15,360 INFO  [Log] Result count: 50 
+2024-05-13 04:03:15,360 INFO  [Log] No warning or critical values 
+2024-05-13 04:03:15,360 INFO  [Log] Queue name: Order Release counts to Store 
+2024-05-13 04:03:15,360 INFO  [Log] Warning threshold: 5 
+2024-05-13 04:03:15,360 INFO  [Log] Critical threshold: 0 
+2024-05-13 04:03:15,360 INFO  [Log] Result count: 78 
+2024-05-13 04:03:15,360 INFO  [Log] No warning or critical values 
+2024-05-13 04:03:15,360 INFO  [Log] Queue name: Order Release-Vendor 
+2024-05-13 04:03:15,360 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:03:15,360 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:03:15,360 INFO  [Log] Result count: 43 
+2024-05-13 04:03:15,360 INFO  [Log] No warning or critical values 
+2024-05-13 04:03:15,360 INFO  [Log] Queue name: Shipment - DC 
+2024-05-13 04:03:15,360 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:03:15,361 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:03:15,361 INFO  [Log] Result count:  
+2024-05-13 04:03:15,361 INFO  [Log] Result value is blank for Alert: Shipment - DC 
+2024-05-13 04:03:15,361 INFO  [Log] Queue name: Shipments - Store Packed 
+2024-05-13 04:03:15,361 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:03:15,361 INFO  [Log] Critical threshold: 0 
+2024-05-13 04:03:15,361 INFO  [Log] Result count: 50 
+2024-05-13 04:03:15,361 INFO  [Log] No warning or critical values 
+2024-05-13 04:03:15,361 INFO  [Log] Queue name: Shipment - Vendor 
+2024-05-13 04:03:15,361 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:03:15,361 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:03:15,361 INFO  [Log] Result count:  
+2024-05-13 04:03:15,361 INFO  [Log] Result value is blank for Alert: Shipment - Vendor 
+2024-05-13 04:03:15,361 INFO  [Log] Queue name: Emails 
+2024-05-13 04:03:15,361 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:03:15,361 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:03:15,361 INFO  [Log] Result count: 215 
+2024-05-13 04:03:15,361 INFO  [Log] No warning or critical values 
+2024-05-13 04:03:15,362 INFO  [Log] Queue name: Invoices  Sales - Published 
+2024-05-13 04:03:15,362 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:03:15,362 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:03:15,362 INFO  [Log] Result count:  
+2024-05-13 04:03:15,362 INFO  [Log] Result value is blank for Alert: Invoices  Sales - Published 
+2024-05-13 04:03:15,364 INFO  [Log] Sending Critical email alert 
+2024-05-13 04:03:15,371 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 04:03:15,512 INFO  [Log] Email sent successfully. 
+2024-05-13 04:03:15,512 INFO  [Log] Sending warning email alert 
+2024-05-13 04:03:15,514 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 04:03:15,654 INFO  [Log] Email sent successfully. 
+2024-05-13 04:03:15,660 INFO  [Log] Updated columns for id: 27 
+2024-05-13 04:03:15,660 INFO  [Log] Updating Transaction status 
+2024-05-13 04:19:08,279 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 04:19:08,280 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 04:19:08,280 INFO  [Log] Killing Excel process 
+2024-05-13 04:19:08,479 INFO  [Log] Launching chrome driver 
+2024-05-13 04:19:10,833 INFO  [Log] Deleted cookies 
+2024-05-13 04:19:12,634 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 04:19:13,149 INFO  [Log] Entered username 
+2024-05-13 04:19:15,285 INFO  [Log] Clicked on Sign-in 
+2024-05-13 04:19:25,787 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 04:19:25,841 INFO  [Log] Partial OTP captured: 7747- 
+2024-05-13 04:21:27,107 INFO  [Log] Getting OTP mail... 
+2024-05-13 04:21:27,107 INFO  [Log] Email count: 9 
+2024-05-13 04:21:27,629 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo5ZjE1ZDZkZDMxMDA2NTQzYmMxZDk4YmM0MjY3NjE4Njo2OjBkNTU6OGM1M2RiZGNhY2M5Y2QxZWIwZTI2Y2FhMWIyNjE4NzcwZGFiODNjMWMwYjMzZjk5YWRlMjRmYWZkYTE1MzNhYzpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">7747-333419</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo5ZjE1ZDZkZDMxMDA2NTQzYmMxZDk4YmM0MjY3NjE4Njo2OjUzZTY6Y2IxMWFmYTdmNmM1MTc3NzI1YmM3ZjlmNzM4OTFjNmEzYWJlZDhlMTFiNWFkZjcyZmY5Y2NmYjk0NTUxODMzYjpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo5ZjE1ZDZkZDMxMDA2NTQzYmMxZDk4YmM0MjY3NjE4Njo2OjdhZjc6ZDBlY2I4YWY5YzIyM2E1NjZlODUxMjljNGM3NDdjMDUzYzBlM2ZiNWM0NjIyOGZmOTgwZDllYzIzODIyODU2NjpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo5ZjE1ZDZkZDMxMDA2NTQzYmMxZDk4YmM0MjY3NjE4Njo2OjQwNWY6ODE1NDkxNWRhNjBkNzgxZmRlOTJkNDA5YzRmZmQ2YzUwNmI1ZTI4MmZlNWVlYzFmZWRmYWUyYzkyMDMzODZlODpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 04:21:27,706 INFO  [Log] OTP captured from mail body: 7747-333419 
+2024-05-13 04:21:27,708 INFO  [Log] Split OTP by - 
+2024-05-13 04:21:27,708 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 04:21:27,708 INFO  [Log] Verification code: 333419 
+2024-05-13 04:21:33,771 INFO  [Log] Verification code entered 
+2024-05-13 04:21:34,115 INFO  [Log] Updated columns for id: 28 
+2024-05-13 04:21:34,117 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-13 04:21:35,489 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-13 04:21:35,491 INFO  [Log] Rows count: 11 
+2024-05-13 04:21:35,491 INFO  [Log] Column count: 12 
+2024-05-13 04:21:35,707 INFO  [Log] Query Create Order CallCenter Count is not in runtime window 
+2024-05-13 04:21:35,707 INFO  [Log] Query Create Order POS Count is not in runtime window 
+2024-05-13 04:21:35,707 INFO  [Log] Query: Order Release counts to DC 
+2024-05-13 04:21:35,707 INFO  [Log] Query Order Release counts to DC is in runtime window 
+2024-05-13 04:21:39,779 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:21:39,860 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 04:21:39,860 INFO  [Log] count value: 50 
+2024-05-13 04:21:39,860 INFO  [Log] Query: Order Release counts to Store 
+2024-05-13 04:21:39,860 INFO  [Log] Query Order Release counts to Store is in runtime window 
+2024-05-13 04:21:43,318 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:21:43,376 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 04:21:43,376 INFO  [Log] count value: 60 
+2024-05-13 04:21:43,376 INFO  [Log] Query: Order Release-Vendor 
+2024-05-13 04:21:43,376 INFO  [Log] Query Order Release-Vendor is in runtime window 
+2024-05-13 04:21:48,265 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:21:48,323 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 04:21:48,323 INFO  [Log] count value: 39 
+2024-05-13 04:21:48,323 INFO  [Log] Query Shipment - DC is not in runtime window 
+2024-05-13 04:21:48,323 INFO  [Log] Query: Shipments - Store Packed 
+2024-05-13 04:21:48,323 INFO  [Log] Query Shipments - Store Packed is in runtime window 
+2024-05-13 04:21:49,407 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:22:49,757 INFO  [Log] Checking for Result count with one column 
+2024-05-13 04:22:49,757 INFO  [Log] count value: 50 
+2024-05-13 04:22:49,757 INFO  [Log] Query Shipment - Vendor is not in runtime window 
+2024-05-13 04:22:49,757 INFO  [Log] Query: Emails 
+2024-05-13 04:22:49,757 INFO  [Log] Query Emails is in runtime window 
+2024-05-13 04:22:50,743 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:23:51,090 INFO  [Log] Checking for Result count with one column 
+2024-05-13 04:23:51,090 INFO  [Log] count value: 175 
+2024-05-13 04:23:51,090 INFO  [Log] Query Invoices  Sales - Published is not in runtime window 
+2024-05-13 04:23:51,093 INFO  [Log] Queue name: Create Order CallCenter Count 
+2024-05-13 04:23:51,093 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:23:51,093 INFO  [Log] Critical threshold: 4 
+2024-05-13 04:23:51,093 INFO  [Log] Result count:  
+2024-05-13 04:23:51,093 INFO  [Log] Result value is blank for Alert: Create Order CallCenter Count 
+2024-05-13 04:23:51,093 INFO  [Log] Queue name: Create Order POS Count 
+2024-05-13 04:23:51,093 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:23:51,093 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:23:51,094 INFO  [Log] Result count:  
+2024-05-13 04:23:51,094 INFO  [Log] Result value is blank for Alert: Create Order POS Count 
+2024-05-13 04:23:51,094 INFO  [Log] Queue name: Order Release counts to DC 
+2024-05-13 04:23:51,094 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:23:51,094 INFO  [Log] Critical threshold: 0 
+2024-05-13 04:23:51,094 INFO  [Log] Result count: 50 
+2024-05-13 04:23:51,094 INFO  [Log] No warning or critical values 
+2024-05-13 04:23:51,094 INFO  [Log] Queue name: Order Release counts to Store 
+2024-05-13 04:23:51,094 INFO  [Log] Warning threshold: 5 
+2024-05-13 04:23:51,094 INFO  [Log] Critical threshold: 0 
+2024-05-13 04:23:51,094 INFO  [Log] Result count: 60 
+2024-05-13 04:23:51,094 INFO  [Log] No warning or critical values 
+2024-05-13 04:23:51,094 INFO  [Log] Queue name: Order Release-Vendor 
+2024-05-13 04:23:51,094 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:23:51,094 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:23:51,094 INFO  [Log] Result count: 39 
+2024-05-13 04:23:51,094 INFO  [Log] No warning or critical values 
+2024-05-13 04:23:51,094 INFO  [Log] Queue name: Shipment - DC 
+2024-05-13 04:23:51,094 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:23:51,094 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:23:51,094 INFO  [Log] Result count:  
+2024-05-13 04:23:51,095 INFO  [Log] Result value is blank for Alert: Shipment - DC 
+2024-05-13 04:23:51,095 INFO  [Log] Queue name: Shipments - Store Packed 
+2024-05-13 04:23:51,095 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:23:51,095 INFO  [Log] Critical threshold: 0 
+2024-05-13 04:23:51,095 INFO  [Log] Result count: 50 
+2024-05-13 04:23:51,095 INFO  [Log] No warning or critical values 
+2024-05-13 04:23:51,095 INFO  [Log] Queue name: Shipment - Vendor 
+2024-05-13 04:23:51,095 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:23:51,095 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:23:51,095 INFO  [Log] Result count:  
+2024-05-13 04:23:51,095 INFO  [Log] Result value is blank for Alert: Shipment - Vendor 
+2024-05-13 04:23:51,095 INFO  [Log] Queue name: Emails 
+2024-05-13 04:23:51,095 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:23:51,095 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:23:51,095 INFO  [Log] Result count: 175 
+2024-05-13 04:23:51,095 INFO  [Log] No warning or critical values 
+2024-05-13 04:23:51,096 INFO  [Log] Queue name: Invoices  Sales - Published 
+2024-05-13 04:23:51,096 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:23:51,096 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:23:51,096 INFO  [Log] Result count:  
+2024-05-13 04:23:51,096 INFO  [Log] Result value is blank for Alert: Invoices  Sales - Published 
+2024-05-13 04:23:51,103 INFO  [Log] Updated columns for id: 28 
+2024-05-13 04:23:51,104 INFO  [Log] Updating Transaction status 
+2024-05-13 04:43:07,932 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 04:43:07,934 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 04:43:07,934 INFO  [Log] Killing Excel process 
+2024-05-13 04:43:08,162 INFO  [Log] Launching chrome driver 
+2024-05-13 04:43:11,400 INFO  [Log] Deleted cookies 
+2024-05-13 04:43:13,378 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 04:43:14,025 INFO  [Log] Entered username 
+2024-05-13 04:43:16,062 INFO  [Log] Clicked on Sign-in 
+2024-05-13 04:43:26,471 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 04:43:26,523 INFO  [Log] Partial OTP captured: 0344- 
+2024-05-13 04:45:27,825 INFO  [Log] Getting OTP mail... 
+2024-05-13 04:45:27,826 INFO  [Log] Email count: 9 
+2024-05-13 04:45:28,355 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoxMDkzZjMwMTE1OGE3NzY1NWE0MGRiOGFkMzA0OTg0ZTo2OmU5ZmQ6NTAzYjI5YjRmZmU2YTkyM2JlYTkwNWI0YWI0MTcyODYwMWU0Njk4ZGQyMzc1YjVkODUwY2RjYzY1MzQwYjVjOTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">0344-274911</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoxMDkzZjMwMTE1OGE3NzY1NWE0MGRiOGFkMzA0OTg0ZTo2OmFjN2U6YjYwNjZkYzM1YTQzM2U2OTRhMzc0ZjdkYWMyOWFiMDgzMjk0MjRiMzRiYzFhOTI1YWE1NGJkYWNlNjExMTAyNTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoxMDkzZjMwMTE1OGE3NzY1NWE0MGRiOGFkMzA0OTg0ZTo2Ojc0NzE6ZmRmNWFjNDI2MmE5ZDViMGFlZjQ4MWUxZDUyNTA2MzVhM2ZmNTNlYzcxY2I4Y2U2NjBmOWQ3ZTBhMGZhOTVhYjpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoxMDkzZjMwMTE1OGE3NzY1NWE0MGRiOGFkMzA0OTg0ZTo2OmEzYWQ6OTUyYWFmYzc5NDg3NTAyYWY3YWZjZTY1NmJjZmYwNjUyYzJmMmFjZjUzYTM3YWRiN2FiNWI5OWI3ZDViODViZTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 04:45:28,430 INFO  [Log] OTP captured from mail body: 0344-274911 
+2024-05-13 04:45:28,432 INFO  [Log] Split OTP by - 
+2024-05-13 04:45:28,432 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 04:45:28,432 INFO  [Log] Verification code: 274911 
+2024-05-13 04:45:32,662 INFO  [Log] Verification code entered 
+2024-05-13 04:45:33,007 INFO  [Log] Updated columns for id: 29 
+2024-05-13 04:45:33,009 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-13 04:45:34,366 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-13 04:45:34,367 INFO  [Log] Rows count: 11 
+2024-05-13 04:45:34,368 INFO  [Log] Column count: 12 
+2024-05-13 04:45:34,526 INFO  [Log] Query Create Order CallCenter Count is not in runtime window 
+2024-05-13 04:45:34,526 INFO  [Log] Query Create Order POS Count is not in runtime window 
+2024-05-13 04:45:34,527 INFO  [Log] Query: Order Release counts to DC 
+2024-05-13 04:45:34,527 INFO  [Log] Query Order Release counts to DC is in runtime window 
+2024-05-13 04:45:38,635 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:45:38,698 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 04:45:38,698 INFO  [Log] count value: 50 
+2024-05-13 04:45:38,698 INFO  [Log] Query: Order Release counts to Store 
+2024-05-13 04:45:38,698 INFO  [Log] Query Order Release counts to Store is in runtime window 
+2024-05-13 04:45:42,577 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:45:42,634 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 04:45:42,634 INFO  [Log] count value: 55 
+2024-05-13 04:45:42,634 INFO  [Log] Query: Order Release-Vendor 
+2024-05-13 04:45:42,634 INFO  [Log] Query Order Release-Vendor is in runtime window 
+2024-05-13 04:45:47,090 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:45:47,145 INFO  [Log] Checking for Result count with multiple column 
+2024-05-13 04:45:47,145 INFO  [Log] count value: 42 
+2024-05-13 04:45:47,145 INFO  [Log] Query Shipment - DC is not in runtime window 
+2024-05-13 04:45:47,145 INFO  [Log] Query: Shipments - Store Packed 
+2024-05-13 04:45:47,145 INFO  [Log] Query Shipments - Store Packed is in runtime window 
+2024-05-13 04:45:48,224 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:46:48,608 INFO  [Log] Checking for Result count with one column 
+2024-05-13 04:46:48,608 INFO  [Log] count value: 50 
+2024-05-13 04:46:48,608 INFO  [Log] Query Shipment - Vendor is not in runtime window 
+2024-05-13 04:46:48,608 INFO  [Log] Query: Emails 
+2024-05-13 04:46:48,609 INFO  [Log] Query Emails is in runtime window 
+2024-05-13 04:46:49,611 INFO  [Log] Loader disappeared: true 
+2024-05-13 04:47:49,973 INFO  [Log] Checking for Result count with one column 
+2024-05-13 04:47:49,973 INFO  [Log] count value: 119 
+2024-05-13 04:47:49,973 INFO  [Log] Query Invoices  Sales - Published is not in runtime window 
+2024-05-13 04:47:49,976 INFO  [Log] Queue name: Create Order CallCenter Count 
+2024-05-13 04:47:49,976 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:47:49,976 INFO  [Log] Critical threshold: 4 
+2024-05-13 04:47:49,976 INFO  [Log] Result count:  
+2024-05-13 04:47:49,976 INFO  [Log] Result value is blank for Alert: Create Order CallCenter Count 
+2024-05-13 04:47:49,976 INFO  [Log] Queue name: Create Order POS Count 
+2024-05-13 04:47:49,976 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:47:49,976 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:47:49,976 INFO  [Log] Result count:  
+2024-05-13 04:47:49,976 INFO  [Log] Result value is blank for Alert: Create Order POS Count 
+2024-05-13 04:47:49,976 INFO  [Log] Queue name: Order Release counts to DC 
+2024-05-13 04:47:49,976 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:47:49,976 INFO  [Log] Critical threshold: 0 
+2024-05-13 04:47:49,976 INFO  [Log] Result count: 50 
+2024-05-13 04:47:49,977 INFO  [Log] No warning or critical values 
+2024-05-13 04:47:49,977 INFO  [Log] Queue name: Order Release counts to Store 
+2024-05-13 04:47:49,977 INFO  [Log] Warning threshold: 5 
+2024-05-13 04:47:49,977 INFO  [Log] Critical threshold: 0 
+2024-05-13 04:47:49,977 INFO  [Log] Result count: 55 
+2024-05-13 04:47:49,977 INFO  [Log] No warning or critical values 
+2024-05-13 04:47:49,977 INFO  [Log] Queue name: Order Release-Vendor 
+2024-05-13 04:47:49,977 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:47:49,977 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:47:49,977 INFO  [Log] Result count: 42 
+2024-05-13 04:47:49,977 INFO  [Log] No warning or critical values 
+2024-05-13 04:47:49,977 INFO  [Log] Queue name: Shipment - DC 
+2024-05-13 04:47:49,977 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:47:49,977 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:47:49,977 INFO  [Log] Result count:  
+2024-05-13 04:47:49,977 INFO  [Log] Result value is blank for Alert: Shipment - DC 
+2024-05-13 04:47:49,978 INFO  [Log] Queue name: Shipments - Store Packed 
+2024-05-13 04:47:49,978 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:47:49,978 INFO  [Log] Critical threshold: 0 
+2024-05-13 04:47:49,978 INFO  [Log] Result count: 50 
+2024-05-13 04:47:49,978 INFO  [Log] No warning or critical values 
+2024-05-13 04:47:49,978 INFO  [Log] Queue name: Shipment - Vendor 
+2024-05-13 04:47:49,978 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:47:49,978 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:47:49,978 INFO  [Log] Result count:  
+2024-05-13 04:47:49,978 INFO  [Log] Result value is blank for Alert: Shipment - Vendor 
+2024-05-13 04:47:49,978 INFO  [Log] Queue name: Emails 
+2024-05-13 04:47:49,978 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:47:49,978 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:47:49,978 INFO  [Log] Result count: 119 
+2024-05-13 04:47:49,978 INFO  [Log] No warning or critical values 
+2024-05-13 04:47:49,978 INFO  [Log] Queue name: Invoices  Sales - Published 
+2024-05-13 04:47:49,978 INFO  [Log] Warning threshold: 10 
+2024-05-13 04:47:49,978 INFO  [Log] Critical threshold: 5 
+2024-05-13 04:47:49,978 INFO  [Log] Result count:  
+2024-05-13 04:47:49,978 INFO  [Log] Result value is blank for Alert: Invoices  Sales - Published 
+2024-05-13 04:47:49,980 INFO  [Log] No critical alerts found to send email notification 
+2024-05-13 04:47:49,980 INFO  [Log] No warning alerts found to send email notification 
+2024-05-13 04:47:49,985 INFO  [Log] Updated columns for id: 29 
+2024-05-13 04:47:49,986 INFO  [Log] Updating Transaction status 
+2024-05-13 08:36:36,381 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 08:36:36,382 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 08:36:36,382 INFO  [Log] Killing Excel process 
+2024-05-13 08:36:36,622 INFO  [Log] Launching chrome driver 
+2024-05-13 08:36:40,164 INFO  [Log] Deleted cookies 
+2024-05-13 08:36:44,168 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 08:36:44,680 INFO  [Log] Entered username 
+2024-05-13 08:36:46,855 INFO  [Log] Clicked on Sign-in 
+2024-05-13 08:36:57,312 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 08:36:57,362 INFO  [Log] Partial OTP captured: 2220- 

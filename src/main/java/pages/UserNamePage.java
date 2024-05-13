@@ -1,11 +1,10 @@
 package pages;
 
-import org.apache.log4j.xml.DOMConfigurator;
+import logutil.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utility.BaseFunctions;
-import utility.Log;
 import utility.Constants;
 import org.openqa.selenium.support.ui.WebDriverWait;
 public class UserNamePage extends BaseFunctions {

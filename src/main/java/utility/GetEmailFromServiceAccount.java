@@ -1,5 +1,8 @@
 package utility;
 
+import exceptionutil.ApplicationException;
+import logutil.Log;
+
 import javax.mail.*;
 import java.io.IOException;
 import java.util.*;
@@ -21,7 +24,7 @@ public class GetEmailFromServiceAccount {
     ArrayList<Message> listmessage;
     Pattern regexpattern;
     Matcher matchregex;
-    public String GetMailOTP(String partialOtp) throws MessagingException,IOException,Exception {
+    public String GetMailOTP(String partialOtp) throws Exception {
          session = Session.getDefaultInstance(new Properties());
         try {
             store = session.getStore(Constants.MAIL_PROTOCOL);
@@ -66,7 +69,7 @@ public class GetEmailFromServiceAccount {
         catch (Exception e) {
             strExceptionMessage="Failure in getting OTP mail. Exception message: "+e.getMessage()+'\n'+"Exception source: "+e;
             Log.error(strExceptionMessage);
-            throw new RuntimeException(strExceptionMessage);
+            throw new ApplicationException(strExceptionMessage);
         }
         return strOtp;
     }

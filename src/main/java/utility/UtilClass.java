@@ -1,6 +1,8 @@
 package utility;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.opentelemetry.context.Context;
+import logutil.Log;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -34,7 +36,10 @@ public class UtilClass {
 
         try {
             Log.info("Launching chrome driver");
-            System.setProperty("webdriver.chrome.driver", Constants.CHROMEDRIVER_PATH);
+
+            WebDriverManager.chromedriver().setup();
+            //System.setProperty("webdriver.chrome.driver",
+                  //  Constants.CHROMEDRIVER_PATH);
              chromeOptions = new ChromeOptions();
             chromeOptions.setExperimentalOption("useAutomationExtension", false);
             chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));

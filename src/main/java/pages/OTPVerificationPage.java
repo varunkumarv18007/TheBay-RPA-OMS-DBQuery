@@ -1,6 +1,7 @@
 package pages;
 
-import com.google.common.escape.Escaper;
+import exceptionutil.ApplicationException;
+import logutil.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,8 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utility.BaseFunctions;
 import utility.Constants;
-import utility.Log;
-import utility.SystemException;
 
 public class OTPVerificationPage extends BaseFunctions {
     WebDriver driver;
@@ -34,7 +33,7 @@ public class OTPVerificationPage extends BaseFunctions {
         {
             strExceptionMessage="Failure in capturing partial OTP. Exception message: "+e.getMessage()+'\n'+"Exception source: "+e.getCause();
             Log.error(strExceptionMessage);
-            throw new SystemException(strExceptionMessage);
+            throw new ApplicationException(strExceptionMessage);
         }
     }
 }

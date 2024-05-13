@@ -1,6 +1,7 @@
 package utility;
 
-import utility.email.SendEmail;
+import emailutil.SendEmail;
+import logutil.Log;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -20,12 +21,13 @@ public class BuildCriticalAndWarningData extends GenerateHTMLBody {
 
             warningThreshold = strarrayoutputdata[i][5];
             criticalThreshold = strarrayoutputdata[i][6];
-            System.out.println("Warning threshold: " + strarrayoutputdata[i][5]);
-            System.out.println("Critical threshold: " + strarrayoutputdata[i][6]);
-            System.out.println("Result count: " + strarrayoutputdata[i][11]);
+            Log.info("Queue name: "+strarrayoutputdata[i][0]);
+            Log.info("Warning threshold: " + strarrayoutputdata[i][5]);
+            Log.info("Critical threshold: " + strarrayoutputdata[i][6]);
+            Log.info("Result count: " + strarrayoutputdata[i][11]);
 
             if (strarrayoutputdata[i][11].isBlank() || strarrayoutputdata[i][11].isEmpty()) {
-                Log.info("Result value is blank for Alert: " + strarrayoutputdata[i][1]);
+                Log.info("Result value is blank for Alert: " + strarrayoutputdata[i][0]);
                 // System.out.println("Result value is blank for Alert: " + strarrayoutputdata[i][1]);
             } else {
                 if ((Integer.parseInt(strarrayoutputdata[i][11]) <= Integer.parseInt(strarrayoutputdata[i][5])) && (Integer.parseInt(strarrayoutputdata[i][11]) > Integer.parseInt(strarrayoutputdata[i][6]))) {
@@ -39,31 +41,34 @@ public class BuildCriticalAndWarningData extends GenerateHTMLBody {
                     criticaldata.put(strarrayoutputdata[i][0],
                             strarrayoutputdata[i][11]);
                 } else {
-                    System.out.println("No warning or critical values");
+                    Log.info("No warning or critical values");
                 }
             }
         }
 
-        SendEmail email = new SendEmail();
-        email.setfrom(Constants.SENDMAIL_FROM);
-        email.setTo(Constants.MAIL_TO);
-        System.out.println(
-                criticaldata.size());
-        if (criticaldata!=null) {
+        SendEmail email=new SendEmail();
+        email.setFromMailId(Constants.SENDMAIL_FROM);
+        email.setToMailId(Constants.MAIL_TO);
+        if (!criticaldata.isEmpty()) {
             //System.out.println("html body: "+generateHtmlBody(criticaldata));
            htmlbody= String.format(Constants.CRITICAL_MAILBODY,generateHtmlBody(criticaldata));
-
-           email.setSubject(Constants.CRITICAL_MAILSUBJECT);
-            email.setBody(htmlbody);
+            Log.info("Sending Critical email alert");
+            email.setEmailSubject(Constants.CRITICAL_MAILSUBJECT);
+            email.setEmailBody(htmlbody);
             email.sendEmail();
-
-
         }
-        if (warningdata!=null) {
+        else{
+            Log.info("No critical alerts found to send email notification");
+        }
+        if (!warningdata.isEmpty()) {
             htmlbody= String.format(Constants.WARNING_MAILBODY,generateHtmlBody(warningdata));
-            email.setSubject(Constants.WARNING_MAILSUBJECT);
-            email.setBody(htmlbody);
+            Log.info("Sending warning email alert");
+            email.setEmailSubject(Constants.WARNING_MAILSUBJECT);
+            email.setEmailBody(htmlbody);
             email.sendEmail();
+        }
+        else{
+            Log.info("No warning alerts found to send email notification");
         }
 
     }

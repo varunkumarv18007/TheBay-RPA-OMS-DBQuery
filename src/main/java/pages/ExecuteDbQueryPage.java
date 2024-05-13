@@ -1,5 +1,7 @@
 package pages;
 
+import exceptionutil.ApplicationException;
+import logutil.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,7 +29,13 @@ public class ExecuteDbQueryPage extends BaseFunctions {
     WebElement sqleditorelement;
     @FindBy (id="submitButton")
     WebElement runquerybtnelement;
-    @FindBy (xpath = "/html/body/div[2]/form[2]/div/div[3]/table/tbody/tr[2]/td")
+//    @FindBy (xpath = "/html/body/div[2]/form[2]/div/div[3]/table/tbody/tr[2]/td")
+//    WebElement countcolumn;
+
+    @FindBy (xpath="//table[@id='QueryResult']//tr[contains(@class, 'headerRow')]/th[normalize-space()='COUNT']/ancestor::table//tr[not(contains(@class, 'headerRow'))]/td[2]")
+    WebElement countcolumnAlternative;
+
+    @FindBy (xpath="//table[@id='QueryResult']//tr[contains(@class, 'headerRow')]/th[translate(normalize-space(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'count']/following::td[@class='nowrapsearchlabel']")
     WebElement countcolumn;
 @FindBy (id="loader")
     WebElement loaderElement;
@@ -38,7 +46,7 @@ WebElement errorElement;
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
-    public String[][] entersqlquery(String[][] argInputdata) throws InterruptedException {
+    public String[][] entersqlquery(String[][] argInputdata) throws InterruptedException, ApplicationException {
         argInputdata[0][11] = "ResultCount";
         wait = new WebDriverWait(driver, Constants.WAIT_TIME);
         for (int i = 1; i < Arrays.stream(argInputdata).count(); i++) {
@@ -64,30 +72,42 @@ WebElement errorElement;
             }
             if (runquery) {
                 try {
-                    Log.info("Query " + argInputdata[i][1] + " is in runtime window");
+                    Log.info("Query: "+argInputdata[i][0]);
+                    Log.info("Query " + argInputdata[i][0] + " is in runtime window");
                     click(sqleditorelement, wait);
                     clearTextField(sqleditorelement, wait);
                     sqlquery = argInputdata[i][7];
                     type(sqleditorelement, sqlquery, wait);
                     click(runquerybtnelement, wait);
                     doesNotExist = waitUntilElementDisappear(loaderElement, wait);
-                    System.out.println("Loader disappeared: " + doesNotExist);
-                    boolean boolResultCountExists = waitForElementToAppear(countcolumn,wait);
+                    Log.info("Loader disappeared: " + doesNotExist);
+                    boolean boolResultCountExists = waitForElementToAppear(countcolumnAlternative,wait);
                     if(boolResultCountExists) {
+                        resultcount = getText(countcolumnAlternative, wait);
+                        argInputdata[i][11] = resultcount;
+                        Log.info("Checking for Result count with multiple column");
+                        Log.info("count value: "+resultcount);
+                    }
+                    else if (waitForElementToAppear(countcolumn,wait)) {
                         resultcount = getText(countcolumn, wait);
                         argInputdata[i][11] = resultcount;
-                    } else if (waitForElementToAppear(errorElement,wait)) {
+                        Log.info("Checking for Result count with one column");
+                        Log.info("count value: "+resultcount);
+
+                    } else if(waitForElementToAppear(errorElement,wait)) {
                         argInputdata[i][11]=getText(errorElement,wait);
+                        Log.info("Checking for error message with one column");
+                        Log.info("count value: "+resultcount);
 
                     }
                     //System.out.println("Printing from table: " + argInputdata[i][11]);
                 } catch (Exception e) {
                       String strExceptionMessage="Failure in executing SQL query due to: "+e.getMessage()+'\n'+" Exception source: "+e.getCause();
-                      throw new RuntimeException(strExceptionMessage);
+                      throw new ApplicationException(strExceptionMessage);
                 }
             }
             else {
-                Log.info("Query "+argInputdata[i][1]+" is not in runtime window");
+                Log.info("Query "+argInputdata[i][0]+" is not in runtime window");
                 argInputdata[i][11]="";
             }
         }

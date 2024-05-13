@@ -1,14 +1,14 @@
 package pages;
 
+import exceptionutil.ApplicationException;
+import logutil.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utility.BaseFunctions;
-import utility.Log;
 import utility.Constants;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utility.SystemException;
 
 public class LoginPage extends BaseFunctions {
 
@@ -39,8 +39,7 @@ public class LoginPage extends BaseFunctions {
         PageFactory.initElements(driver,this);
     }
 
-    public void login(WebDriver driver) throws InterruptedException {
-
+    public void login(WebDriver driver) throws ApplicationException {
 
         try {
             //Clear cookies
@@ -73,12 +72,12 @@ public class LoginPage extends BaseFunctions {
 
                 strExceptionMessage = getText(loginErrorWebElement, wait);
                 Log.error("Login error: " + strExceptionMessage);
-                throw new RuntimeException(strExceptionMessage);
+                throw new ApplicationException(strExceptionMessage);
             }
         }
         catch (Exception e){
             strExceptionMessage="Failed to login to IBM application due to: "+e.getMessage()+'\n'+"Exception source: "+e;
-            throw new RuntimeException(strExceptionMessage);
+            throw new ApplicationException(strExceptionMessage);
         }
 
 

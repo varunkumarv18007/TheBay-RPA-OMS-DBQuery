@@ -1,5 +1,7 @@
 package pages;
 
+import exceptionutil.ApplicationException;
+import logutil.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -7,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utility.BaseFunctions;
 import utility.Constants;
-import utility.Log;
 
 public class EnterOTPPage extends BaseFunctions {
     WebDriver driver;
@@ -25,7 +26,7 @@ public class EnterOTPPage extends BaseFunctions {
     WebElement otpWebElement;
     @FindBy (xpath = "//button[contains(text(),'Verify')]")
     WebElement verifyBtn;
-    public void enterOtp(String otp) {
+    public void enterOtp(String otp) throws Exception {
 
         try{
             //Split OTP by -
@@ -43,7 +44,7 @@ public class EnterOTPPage extends BaseFunctions {
         catch(Exception e){
             strExceptionMessage="Failure in entering OTP in IBM page.Exception message: "+e.getMessage()+'\n'+"Exception source: "+e.getCause();
             Log.error(strExceptionMessage);
-            throw new RuntimeException(strExceptionMessage);
+            throw new ApplicationException(strExceptionMessage);
         }
 
     }
