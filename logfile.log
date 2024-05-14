@@ -4823,3 +4823,340 @@ Exception source: exceptionutil.ApplicationException: Incorrect IBMid or passwor
 2024-05-13 08:36:46,855 INFO  [Log] Clicked on Sign-in 
 2024-05-13 08:36:57,312 INFO  [Log] Capturing partial OTP from IBM page 
 2024-05-13 08:36:57,362 INFO  [Log] Partial OTP captured: 2220- 
+2024-05-13 17:36:12,898 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 17:36:12,899 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 17:36:12,899 INFO  [Log] Killing Excel process 
+2024-05-13 17:36:13,202 INFO  [Log] Launching chrome driver 
+2024-05-13 17:36:18,886 ERROR [Log] Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) 
+Host info: host: 'AWS-MS-UIROBD01', ip: '10.124.234.29'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-13 17:36:18,886 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) 
+Host info: host: 'AWS-MS-UIROBD01', ip: '10.124.234.29'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-13 17:36:18,887 ERROR [Log] Initialisation failure: Error in opening chrome driver. Exception message: Could not start a new session. Response code 500. Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.) 
+Host info: host: 'AWS-MS-UIROBD01', ip: '10.124.234.29'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-ssl-errors=yes, --ignore-certificate-errors, --allow-insecure-localhost, --allow-running-insecure-co..., --incognito, --ignore-certificate-errors...], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}]}]
+Exception cause: null 
+2024-05-13 17:36:18,888 ERROR [Log] Failure in sending email due to: Cannot invoke "utility.SendExceptionMail.sendExceptionMail(String, String, String)" because "this.exceptionMail" is null 
+2024-05-13 17:36:45,090 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 17:36:45,091 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 17:36:45,091 INFO  [Log] Killing Excel process 
+2024-05-13 17:36:45,301 INFO  [Log] Launching chrome driver 
+2024-05-13 17:36:59,220 INFO  [Log] Deleted cookies 
+2024-05-13 17:37:01,731 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 17:37:06,351 INFO  [Log] Entered username 
+2024-05-13 17:37:09,342 INFO  [Log] Clicked on Sign-in 
+2024-05-13 17:37:19,567 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 17:37:19,638 INFO  [Log] Partial OTP captured: 2823- 
+2024-05-13 17:39:20,865 INFO  [Log] Getting OTP mail... 
+2024-05-13 17:39:20,866 INFO  [Log] Email count: 9 
+2024-05-13 17:39:21,426 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpkNGEzZjg3NjUyYTUwZjMxNjUyM2YzOGIyOGM3MGRkNjo2OjMzYzI6OGE5YTVjZTIwNWRmMTgxY2UyMmFiNGMxMGNlZWE1NWVkZjVmNjJjYjdmYjEzMzJlZTcyZTk2MjEyOTZmODkyMDpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">2823-767951</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpkNGEzZjg3NjUyYTUwZjMxNjUyM2YzOGIyOGM3MGRkNjo2OjE1YzQ6YjRhNTNjNGE1MmI3ZTBhOTRiMDRjZmQ4ZWQ3OWQ1MjQ5NGYwZjUzOTIwMGYwOTcxN2IxZWVjYzBkMDQwNTU0MDpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpkNGEzZjg3NjUyYTUwZjMxNjUyM2YzOGIyOGM3MGRkNjo2OjQyZWU6ZWYyZDIyN2NiM2MxYzM0ZWU4NTRmZWYzMjQ4Njc5NTEzNmMyNTFlNWE4M2U0YmRmZGQxNzAyN2ZiMTIwNzk2NTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpkNGEzZjg3NjUyYTUwZjMxNjUyM2YzOGIyOGM3MGRkNjo2OjA5YzU6OTg3MWYwODE5MjBkOTc1NWM5NDA2ZWYwNmJhY2M1ODJhMjdhYmJjZWQ2NTU0NTJkOTMwZDlmMjVkYmY4MDExMTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 17:39:21,500 INFO  [Log] OTP captured from mail body: 2823-767951 
+2024-05-13 17:39:21,502 INFO  [Log] Split OTP by - 
+2024-05-13 17:39:21,502 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 17:39:21,502 INFO  [Log] Verification code: 767951 
+2024-05-13 17:39:27,733 INFO  [Log] Verification code entered 
+2024-05-13 17:43:14,850 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 17:43:14,852 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 17:43:14,852 INFO  [Log] Killing Excel process 
+2024-05-13 17:43:15,050 INFO  [Log] Launching chrome driver 
+2024-05-13 17:43:17,492 INFO  [Log] Deleted cookies 
+2024-05-13 17:43:19,584 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 17:43:20,083 INFO  [Log] Entered username 
+2024-05-13 17:43:22,314 INFO  [Log] Clicked on Sign-in 
+2024-05-13 17:43:32,533 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 17:43:32,584 INFO  [Log] Partial OTP captured: 7758- 
+2024-05-13 17:45:33,988 INFO  [Log] Getting OTP mail... 
+2024-05-13 17:45:33,989 INFO  [Log] Email count: 9 
+2024-05-13 17:45:34,530 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyMGEyMDY1MjEzNmMxYmQ0NTlmNTczMWJkYjlkYTI0Yjo2OjE4OTc6MmU1YzM0OGI1Njg1Y2NkMTNjYzZjNGY4YmNiZWU0ZGNmNjUwMTgwMTQzZjQxNWFkNmIxOTU0ZjdjMDdiZmZlMDpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">7758-904260</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyMGEyMDY1MjEzNmMxYmQ0NTlmNTczMWJkYjlkYTI0Yjo2OjdlM2Q6MTRiY2M2NjJmMDAyNWU5OWQwNTgzZTQ0OTZkY2NjYjA2MDU5NDZiNjFjY2YwNjhkMTgyMTg4OTZmYWJjMjBhMzpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyMGEyMDY1MjEzNmMxYmQ0NTlmNTczMWJkYjlkYTI0Yjo2OjgwMTI6YTk3MmNhYWUyZTA5ZDBmYzdhZDZlYjI4YjMxZmYxOTFlMDRkZWIxMWZlODE3NTgyZmQxN2FiMTRjZDVmMTAxMDpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyMGEyMDY1MjEzNmMxYmQ0NTlmNTczMWJkYjlkYTI0Yjo2OmNjNDk6MjlmMDUyNjQyYTU2ZjU0MWJmYmI5MjAyMmZmNjgzNDFhYzAzNDU3YjAwOGNhMGViNWM5MzNiODk2NzdkYTYwYTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 17:45:34,614 INFO  [Log] OTP captured from mail body: 7758-904260 
+2024-05-13 17:45:34,616 INFO  [Log] Split OTP by - 
+2024-05-13 17:45:34,616 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 17:45:34,616 INFO  [Log] Verification code: 904260 
+2024-05-13 17:45:41,597 INFO  [Log] Verification code entered 
+2024-05-13 18:00:38,357 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 18:00:38,359 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 18:00:38,359 INFO  [Log] Killing Excel process 
+2024-05-13 18:00:38,675 INFO  [Log] Launching chrome driver 
+2024-05-13 18:00:41,125 INFO  [Log] Deleted cookies 
+2024-05-13 18:00:43,350 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 18:00:43,839 INFO  [Log] Entered username 
+2024-05-13 18:00:46,060 INFO  [Log] Clicked on Sign-in 
+2024-05-13 18:00:56,408 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 18:00:56,459 INFO  [Log] Partial OTP captured: 6391- 
+2024-05-13 18:02:57,837 INFO  [Log] Getting OTP mail... 
+2024-05-13 18:02:57,838 INFO  [Log] Email count: 8 
+2024-05-13 18:03:01,951 ERROR [Log] Failure in getting OTP mail. Exception message: Index 8 out of bounds for length 8
+Exception source: java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8 
+2024-05-13 18:03:01,951 ERROR [Log] Initialisation failure: Failure in getting OTP mail. Exception message: Index 8 out of bounds for length 8
+Exception source: java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8 
+2024-05-13 18:03:01,952 ERROR [Log] Initialisation failure: Failure in getting OTP mail. Exception message: Index 8 out of bounds for length 8
+Exception source: java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8 
+2024-05-13 18:03:01,953 ERROR [Log] Failure in sending email due to: Cannot invoke "utility.SendExceptionMail.sendExceptionMail(String, String, String)" because "this.exceptionMail" is null 
+2024-05-13 18:08:17,684 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-13 18:08:17,686 INFO  [Log] BOT user: aws_rpa_devbot1 
+2024-05-13 18:08:17,686 INFO  [Log] Killing Excel process 
+2024-05-13 18:08:17,902 INFO  [Log] Launching chrome driver 
+2024-05-13 18:08:20,980 INFO  [Log] Deleted cookies 
+2024-05-13 18:08:23,971 INFO  [Log] Launched IBM application in chrome 
+2024-05-13 18:08:24,478 INFO  [Log] Entered username 
+2024-05-13 18:08:26,923 INFO  [Log] Clicked on Sign-in 
+2024-05-13 18:08:37,168 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-13 18:08:37,220 INFO  [Log] Partial OTP captured: 5525- 
+2024-05-13 18:10:38,367 INFO  [Log] Getting OTP mail... 
+2024-05-13 18:10:38,367 INFO  [Log] Email count: 1 
+2024-05-13 18:10:38,884 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzozYmFiZWZmZGI5ZmRiNWMzZmU0ZjQxZjA0OGI0NTU4Nzo2OjgzY2Y6ZDdjMDk5YWVjNTJhY2ZlNjNlN2ZhY2QyNTU5NjkyMWRjZTYxZTE5MzVlZGFkMGY5YTBjMGU4OTJkMTMxODk3OTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">5525-638314</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzozYmFiZWZmZGI5ZmRiNWMzZmU0ZjQxZjA0OGI0NTU4Nzo2OmFkOTU6NTljMmIxODIxMjY5ZWI2M2RlMDM3OTk4NDVhYTcyNDA2MDEwZGY5OTA0NjZkMDRlYTEyZTJlYWE5YWZkNjEzNzpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzozYmFiZWZmZGI5ZmRiNWMzZmU0ZjQxZjA0OGI0NTU4Nzo2OjllNDQ6ZDE4Yzg1NDVkZmM2Njg1YjliZWMxNzAxY2E1NmZiZjZlNGQ0ZWM3NjMwMTU2MGQzNWRjZjk4MjlkYmYxYzY0MTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzozYmFiZWZmZGI5ZmRiNWMzZmU0ZjQxZjA0OGI0NTU4Nzo2OjVkOGY6YmRjNzI0YjdmN2FkN2QxNWNhMzBmZGRhY2M1OTI0YWZjM2YyZjZiNjUzMzAwODU3MGIzMmZhZTY3MTQzZTE4ZTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-13 18:10:38,960 INFO  [Log] OTP captured from mail body: 5525-638314 
+2024-05-13 18:10:38,962 INFO  [Log] Split OTP by - 
+2024-05-13 18:10:38,962 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-13 18:10:38,962 INFO  [Log] Verification code: 638314 
+2024-05-13 18:10:43,959 INFO  [Log] Verification code entered 
+2024-05-13 18:10:44,312 INFO  [Log] Updated columns for id: 30 
+2024-05-13 18:10:44,315 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-13 18:10:45,736 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-13 18:10:45,738 INFO  [Log] Rows count: 11 
+2024-05-13 18:10:45,738 INFO  [Log] Column count: 12 
+2024-05-13 18:10:45,896 INFO  [Log] Query: Create Order CallCenter Count 
+2024-05-13 18:10:45,897 INFO  [Log] Query Create Order CallCenter Count is in runtime window 
+2024-05-13 18:10:54,053 INFO  [Log] Loader disappeared: true 
+2024-05-13 18:11:54,167 INFO  [Log] Checking for Result count with one column 
+2024-05-13 18:11:54,167 INFO  [Log] count value: 4 
+2024-05-13 18:11:54,168 INFO  [Log] Query: Create Order POS Count 
+2024-05-13 18:11:54,168 INFO  [Log] Query Create Order POS Count is in runtime window 
+2024-05-13 18:11:56,424 INFO  [Log] Loader disappeared: true 
+2024-05-13 18:12:56,802 INFO  [Log] Checking for Result count with one column 
+2024-05-13 18:12:56,802 INFO  [Log] count value: 48 
+2024-05-13 18:12:56,802 INFO  [Log] Query: Order Release counts to DC 
+2024-05-13 18:12:56,802 INFO  [Log] Query Order Release counts to DC is in runtime window 
+2024-05-13 18:13:58,227 INFO  [Log] Updating Transaction status 
+2024-05-13 18:13:58,243 ERROR [Log] Failure while updating data to queue item: String or binary data would be truncated in table 'RPADev.TheBay_OMS_DBQuery.interim', column 'reason'. Truncated value: '{'. 
+2024-05-13 18:13:58,243 ERROR [Log] Failure while updating data to queue item: String or binary data would be truncated in table 'RPADev.TheBay_OMS_DBQuery.interim', column 'reason'. Truncated value: '{'. 
+2024-05-13 18:13:58,254 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-13 18:13:58,385 INFO  [Log] Email sent successfully. 

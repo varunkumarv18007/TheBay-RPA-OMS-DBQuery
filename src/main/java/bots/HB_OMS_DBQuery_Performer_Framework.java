@@ -84,6 +84,7 @@ public class HB_OMS_DBQuery_Performer_Framework {
            KillProcess kill=new KillProcess();
            kill.killExcel();
            kill.killChrome();
+           exceptionMail=new SendExceptionMail();
             UtilClass util = new UtilClass();
             //Get Driver
             driver = util.getDriver();
@@ -168,7 +169,9 @@ public class HB_OMS_DBQuery_Performer_Framework {
                     exceptionType);
             failurereason.put("FailureReason",
                     exceptionMessage);
+
             reason = failurereason.toString();
+            Log.error("Failure reason: "+reason);
             queueUtils.updateQueueItem("RPADev.TheBay_OMS_DBQuery.interim",
                     List.of("status", "reason"), List.of("Failed",
                             reason.replace("'", "\\'")),id);

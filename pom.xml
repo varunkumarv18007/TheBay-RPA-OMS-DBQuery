@@ -8,7 +8,6 @@
     <artifactId>HB_OMS_DbQuery</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -16,6 +15,21 @@
     </properties>
     
     <dependencies>
+
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>23.0.0</version>
+        </dependency>
+        <!-- Other dependencies -->
+            <dependency>
+                <groupId>com.commonutils</groupId>
+                <artifactId>common</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+
+
         <!--Selenium 4 dependency-->
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -105,14 +119,6 @@
             <version>1.2.17</version>
         </dependency>
 
-
-
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
         <dependency>
