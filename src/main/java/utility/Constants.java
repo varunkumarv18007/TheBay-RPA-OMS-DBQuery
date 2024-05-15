@@ -11,7 +11,7 @@ public class Constants {
 
    public static String CHROMEDRIVER_PATH =".\\chromedriver\\chromedriver-win64\\chromedriver-win64\\chromedriver (2).exe";
 
-   public  static String INPUT_FILE="C:\\TheBay-RPA-OMS-DBQuery\\BAY OMoC Monitoring via RPA.xlsx";
+   public  static String INPUT_FILE="\\\\10.124.234.5\\FileServer\\OMSQueueMonitoring\\ThresholdLimitFile\\BAY OMoC Monitoring via RPA.xlsx";
    public static String OMS_URL = "https://hudsn-prod-1.oms.supply-chain.ibm.com/smcfs/yfshttpdbi/sterlingdbqueryclient.jsp";
    public static  String USER_NAME = "srvc_oms_automation@hbc.com";
    public static String PASSWORD = "HBCINDIAPassw0rd10";

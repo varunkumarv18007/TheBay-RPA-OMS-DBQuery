@@ -28,7 +28,6 @@ public class HB_OMS_DBQuery_Performer_Framework {
     String exceptionMessage;
     JSONObject failurereason;
     QueueItemUtils queueUtils;
-
     SendExceptionMail exceptionMail;
     String reason;
     WebDriver driver;
@@ -43,6 +42,7 @@ public class HB_OMS_DBQuery_Performer_Framework {
     LocalDate localDate;
     String detail;
     int id;
+    KillProcess kill;
 
     public static void main(String[] args) throws Exception {
 
@@ -81,7 +81,7 @@ public class HB_OMS_DBQuery_Performer_Framework {
             ReadPropertyFile.loadProperties(Constants.DBQUERY_PROPERTYFILE);
 
             //Kill Excel Process
-           KillProcess kill=new KillProcess();
+          kill=new KillProcess();
            kill.killExcel();
            kill.killChrome();
            exceptionMail=new SendExceptionMail();
@@ -186,9 +186,9 @@ public class HB_OMS_DBQuery_Performer_Framework {
     }
 
 
-    public void endProcess() {
+    public void endProcess() throws Exception {
 
-        //Close applications or use kill all process
+kill.killChrome();
 
     }
 }
