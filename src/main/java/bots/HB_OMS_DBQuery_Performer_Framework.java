@@ -187,9 +187,13 @@ public class HB_OMS_DBQuery_Performer_Framework {
 
 
     public void endProcess() throws Exception {
-
-kill.killChrome();
-
+        try {
+            driver.quit();
+        }
+        catch (Exception e)
+        {
+            Log.warn("Failed to close the browser");
+        }
     }
 }
 
