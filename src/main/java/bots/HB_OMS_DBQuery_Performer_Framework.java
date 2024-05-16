@@ -194,6 +194,9 @@ public class HB_OMS_DBQuery_Performer_Framework {
         {
             Log.warn("Failed to close the browser");
         }
+        finally {
+            System.exit(0);
+        }
     }
 }
 
