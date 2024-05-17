@@ -16,6 +16,7 @@ public class Constants {
    public static  String USER_NAME = "srvc_oms_automation@hbc.com";
    public static String PASSWORD = "HBCINDIAPassw0rd10";
    public static Duration WAIT_TIME = Duration.ofSeconds(60);
+   public static Duration LOADER_WAIT_TIME = Duration.ofSeconds(180);
     public static Duration LOGIN_ERROR_WAIT_TIME=Duration.ofSeconds(10);
    public static String MAIL_PROTOCOL = "imaps";
    public static String IMAP_SERVER = "imap.gmail.com";
@@ -48,6 +49,8 @@ public static String MAIL_BCC="";
    public  static String SENDMAIL_FROM="rpa@hbc.com";
 
    public static String SENDMAIL_PASSWORD="xnzicmnejdvfxnzx";
+
+   public static String EXCEPTION_MAILTO="varunkumar.venkatesh@hbc.com,varun.kumarv@sakscloudservices.com";
 
    public static String MAIL_TO="varunkumar.venkatesh@hbc.com,varun.kumarv@sakscloudservices.com";
 

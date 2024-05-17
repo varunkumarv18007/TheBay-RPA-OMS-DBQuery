@@ -58,7 +58,8 @@ public class HB_OMS_DBQuery_Performer_Framework {
             processTransaction();
             endProcess();
         } catch (Exception e) {
-            Log.error(e.getMessage());
+            Log.error("Exception source: "+e.getCause());
+            Log.error("Exception message: "+e.getMessage());
             exceptionType = "SystemException";
             exceptionMessage = e.getMessage();
             try {
@@ -141,9 +142,11 @@ public class HB_OMS_DBQuery_Performer_Framework {
             //Load page factory for Execute Db query
             ExecuteDbQueryPage executeDbQuery = new ExecuteDbQueryPage(driver);
             //Get the output data after executing Db query
+
             strarrayoutputdata = executeDbQuery.entersqlquery(strarrayinputdata);
 
             BuildCriticalAndWarningData getoutput = new BuildCriticalAndWarningData();
+
             getoutput.buildCriticalAndWarningData(strarrayoutputdata);
 
             queueUtils.updateQueueItem("RPADev.TheBay_OMS_DBQuery.interim",

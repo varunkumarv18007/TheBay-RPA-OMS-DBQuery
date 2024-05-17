@@ -94,8 +94,8 @@ public class SendExceptionMail{
         SendEmail email=new SendEmail();
         email.setEmailSubject(exceptionMailSubject);
         email.setEmailBody(exceptionMailBody);
-        email.setFromMailId("rpa@hbc.com");
-        email.setToMailId("varun.kumarv@sakscloudservices.com");
+        email.setFromMailId(Constants.SENDMAIL_FROM);
+        email.setToMailId(Constants.EXCEPTION_MAILTO);
         email.sendEmail();
     }
 
