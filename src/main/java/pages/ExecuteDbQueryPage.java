@@ -56,13 +56,13 @@ WebElement errorElement;
                 runquery = true;
             } else {
                 startTime = DateTimeParse.GetTime(argInputdata[i][2]);
-                System.out.println("Start time: " + startTime);
+
                 endTime = DateTimeParse.GetTime(argInputdata[i][3]);
 
-                System.out.println("End time: " + endTime);
+
                 currentTime = DateTimeParse.GetCurrentDateTime();
 
-                System.out.println("Current time: " + currentTime);
+
                 if (currentTime.isAfter(startTime) && currentTime.isBefore(endTime)) {
                     runquery = true;
                 } else {
@@ -97,8 +97,10 @@ WebElement errorElement;
                     } else if (waitForElementToAppear(errorElement, wait)) {
                         argInputdata[i][11] = getText(errorElement, wait);
                         Log.info("Checking for error message with one column");
-                        Log.info("count value: " + resultcount);
+                        Log.error("count value: " + resultcount);
 
+                    } else{
+                        argInputdata[i][11] = "Count Column not Found for AlertName *"+argInputdata[i][0];
                     }
                     //System.out.println("Printing from table: " + argInputdata[i][11]);
                 } catch (Exception e) {

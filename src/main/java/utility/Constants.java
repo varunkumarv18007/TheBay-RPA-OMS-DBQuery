@@ -37,10 +37,10 @@ public class Constants {
    public static String WARNING_MAILSUBJECT="WARNING/ERROR - OMS Database Query Monitoring- Alert";
 
    public static String CRITICAL_MAILBODY="Hi Team<br/><br/>The BOT has successfully completed it's run. The queries " +
-           "listed below have passed the Critical threshold.<br/><br/>Please see below:<br/><br/>%s";
+           "listed below have passed the Critical threshold.<br/><br/>Please see below:<br/><br/>%s<br/><br/>Regards,<br/><br/>OMS BOT";
 
    public static String WARNING_MAILBODY="Hi Team<br/><br/>The BOT has successfully" +
-           " completed it's run. The queries listed below have either passed the warning threshold or triggered an error in IBM.<br/><br/>Please see details below.<br/><br/%s";
+           " completed it's run. The queries listed below have either passed the warning threshold or triggered an error in IBM.<br/><br/>Please see details below.<br/><br/%s<br/><br/>Regards,<br/><br/>OMS BOT";
 
 public static String MAIL_CC="varun.kumarv@sakscloudservices.com";
 
@@ -58,12 +58,12 @@ public static String MAIL_BCC="";
 
    public static int SMTP_PORT=25;
 
-   public static String HTML_TABLEHEADER=
-           "<table width='100%' border='0' align='center'>"
-           + "<tr align='center'>"
-           + "<td><b>Alert Name<b></td>"
-           + "<td><b>Query Result Count<b></td>"
-           + "</tr>";
+   public static String HTML_TABLEHEADER =
+           "<table width='100%' border='2' align='center' style='border-collapse: collapse; border: 2px solid black;'>"
+                   + "<tr align='center'>"
+                   + "<td style='border: 2px solid black; width: auto;'><b>Alert Name</b></td>"
+                   + "<td style='border: 2px solid black; width: auto;'><b>Query Result Count</b></td>"
+                   + "</tr>";
 
    public static String SQLDB_CONNECTION_STRING="jdbc:sqlserver://thebay-rds-uipath-dev.cyeuvydpkw6m.us-east-1.rds.amazonaws.com;" +
            "databaseName=TheBayUipathOrchestratorDev;encrypt=true;trustServerCertificate=true";

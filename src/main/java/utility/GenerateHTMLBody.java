@@ -11,8 +11,10 @@ public class GenerateHTMLBody{
         for (Map.Entry<String,String> map : mapData.entrySet())
         {
 
-            htmlText = htmlText + "<tr align='center' border ='2'>"+"<td>" + map.getKey() + "</td>"
-                    + "<td>" + map.getValue() + "</td>"+"</tr>";
+            htmlText = htmlText + "<tr align='left'>"
+                    + "<td style='border: 2px solid black; border-collapse: collapse; width: auto;'>" + map.getKey() + "</td>"
+                    + "<td style='border: 2px solid black; border-collapse: collapse; width: auto;'>" + map.getValue() + "</td>"
+                    + "</tr>";
         }
 
         return htmlText;
