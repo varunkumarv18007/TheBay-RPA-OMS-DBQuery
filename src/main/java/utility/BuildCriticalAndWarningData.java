@@ -30,19 +30,26 @@ public class BuildCriticalAndWarningData extends GenerateHTMLBody {
                 Log.info("Result value is blank for Alert: " + strarrayoutputdata[i][0]);
                 // System.out.println("Result value is blank for Alert: " + strarrayoutputdata[i][1]);
             } else {
-                if ((Integer.parseInt(strarrayoutputdata[i][11]) <= Integer.parseInt(strarrayoutputdata[i][5])) && (Integer.parseInt(strarrayoutputdata[i][11]) > Integer.parseInt(strarrayoutputdata[i][6]))) {
-                    //Add Alert name to Warning table
-                    Log.info("Adding item to warning hashmap: " + strarrayoutputdata[i][0]);
+                try{
+                    if ((Integer.parseInt(strarrayoutputdata[i][11]) <= Integer.parseInt(strarrayoutputdata[i][5])) && (Integer.parseInt(strarrayoutputdata[i][11]) > Integer.parseInt(strarrayoutputdata[i][6]))) {
+                        //Add Alert name to Warning table
+                        Log.info("Adding item to warning hashmap: " + strarrayoutputdata[i][0]);
+                        warningdata.put(strarrayoutputdata[i][0],
+                                strarrayoutputdata[i][11]);
+                    } else if ((Integer.parseInt(strarrayoutputdata[i][11]) <= Integer.parseInt(strarrayoutputdata[i][6]))) {
+                        //Add Alert name to Warning table
+                        Log.info("Adding item to critical hashmap: " + strarrayoutputdata[i][0]);
+                        criticaldata.put(strarrayoutputdata[i][0],
+                                strarrayoutputdata[i][11]);
+                    } else {
+                        Log.info("No warning or critical values");
+                    }
+                }
+                catch (NumberFormatException e){
                     warningdata.put(strarrayoutputdata[i][0],
                             strarrayoutputdata[i][11]);
-                } else if ((Integer.parseInt(strarrayoutputdata[i][11]) <= Integer.parseInt(strarrayoutputdata[i][6]))) {
-                    //Add Alert name to Warning table
-                    Log.info("Adding item to critical hashmap: " + strarrayoutputdata[i][0]);
-                    criticaldata.put(strarrayoutputdata[i][0],
-                            strarrayoutputdata[i][11]);
-                } else {
-                    Log.info("No warning or critical values");
                 }
+
             }
         }
 

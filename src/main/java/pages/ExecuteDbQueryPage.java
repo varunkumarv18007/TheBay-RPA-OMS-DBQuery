@@ -100,7 +100,7 @@ WebElement errorElement;
                         Log.error("count value: " + resultcount);
 
                     } else{
-                        argInputdata[i][11] = "Count Column not Found for AlertName *"+argInputdata[i][0];
+                        argInputdata[i][11] = "Count Column not Found for AlertName "+argInputdata[i][0];
                     }
                     //System.out.println("Printing from table: " + argInputdata[i][11]);
                 } catch (Exception e) {

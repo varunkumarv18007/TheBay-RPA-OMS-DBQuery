@@ -8758,3 +8758,876 @@ Exception source: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bound
 2024-05-20 09:10:26,129 INFO  [Log] Email sent successfully. 
 2024-05-20 09:10:26,133 INFO  [Log] Updated columns for id: 78 
 2024-05-20 09:10:26,133 INFO  [Log] Updating Transaction status 
+2024-05-20 09:41:48,339 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-20 09:41:48,340 INFO  [Log] BOT user: aws_rpa_devbot0 
+2024-05-20 09:41:48,341 INFO  [Log] Killing Excel process 
+2024-05-20 09:41:48,721 INFO  [Log] Launching chrome driver 
+2024-05-20 09:41:51,686 INFO  [Log] Deleted cookies 
+2024-05-20 09:41:54,446 INFO  [Log] Launched IBM application in chrome 
+2024-05-20 09:41:54,951 INFO  [Log] Entered username 
+2024-05-20 09:41:57,061 INFO  [Log] Clicked on Sign-in 
+2024-05-20 09:42:07,119 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-20 09:42:07,176 INFO  [Log] Partial OTP captured: 6204- 
+2024-05-20 09:44:08,438 INFO  [Log] Getting OTP mail... 
+2024-05-20 09:44:08,439 INFO  [Log] Email count: 1 
+2024-05-20 09:44:08,938 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpiNmFhMjdiNGMzNjczNTMxZjQ2Yjc5YmI3ZDU5NDMxZjo2OmM5NTA6ZDM4MTdlYzI2M2VhYzU5MTRmZDQxZDMyZmY1NmEzOTJjOGUyNzYwMmYxY2RiZTE5ZjkxMDkwYmNhM2JiODE3ZTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">6204-506741</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpiNmFhMjdiNGMzNjczNTMxZjQ2Yjc5YmI3ZDU5NDMxZjo2OjdkYWY6ZDkyZTY4MzNlYWY3OTVjMzdlNTExZTVkNjYxMDJlNTAxODZiZWVjNDg1ZTM0Y2Q5MWJjNTYyNGJhZmNiNzEwZDpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpiNmFhMjdiNGMzNjczNTMxZjQ2Yjc5YmI3ZDU5NDMxZjo2OjRlOTQ6OTMzMmViMzcxYmE4NjhkYjE2YzU5OTM5YWFmOTVjMzViODNhM2RiYzhjZjY1MGU3NmU5NzhiOTdkYTZhOWE1NjpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzpiNmFhMjdiNGMzNjczNTMxZjQ2Yjc5YmI3ZDU5NDMxZjo2OjAzMjA6MDQ1MThhYWMyZTUyODExOTM2NGRjNzkzNWI3YzIxNWNmMzkwYjQ2MTliNDg0MTI2NmFmZDY0MzY4MTU2ZjNkOTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-20 09:44:09,012 INFO  [Log] OTP captured from mail body: 6204-506741 
+2024-05-20 09:44:09,015 INFO  [Log] Split OTP by - 
+2024-05-20 09:44:09,015 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-20 09:44:09,015 INFO  [Log] Verification code: 506741 
+2024-05-20 09:44:13,871 INFO  [Log] Verification code entered 
+2024-05-20 09:44:14,211 INFO  [Log] Updated columns for id: 79 
+2024-05-20 09:44:14,213 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-20 09:44:15,955 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-20 09:44:15,963 INFO  [Log] Rows count: 64 
+2024-05-20 09:44:15,963 INFO  [Log] Column count: 28 
+2024-05-20 09:44:16,240 INFO  [Log] Query Create Order CallCenter Count is not in runtime window 
+2024-05-20 09:44:16,240 INFO  [Log] Query Create Order POS Count is not in runtime window 
+2024-05-20 09:44:16,240 INFO  [Log] Query: Order Release counts to DC 
+2024-05-20 09:44:16,240 INFO  [Log] Query Order Release counts to DC is in runtime window 
+2024-05-20 09:44:18,649 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:44:18,712 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 09:44:18,712 INFO  [Log] count value: 10 
+2024-05-20 09:44:18,712 INFO  [Log] Query: Order Release counts to Store 
+2024-05-20 09:44:18,712 INFO  [Log] Query Order Release counts to Store is in runtime window 
+2024-05-20 09:44:21,577 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:44:21,640 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 09:44:21,640 INFO  [Log] count value: 10 
+2024-05-20 09:44:21,640 INFO  [Log] Query: Order Release-Vendor 
+2024-05-20 09:44:21,640 INFO  [Log] Query Order Release-Vendor is in runtime window 
+2024-05-20 09:44:24,388 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:44:24,445 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 09:44:24,446 INFO  [Log] count value: 60 
+2024-05-20 09:44:24,446 INFO  [Log] Query Shipment - DC is not in runtime window 
+2024-05-20 09:44:24,446 INFO  [Log] Query: Shipments - Store Packed 
+2024-05-20 09:44:24,446 INFO  [Log] Query Shipments - Store Packed is in runtime window 
+2024-05-20 09:44:25,527 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:45:26,043 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:45:26,044 INFO  [Log] count value: 50 
+2024-05-20 09:45:26,044 INFO  [Log] Query Shipment - Vendor is not in runtime window 
+2024-05-20 09:45:26,044 INFO  [Log] Query: Emails 
+2024-05-20 09:45:26,044 INFO  [Log] Query Emails is in runtime window 
+2024-05-20 09:45:27,087 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:46:27,468 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:46:27,468 INFO  [Log] count value: 381 
+2024-05-20 09:46:27,468 INFO  [Log] Query Invoices  Sales - Published is not in runtime window 
+2024-05-20 09:46:27,469 INFO  [Log] Query Create Return is not in runtime window 
+2024-05-20 09:46:27,469 INFO  [Log] Query: Data Extraction 
+2024-05-20 09:46:27,469 INFO  [Log] Query Data Extraction is in runtime window 
+2024-05-20 09:46:28,573 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:47:28,937 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:47:28,937 INFO  [Log] count value: 100 
+2024-05-20 09:47:28,938 INFO  [Log] Query: Backorders in last three hours 
+2024-05-20 09:47:28,938 INFO  [Log] Query Backorders in last three hours is in runtime window 
+2024-05-20 09:47:30,184 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:47:30,239 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 09:47:30,239 INFO  [Log] count value: 50 
+2024-05-20 09:47:30,239 INFO  [Log] Query: Total System Cancellations in last twenty four hours 
+2024-05-20 09:47:30,239 INFO  [Log] Query Total System Cancellations in last twenty four hours is in runtime window 
+2024-05-20 09:47:31,794 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:47:31,857 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 09:47:31,857 INFO  [Log] count value: 50 
+2024-05-20 09:47:31,858 INFO  [Log] Query: Total Cancellations in last twenty four hours  
+2024-05-20 09:47:31,858 INFO  [Log] Query Total Cancellations in last twenty four hours  is in runtime window 
+2024-05-20 09:47:33,370 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:47:33,426 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 09:47:33,426 INFO  [Log] count value: 50 
+2024-05-20 09:47:33,426 INFO  [Log] Query: Create Order Online Count 
+2024-05-20 09:47:33,426 INFO  [Log] Query Create Order Online Count is in runtime window 
+2024-05-20 09:47:35,135 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:48:35,465 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:48:35,465 INFO  [Log] count value: 20 
+2024-05-20 09:48:35,465 INFO  [Log] Query: Schedule Backlog 
+2024-05-20 09:48:35,465 INFO  [Log] Query Schedule Backlog is in runtime window 
+2024-05-20 09:48:36,602 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:49:36,900 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:49:36,900 INFO  [Log] count value: 50 
+2024-05-20 09:49:36,900 INFO  [Log] Query: Release Backlog 
+2024-05-20 09:49:36,900 INFO  [Log] Query Release Backlog is in runtime window 
+2024-05-20 09:49:38,059 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:50:38,351 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:50:38,351 INFO  [Log] count value: 50 
+2024-05-20 09:50:38,351 INFO  [Log] Query Shipment - Store Shipped is not in runtime window 
+2024-05-20 09:50:38,351 INFO  [Log] Query Emails DB-CancelEmailService is not in runtime window 
+2024-05-20 09:50:38,352 INFO  [Log] Query Emails DB-HBCCreateConfirmShipmentEmailService is not in runtime window 
+2024-05-20 09:50:38,352 INFO  [Log] Query Emails DB-HBCOrderCustomerPickedUpEmail is not in runtime window 
+2024-05-20 09:50:38,352 INFO  [Log] Query Emails DB-HBCOrderPickupReminderEmail  is not in runtime window 
+2024-05-20 09:50:38,352 INFO  [Log] Query Emails DB-HBCOrderReadyForCustomerPickupEmail is not in runtime window 
+2024-05-20 09:50:38,352 INFO  [Log] Query Emails DB-HBCOrderShippedEmail is not in runtime window 
+2024-05-20 09:50:38,352 INFO  [Log] Query Emails DB-HBCReturnOrderInvoiceCreationEmailService is not in runtime window 
+2024-05-20 09:50:38,352 INFO  [Log] Query: Emails DB-HBCWebOrderCreateEmailService 
+2024-05-20 09:50:38,352 INFO  [Log] Query Emails DB-HBCWebOrderCreateEmailService is in runtime window 
+2024-05-20 09:50:39,419 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:51:39,710 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:51:39,710 INFO  [Log] count value: 172 
+2024-05-20 09:51:39,710 INFO  [Log] Query: MP-LN-HOLD count in last seven days 
+2024-05-20 09:51:39,711 INFO  [Log] Query MP-LN-HOLD count in last seven days is in runtime window 
+2024-05-20 09:51:40,793 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:52:41,087 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:52:41,087 INFO  [Log] count value: 50 
+2024-05-20 09:52:41,087 INFO  [Log] Query: BUYER-REMORSE hold count in last seven days 
+2024-05-20 09:52:41,087 INFO  [Log] Query BUYER-REMORSE hold count in last seven days is in runtime window 
+2024-05-20 09:52:42,162 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:53:42,464 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:53:42,464 INFO  [Log] count value: 50 
+2024-05-20 09:53:42,464 INFO  [Log] Query: MAX-AUTH-HOLD hold count in last seven days 
+2024-05-20 09:53:42,464 INFO  [Log] Query MAX-AUTH-HOLD hold count in last seven days is in runtime window 
+2024-05-20 09:53:43,542 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:54:43,819 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:54:43,819 INFO  [Log] count value: 50 
+2024-05-20 09:54:43,819 INFO  [Log] Query: CREDIT-HOLD  hold count in last seven days 
+2024-05-20 09:54:43,819 INFO  [Log] Query CREDIT-HOLD  hold count in last seven days is in runtime window 
+2024-05-20 09:54:44,894 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:55:45,168 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:55:45,168 INFO  [Log] count value: 50 
+2024-05-20 09:55:45,168 INFO  [Log] Query: PAYPAL-FAIL  hold count in last seven days 
+2024-05-20 09:55:45,168 INFO  [Log] Query PAYPAL-FAIL  hold count in last seven days is in runtime window 
+2024-05-20 09:55:46,243 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:56:46,513 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:56:46,513 INFO  [Log] count value: 50 
+2024-05-20 09:56:46,513 INFO  [Log] Query: INCORRECT-DATA  hold count in last seven days 
+2024-05-20 09:56:46,513 INFO  [Log] Query INCORRECT-DATA  hold count in last seven days is in runtime window 
+2024-05-20 09:56:47,676 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:57:47,957 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:57:47,957 INFO  [Log] count value: 50 
+2024-05-20 09:57:47,958 INFO  [Log] Query: TOKEN-HOLD  hold count in last seven days 
+2024-05-20 09:57:47,958 INFO  [Log] Query TOKEN-HOLD  hold count in last seven days is in runtime window 
+2024-05-20 09:57:49,035 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:58:49,315 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:58:49,315 INFO  [Log] count value: 50 
+2024-05-20 09:58:49,315 INFO  [Log] Query: AUTH-HOLD  hold count in last seven days 
+2024-05-20 09:58:49,315 INFO  [Log] Query AUTH-HOLD  hold count in last seven days is in runtime window 
+2024-05-20 09:58:50,377 INFO  [Log] Loader disappeared: true 
+2024-05-20 09:59:50,669 INFO  [Log] Checking for Result count with one column 
+2024-05-20 09:59:50,669 INFO  [Log] count value: 50 
+2024-05-20 09:59:50,669 INFO  [Log] Query: FRAUD-HOLD  hold count in last seven days 
+2024-05-20 09:59:50,669 INFO  [Log] Query FRAUD-HOLD  hold count in last seven days is in runtime window 
+2024-05-20 09:59:51,753 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:00:52,046 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:00:52,047 INFO  [Log] count value: 50 
+2024-05-20 10:00:52,047 INFO  [Log] Query: RO-NOT-PUBLISHED  hold count in last seven days 
+2024-05-20 10:00:52,047 INFO  [Log] Query RO-NOT-PUBLISHED  hold count in last seven days is in runtime window 
+2024-05-20 10:00:53,119 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:01:53,410 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:01:53,411 INFO  [Log] count value: 50 
+2024-05-20 10:01:53,411 INFO  [Log] Query: INCORRECT_DATA not cancelled and older than seven Days 
+2024-05-20 10:01:53,411 INFO  [Log] Query INCORRECT_DATA not cancelled and older than seven Days is in runtime window 
+2024-05-20 10:01:54,491 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:02:54,773 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:02:54,773 INFO  [Log] count value: 50 
+2024-05-20 10:02:54,773 INFO  [Log] Query: AUTH_HOLD not cancelled and older than seven Days 
+2024-05-20 10:02:54,773 INFO  [Log] Query AUTH_HOLD not cancelled and older than seven Days is in runtime window 
+2024-05-20 10:02:55,839 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:03:56,119 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:03:56,119 INFO  [Log] count value: 50 
+2024-05-20 10:03:56,119 INFO  [Log] Query: FRAUD_HOLD not cancelled and older than seven Days 
+2024-05-20 10:03:56,119 INFO  [Log] Query FRAUD_HOLD not cancelled and older than seven Days is in runtime window 
+2024-05-20 10:03:57,236 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:04:57,532 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:04:57,532 INFO  [Log] count value: 50 
+2024-05-20 10:04:57,532 INFO  [Log] Query: TOKEN_HOLD not cancelled and older than seven Days 
+2024-05-20 10:04:57,532 INFO  [Log] Query TOKEN_HOLD not cancelled and older than seven Days is in runtime window 
+2024-05-20 10:04:58,621 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:05:58,913 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:05:58,913 INFO  [Log] count value: 50 
+2024-05-20 10:05:58,913 INFO  [Log] Query: MP in Created status and older than seven Days 
+2024-05-20 10:05:58,913 INFO  [Log] Query MP in Created status and older than seven Days is in runtime window 
+2024-05-20 10:07:27,299 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:07:27,353 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:07:27,353 INFO  [Log] count value: 50 
+2024-05-20 10:07:27,353 INFO  [Log] Query: Backorders older than seven days 
+2024-05-20 10:07:27,353 INFO  [Log] Query Backorders older than seven days is in runtime window 
+2024-05-20 10:07:28,451 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:08:28,737 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:08:28,737 INFO  [Log] count value: 50 
+2024-05-20 10:08:28,737 INFO  [Log] Query: Open Orders older than Fifteen days 
+2024-05-20 10:08:28,737 INFO  [Log] Query Open Orders older than Fifteen days is in runtime window 
+2024-05-20 10:08:29,909 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:09:30,189 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:09:30,190 INFO  [Log] count value: 50 
+2024-05-20 10:09:30,190 INFO  [Log] Query: Scheudle Looping 
+2024-05-20 10:09:30,190 INFO  [Log] Query Scheudle Looping is in runtime window 
+2024-05-20 10:09:31,504 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:09:31,555 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:09:31,555 INFO  [Log] count value: 50 
+2024-05-20 10:09:31,556 INFO  [Log] Query: Open Order from DC greater seven Days 
+2024-05-20 10:09:31,556 INFO  [Log] Query Open Order from DC greater seven Days is in runtime window 
+2024-05-20 10:09:52,829 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:09:52,882 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:09:52,882 INFO  [Log] count value: 50 
+2024-05-20 10:09:52,882 INFO  [Log] Query: Open Orders from Stores greater seven Days 
+2024-05-20 10:09:52,882 INFO  [Log] Query Open Orders from Stores greater seven Days is in runtime window 
+2024-05-20 10:09:53,957 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:09:54,008 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:09:54,009 INFO  [Log] count value: 50 
+2024-05-20 10:09:54,009 INFO  [Log] Query: Open Orders from DropShip greater seven Days 
+2024-05-20 10:09:54,009 INFO  [Log] Query Open Orders from DropShip greater seven Days is in runtime window 
+2024-05-20 10:09:55,102 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:10:55,395 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:10:55,395 INFO  [Log] count value: 50 
+2024-05-20 10:10:55,395 INFO  [Log] Query: Exceptions - Monitoring 
+2024-05-20 10:10:55,395 INFO  [Log] Query Exceptions - Monitoring is in runtime window 
+2024-05-20 10:10:56,523 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:10:56,574 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:10:56,574 INFO  [Log] count value: 50 
+2024-05-20 10:10:56,574 INFO  [Log] Query: Payments 
+2024-05-20 10:10:56,575 INFO  [Log] Query Payments is in runtime window 
+2024-05-20 10:11:02,000 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:11:02,054 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:11:02,055 INFO  [Log] count value: 50 
+2024-05-20 10:11:02,055 INFO  [Log] Query: PAYBRIGHT_HOLD in last seven days 
+2024-05-20 10:11:02,055 INFO  [Log] Query PAYBRIGHT_HOLD in last seven days is in runtime window 
+2024-05-20 10:11:03,084 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:12:03,372 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:12:03,373 INFO  [Log] count value: 50 
+2024-05-20 10:12:03,373 INFO  [Log] Query: HBCIntegrationRetry table alert 
+2024-05-20 10:12:03,373 INFO  [Log] Query HBCIntegrationRetry table alert is in runtime window 
+2024-05-20 10:12:04,331 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:13:04,641 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:13:04,641 INFO  [Log] count value: 50 
+2024-05-20 10:13:04,641 INFO  [Log] Query: Exceptions- CreateOrder 
+2024-05-20 10:13:04,641 INFO  [Log] Query Exceptions- CreateOrder is in runtime window 
+2024-05-20 10:13:05,610 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:14:05,911 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:14:05,912 INFO  [Log] count value: 10 
+2024-05-20 10:14:05,912 INFO  [Log] Query: Invoices Sales - Backlog older than a Day 
+2024-05-20 10:14:05,912 INFO  [Log] Query Invoices Sales - Backlog older than a Day is in runtime window 
+2024-05-20 10:14:07,009 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:15:07,285 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:15:07,285 INFO  [Log] count value: 50 
+2024-05-20 10:15:07,286 INFO  [Log] Query: Invoices Sales - Backlog count higher 
+2024-05-20 10:15:07,286 INFO  [Log] Query Invoices Sales - Backlog count higher is in runtime window 
+2024-05-20 10:15:08,372 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:16:08,657 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:16:08,658 INFO  [Log] count value: 50 
+2024-05-20 10:16:08,658 INFO  [Log] Query: Transaction ID Generation 
+2024-05-20 10:16:08,658 INFO  [Log] Query Transaction ID Generation is in runtime window 
+2024-05-20 10:16:13,495 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:16:13,547 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:16:13,547 INFO  [Log] count value: 10 
+2024-05-20 10:16:13,548 INFO  [Log] Query: Capacity Consumption crossed currentDay+2 days for one or more ShipNode 
+2024-05-20 10:16:13,548 INFO  [Log] Query Capacity Consumption crossed currentDay+2 days for one or more ShipNode is in runtime window 
+2024-05-20 10:16:15,885 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:16:15,935 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:16:15,936 INFO  [Log] count value: 50 
+2024-05-20 10:16:15,936 INFO  [Log] Query: Dropship Cancel in last 7 days 
+2024-05-20 10:16:15,936 INFO  [Log] Query Dropship Cancel in last 7 days is in runtime window 
+2024-05-20 10:16:21,465 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:16:21,516 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:16:21,516 INFO  [Log] count value: 387 
+2024-05-20 10:16:21,516 INFO  [Log] Query: Orders having qty greater than 98 
+2024-05-20 10:16:21,516 INFO  [Log] Query Orders having qty greater than 98 is in runtime window 
+2024-05-20 10:16:23,133 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:16:23,183 INFO  [Log] Checking for Result count with multiple column 
+2024-05-20 10:16:23,183 INFO  [Log] count value: 50 
+2024-05-20 10:16:23,184 INFO  [Log] Query: Item Feed - Not received in twenty four hours 
+2024-05-20 10:16:23,184 INFO  [Log] Query Item Feed - Not received in twenty four hours is in runtime window 
+2024-05-20 10:17:33,391 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:18:33,656 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:18:33,656 INFO  [Log] count value: 153750 
+2024-05-20 10:18:33,657 INFO  [Log] Query: Price Feed - Not received in twenty four hours 
+2024-05-20 10:18:33,657 INFO  [Log] Query Price Feed - Not received in twenty four hours is in runtime window 
+2024-05-20 10:18:53,866 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:19:54,298 INFO  [Log] Checking for Result count with one column 
+2024-05-20 10:19:54,298 INFO  [Log] count value: 4250 
+2024-05-20 10:19:54,298 INFO  [Log] Query: BAY OMS Online Orders Created in Last 30 mins 
+2024-05-20 10:19:54,298 INFO  [Log] Query BAY OMS Online Orders Created in Last 30 mins is in runtime window 
+2024-05-20 10:21:24,333 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:24:24,939 INFO  [Log] Query: BAY OMS Call Center Orders Created in Last 30 mins 
+2024-05-20 10:24:24,939 INFO  [Log] Query BAY OMS Call Center Orders Created in Last 30 mins is in runtime window 
+2024-05-20 10:24:27,867 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:27:28,494 INFO  [Log] Queue name: Create Order CallCenter Count 
+2024-05-20 10:27:28,494 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,494 INFO  [Log] Critical threshold: 1 
+2024-05-20 10:27:28,494 INFO  [Log] Result count:  
+2024-05-20 10:27:28,495 INFO  [Log] Result value is blank for Alert: Create Order CallCenter Count 
+2024-05-20 10:27:28,495 INFO  [Log] Queue name: Create Order POS Count 
+2024-05-20 10:27:28,495 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,495 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,495 INFO  [Log] Result count:  
+2024-05-20 10:27:28,495 INFO  [Log] Result value is blank for Alert: Create Order POS Count 
+2024-05-20 10:27:28,495 INFO  [Log] Queue name: Order Release counts to DC 
+2024-05-20 10:27:28,495 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,495 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,495 INFO  [Log] Result count: 10 
+2024-05-20 10:27:28,495 INFO  [Log] Adding item to warning hashmap: Order Release counts to DC 
+2024-05-20 10:27:28,495 INFO  [Log] Queue name: Order Release counts to Store 
+2024-05-20 10:27:28,495 INFO  [Log] Warning threshold: 5 
+2024-05-20 10:27:28,495 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,495 INFO  [Log] Result count: 10 
+2024-05-20 10:27:28,495 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,495 INFO  [Log] Queue name: Order Release-Vendor 
+2024-05-20 10:27:28,495 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,495 INFO  [Log] Critical threshold: 3 
+2024-05-20 10:27:28,495 INFO  [Log] Result count: 60 
+2024-05-20 10:27:28,495 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,495 INFO  [Log] Queue name: Shipment - DC 
+2024-05-20 10:27:28,496 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,496 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,496 INFO  [Log] Result count:  
+2024-05-20 10:27:28,496 INFO  [Log] Result value is blank for Alert: Shipment - DC 
+2024-05-20 10:27:28,496 INFO  [Log] Queue name: Shipments - Store Packed 
+2024-05-20 10:27:28,496 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,496 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,496 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,496 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,496 INFO  [Log] Queue name: Shipment - Vendor 
+2024-05-20 10:27:28,496 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,496 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,496 INFO  [Log] Result count:  
+2024-05-20 10:27:28,496 INFO  [Log] Result value is blank for Alert: Shipment - Vendor 
+2024-05-20 10:27:28,496 INFO  [Log] Queue name: Emails 
+2024-05-20 10:27:28,496 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,496 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,496 INFO  [Log] Result count: 381 
+2024-05-20 10:27:28,496 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,496 INFO  [Log] Queue name: Invoices  Sales - Published 
+2024-05-20 10:27:28,496 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,496 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,496 INFO  [Log] Result count:  
+2024-05-20 10:27:28,496 INFO  [Log] Result value is blank for Alert: Invoices  Sales - Published 
+2024-05-20 10:27:28,496 INFO  [Log] Queue name: Create Return 
+2024-05-20 10:27:28,496 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,497 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,497 INFO  [Log] Result count:  
+2024-05-20 10:27:28,497 INFO  [Log] Result value is blank for Alert: Create Return 
+2024-05-20 10:27:28,497 INFO  [Log] Queue name: Data Extraction 
+2024-05-20 10:27:28,497 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,497 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,497 INFO  [Log] Result count: 100 
+2024-05-20 10:27:28,497 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,497 INFO  [Log] Queue name: Backorders in last three hours 
+2024-05-20 10:27:28,497 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,497 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,497 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,497 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,497 INFO  [Log] Queue name: Total System Cancellations in last twenty four hours 
+2024-05-20 10:27:28,497 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,497 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,497 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,497 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,497 INFO  [Log] Queue name: Total Cancellations in last twenty four hours  
+2024-05-20 10:27:28,497 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,497 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,497 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,497 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,497 INFO  [Log] Queue name: Create Order Online Count 
+2024-05-20 10:27:28,497 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,497 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,497 INFO  [Log] Result count: 20 
+2024-05-20 10:27:28,498 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,498 INFO  [Log] Queue name: Schedule Backlog 
+2024-05-20 10:27:28,498 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,498 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,498 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,498 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,498 INFO  [Log] Queue name: Release Backlog 
+2024-05-20 10:27:28,498 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,498 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,498 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,498 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,498 INFO  [Log] Queue name: Shipment - Store Shipped 
+2024-05-20 10:27:28,498 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,498 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,498 INFO  [Log] Result count:  
+2024-05-20 10:27:28,498 INFO  [Log] Result value is blank for Alert: Shipment - Store Shipped 
+2024-05-20 10:27:28,498 INFO  [Log] Queue name: Emails DB-CancelEmailService 
+2024-05-20 10:27:28,498 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,498 INFO  [Log] Critical threshold: 4 
+2024-05-20 10:27:28,498 INFO  [Log] Result count:  
+2024-05-20 10:27:28,498 INFO  [Log] Result value is blank for Alert: Emails DB-CancelEmailService 
+2024-05-20 10:27:28,498 INFO  [Log] Queue name: Emails DB-HBCCreateConfirmShipmentEmailService 
+2024-05-20 10:27:28,498 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,498 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,498 INFO  [Log] Result count:  
+2024-05-20 10:27:28,498 INFO  [Log] Result value is blank for Alert: Emails DB-HBCCreateConfirmShipmentEmailService 
+2024-05-20 10:27:28,498 INFO  [Log] Queue name: Emails DB-HBCOrderCustomerPickedUpEmail 
+2024-05-20 10:27:28,499 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,499 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,499 INFO  [Log] Result count:  
+2024-05-20 10:27:28,499 INFO  [Log] Result value is blank for Alert: Emails DB-HBCOrderCustomerPickedUpEmail 
+2024-05-20 10:27:28,499 INFO  [Log] Queue name: Emails DB-HBCOrderPickupReminderEmail  
+2024-05-20 10:27:28,499 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,499 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,499 INFO  [Log] Result count:  
+2024-05-20 10:27:28,499 INFO  [Log] Result value is blank for Alert: Emails DB-HBCOrderPickupReminderEmail  
+2024-05-20 10:27:28,499 INFO  [Log] Queue name: Emails DB-HBCOrderReadyForCustomerPickupEmail 
+2024-05-20 10:27:28,499 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,499 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,499 INFO  [Log] Result count:  
+2024-05-20 10:27:28,499 INFO  [Log] Result value is blank for Alert: Emails DB-HBCOrderReadyForCustomerPickupEmail 
+2024-05-20 10:27:28,499 INFO  [Log] Queue name: Emails DB-HBCOrderShippedEmail 
+2024-05-20 10:27:28,499 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,499 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,499 INFO  [Log] Result count:  
+2024-05-20 10:27:28,499 INFO  [Log] Result value is blank for Alert: Emails DB-HBCOrderShippedEmail 
+2024-05-20 10:27:28,499 INFO  [Log] Queue name: Emails DB-HBCReturnOrderInvoiceCreationEmailService 
+2024-05-20 10:27:28,499 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,499 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,499 INFO  [Log] Result count:  
+2024-05-20 10:27:28,499 INFO  [Log] Result value is blank for Alert: Emails DB-HBCReturnOrderInvoiceCreationEmailService 
+2024-05-20 10:27:28,499 INFO  [Log] Queue name: Emails DB-HBCWebOrderCreateEmailService 
+2024-05-20 10:27:28,499 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,499 INFO  [Log] Critical threshold: 5 
+2024-05-20 10:27:28,499 INFO  [Log] Result count: 172 
+2024-05-20 10:27:28,500 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,500 INFO  [Log] Queue name: MP-LN-HOLD count in last seven days 
+2024-05-20 10:27:28,500 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,500 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,500 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,500 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,500 INFO  [Log] Queue name: BUYER-REMORSE hold count in last seven days 
+2024-05-20 10:27:28,500 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,500 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,500 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,500 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,500 INFO  [Log] Queue name: MAX-AUTH-HOLD hold count in last seven days 
+2024-05-20 10:27:28,500 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,500 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,500 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,500 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,500 INFO  [Log] Queue name: CREDIT-HOLD  hold count in last seven days 
+2024-05-20 10:27:28,500 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,500 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,500 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,500 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,500 INFO  [Log] Queue name: PAYPAL-FAIL  hold count in last seven days 
+2024-05-20 10:27:28,500 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,500 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,500 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,500 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,500 INFO  [Log] Queue name: INCORRECT-DATA  hold count in last seven days 
+2024-05-20 10:27:28,500 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,500 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,500 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,500 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,500 INFO  [Log] Queue name: TOKEN-HOLD  hold count in last seven days 
+2024-05-20 10:27:28,501 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,501 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,501 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,501 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,501 INFO  [Log] Queue name: AUTH-HOLD  hold count in last seven days 
+2024-05-20 10:27:28,501 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,501 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,501 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,501 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,501 INFO  [Log] Queue name: FRAUD-HOLD  hold count in last seven days 
+2024-05-20 10:27:28,501 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,501 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,501 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,501 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,501 INFO  [Log] Queue name: RO-NOT-PUBLISHED  hold count in last seven days 
+2024-05-20 10:27:28,501 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,501 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,501 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,501 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,501 INFO  [Log] Queue name: INCORRECT_DATA not cancelled and older than seven Days 
+2024-05-20 10:27:28,501 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,501 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,501 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,501 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,501 INFO  [Log] Queue name: AUTH_HOLD not cancelled and older than seven Days 
+2024-05-20 10:27:28,501 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,501 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,501 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,501 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,501 INFO  [Log] Queue name: FRAUD_HOLD not cancelled and older than seven Days 
+2024-05-20 10:27:28,501 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,501 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,501 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,501 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,501 INFO  [Log] Queue name: TOKEN_HOLD not cancelled and older than seven Days 
+2024-05-20 10:27:28,502 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,502 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,502 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,502 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,502 INFO  [Log] Queue name: MP in Created status and older than seven Days 
+2024-05-20 10:27:28,502 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,502 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,502 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,502 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,502 INFO  [Log] Queue name: Backorders older than seven days 
+2024-05-20 10:27:28,502 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,502 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,502 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,502 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,502 INFO  [Log] Queue name: Open Orders older than Fifteen days 
+2024-05-20 10:27:28,502 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,502 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,502 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,502 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,502 INFO  [Log] Queue name: Scheudle Looping 
+2024-05-20 10:27:28,502 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,502 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,502 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,502 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,502 INFO  [Log] Queue name: Open Order from DC greater seven Days 
+2024-05-20 10:27:28,502 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,502 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,502 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,502 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,502 INFO  [Log] Queue name: Open Orders from Stores greater seven Days 
+2024-05-20 10:27:28,502 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,502 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,502 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,503 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,503 INFO  [Log] Queue name: Open Orders from DropShip greater seven Days 
+2024-05-20 10:27:28,503 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,503 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,503 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,503 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,503 INFO  [Log] Queue name: Exceptions - Monitoring 
+2024-05-20 10:27:28,503 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,503 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,503 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,503 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,503 INFO  [Log] Queue name: Payments 
+2024-05-20 10:27:28,503 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,503 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,503 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,503 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,503 INFO  [Log] Queue name: PAYBRIGHT_HOLD in last seven days 
+2024-05-20 10:27:28,503 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,503 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,503 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,503 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,503 INFO  [Log] Queue name: HBCIntegrationRetry table alert 
+2024-05-20 10:27:28,503 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,503 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,503 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,503 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,503 INFO  [Log] Queue name: Exceptions- CreateOrder 
+2024-05-20 10:27:28,503 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,503 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,503 INFO  [Log] Result count: 10 
+2024-05-20 10:27:28,503 INFO  [Log] Adding item to warning hashmap: Exceptions- CreateOrder 
+2024-05-20 10:27:28,504 INFO  [Log] Queue name: Invoices Sales - Backlog older than a Day 
+2024-05-20 10:27:28,504 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,504 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,504 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,504 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,504 INFO  [Log] Queue name: Invoices Sales - Backlog count higher 
+2024-05-20 10:27:28,504 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,504 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,504 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,504 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,504 INFO  [Log] Queue name: Transaction ID Generation 
+2024-05-20 10:27:28,504 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,504 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,504 INFO  [Log] Result count: 10 
+2024-05-20 10:27:28,504 INFO  [Log] Adding item to warning hashmap: Transaction ID Generation 
+2024-05-20 10:27:28,504 INFO  [Log] Queue name: Capacity Consumption crossed currentDay+2 days for one or more ShipNode 
+2024-05-20 10:27:28,504 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,504 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,504 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,504 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,504 INFO  [Log] Queue name: Dropship Cancel in last 7 days 
+2024-05-20 10:27:28,504 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,504 INFO  [Log] Critical threshold: 3 
+2024-05-20 10:27:28,504 INFO  [Log] Result count: 387 
+2024-05-20 10:27:28,504 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,504 INFO  [Log] Queue name: Orders having qty greater than 98 
+2024-05-20 10:27:28,504 INFO  [Log] Warning threshold: 10 
+2024-05-20 10:27:28,504 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,504 INFO  [Log] Result count: 50 
+2024-05-20 10:27:28,504 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,504 INFO  [Log] Queue name: Item Feed - Not received in twenty four hours 
+2024-05-20 10:27:28,504 INFO  [Log] Warning threshold: 100 
+2024-05-20 10:27:28,504 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,504 INFO  [Log] Result count: 153750 
+2024-05-20 10:27:28,504 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,504 INFO  [Log] Queue name: Price Feed - Not received in twenty four hours 
+2024-05-20 10:27:28,504 INFO  [Log] Warning threshold: 100 
+2024-05-20 10:27:28,504 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,504 INFO  [Log] Result count: 4250 
+2024-05-20 10:27:28,504 INFO  [Log] No warning or critical values 
+2024-05-20 10:27:28,504 INFO  [Log] Queue name: BAY OMS Online Orders Created in Last 30 mins 
+2024-05-20 10:27:28,504 INFO  [Log] Warning threshold: 5 
+2024-05-20 10:27:28,504 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:27:28,504 INFO  [Log] Result count: Count Column not Found for AlertName *BAY OMS Online Orders Created in Last 30 mins 
+2024-05-20 10:27:28,504 INFO  [Log] Updating Transaction status 
+2024-05-20 10:27:28,505 ERROR [Log] Exception source: null 
+2024-05-20 10:27:28,505 ERROR [Log] Exception message: For input string: "Count Column not Found for AlertName *BAY OMS Online Orders Created in Last 30 mins" 
+2024-05-20 10:27:28,513 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-20 10:27:28,648 INFO  [Log] Email sent successfully. 
+2024-05-20 10:38:36,120 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-20 10:38:36,121 INFO  [Log] BOT user: aws_rpa_devbot0 
+2024-05-20 10:38:36,121 INFO  [Log] Killing Excel process 
+2024-05-20 10:38:36,317 INFO  [Log] Launching chrome driver 
+2024-05-20 10:38:38,667 INFO  [Log] Deleted cookies 
+2024-05-20 10:38:41,543 INFO  [Log] Launched IBM application in chrome 
+2024-05-20 10:38:42,054 INFO  [Log] Entered username 
+2024-05-20 10:38:44,143 INFO  [Log] Clicked on Sign-in 
+2024-05-20 10:38:54,539 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-20 10:38:54,596 INFO  [Log] Partial OTP captured: 0360- 
+2024-05-20 10:40:56,152 INFO  [Log] Getting OTP mail... 
+2024-05-20 10:40:56,153 INFO  [Log] Email count: 1 
+2024-05-20 10:40:56,704 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo2YTRmZjBmZTQ5YTE2MjhhNzhkNTkyMDkwMDQzMTRiNjo2OjZhZDE6MDNkN2I0N2JhNDk3Mjk1MjZiZDdjMzQ3MTNiYTdmOWI3YjhiNTA1MTNiZjczNTFhZTNlYjQ1NDBlMzU5YjUyZDpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">0360-040641</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo2YTRmZjBmZTQ5YTE2MjhhNzhkNTkyMDkwMDQzMTRiNjo2OjMzYmQ6NDYyODI1YmRhNzgxNjBkODBmOTBlNWJiMDFlMDM2YjYxYjNkOTE5NGNmODE4YmQxOTQzZWE3NzM3ZDFkYmM0YzpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo2YTRmZjBmZTQ5YTE2MjhhNzhkNTkyMDkwMDQzMTRiNjo2OjJiZjY6ZmJmMWY4ZjJiY2E2ODJmZTY4OTdlNjExZjBlMDhiMGE4ZWFiNGZhZWMwYzhjMWRhNjJjNmU3MjRmZjEwZTlmYjpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6Zzo2YTRmZjBmZTQ5YTE2MjhhNzhkNTkyMDkwMDQzMTRiNjo2OjExOTM6MGNhODk1ODIyZTZjNWIyNDUxMDg1NDhlMTk2NGI3ODRmYTk3N2ZkNzcwNzQxNDkyOWY2YzA2ZWVjOGQ1MDRiOTpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-20 10:40:56,786 INFO  [Log] OTP captured from mail body: 0360-040641 
+2024-05-20 10:40:56,788 INFO  [Log] Split OTP by - 
+2024-05-20 10:40:56,788 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-20 10:40:56,788 INFO  [Log] Verification code: 040641 
+2024-05-20 10:41:00,768 INFO  [Log] Verification code entered 
+2024-05-20 10:41:01,087 INFO  [Log] Updated columns for id: 80 
+2024-05-20 10:41:01,088 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-20 10:41:02,698 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-20 10:41:02,705 INFO  [Log] Rows count: 2 
+2024-05-20 10:41:02,705 INFO  [Log] Column count: 28 
+2024-05-20 10:41:02,892 INFO  [Log] Query: BAY OMS Online Orders Created in Last 30 mins 
+2024-05-20 10:41:02,892 INFO  [Log] Query BAY OMS Online Orders Created in Last 30 mins is in runtime window 
+2024-05-20 10:41:11,226 INFO  [Log] Loader disappeared: true 
+2024-05-20 10:44:12,258 INFO  [Log] Queue name: BAY OMS Online Orders Created in Last 30 mins 
+2024-05-20 10:44:12,258 INFO  [Log] Warning threshold: 5 
+2024-05-20 10:44:12,258 INFO  [Log] Critical threshold: 0 
+2024-05-20 10:44:12,258 INFO  [Log] Result count: Count Column not Found for AlertName BAY OMS Online Orders Created in Last 30 mins 
+2024-05-20 10:44:12,259 INFO  [Log] Updating Transaction status 
+2024-05-20 10:44:12,259 ERROR [Log] Exception source: null 
+2024-05-20 10:44:12,259 ERROR [Log] Exception message: For input string: "Count Column not Found for AlertName BAY OMS Online Orders Created in Last 30 mins" 
+2024-05-20 10:44:12,268 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-20 10:44:12,410 INFO  [Log] Email sent successfully. 
+2024-05-20 11:00:15,983 INFO  [Log] Property file loaded: propertyfiles/dbquery.properties 
+2024-05-20 11:00:15,984 INFO  [Log] BOT user: aws_rpa_devbot0 
+2024-05-20 11:00:15,984 INFO  [Log] Killing Excel process 
+2024-05-20 11:00:16,278 INFO  [Log] Launching chrome driver 
+2024-05-20 11:00:19,713 INFO  [Log] Deleted cookies 
+2024-05-20 11:00:21,773 INFO  [Log] Launched IBM application in chrome 
+2024-05-20 11:00:22,294 INFO  [Log] Entered username 
+2024-05-20 11:00:24,621 INFO  [Log] Clicked on Sign-in 
+2024-05-20 11:00:34,944 INFO  [Log] Capturing partial OTP from IBM page 
+2024-05-20 11:00:35,015 INFO  [Log] Partial OTP captured: 7372- 
+2024-05-20 11:02:36,164 INFO  [Log] Getting OTP mail... 
+2024-05-20 11:02:36,164 INFO  [Log] Email count: 1 
+2024-05-20 11:02:36,669 INFO  [Log] Mail body: <html>
+        <head>
+            <title>Email Verify</title>
+        </head>
+        <body style="background-color : #F7F5F5">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+            <tr>
+                <td></td>
+                <td width="500" style="height:30px; line-height:30px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="left" style="font-family:  Helvetica , Arial , sans-serif ">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td style="background-color:#fff;" width="500">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" style="padding:20px 20px 0;"><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyNTU5ZWQ5ZWVlMTc5MjA3MDg4NDJmZGY4NjhjNTZiZDo2OjgzMjA6MjY2NDkxZDQwNDRlNDlhZWE5NDcyN2M0MGViYjFlMjU2YmNiNWU4Mjc4NjU3ZGFkYTUwNGJkZmFmZjUyZDIwMTpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank">
+                                            <img src="https://www.ibm.com/account/ibmidutil/img/Email_Logo_small.png" border="0"
+                                                 alt="IBM" title="IBM" style="float:right; margin:-50px -10px 0 0;"/></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:0 20px 80px; font-weight:lighter;">
+                                            <h2 style="margin:5px 0 0; font-weight:lighter; font-size:30px">IBM verify code</h2>
+                                            <p style="margin:30px 0 0 0;">Please use the following verification code:</p>
+                                            <p style="margin:15px 0 0; font-weight:normal; font-size:40px; color: #5596E6;">7372-330138</p>
+                                            <p style="margin:15px 0 80px 0;">You can only use it once and it will expire after 20min.</p>
+                                            <p style="margin:30px 0 0 0;">If you did not request this, please disregard this email and contact our
+                                                <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyNTU5ZWQ5ZWVlMTc5MjA3MDg4NDJmZGY4NjhjNTZiZDo2OjI1YjM6YjQ4OTgyZmE4MjU1OGM1YzdjMWFmMGQ2MGI2ZTkwNzIxZjdmMGEwZjVmMGUxMWM5NWEyODM3YjE3N2JkZjMxYzpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                        style="color:#2e75d9; text-decoration:none;" target="_blank">helpdesk</a>.
+                                            </p>
+                                            <hr style="margin:30px 0 0 0; border:none; height:1px; width:100%; background-color:#d4d4d4;"/>
+                                            <p style="margin:30px 0 0 0; font-size:14px;">Do not reply to this automated email.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#000; padding:40px 20px; color:#fff; font-size:10px; line-height:1.6em">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyNTU5ZWQ5ZWVlMTc5MjA3MDg4NDJmZGY4NjhjNTZiZDo2Ojk4NzE6OTVlOGUzZDIzYzA2ZDdkMWJlOTc0NjIxOTQyYzVmNGVkY2IwZWQ4OTJkYzIzZjdiNTQ2Y2ExZWJjOGQwYWExMDpoOlQ" title="Protected by Check Point: https://www.ibm.com/" target="_blank"><img border="0" alt="IBM" title="IBM"
+                                                    src="https://www.ibm.com/account/ibmidutil/img/IBM_logo_med.png"/></a>
+                                            </p>
+                                            <hr style="margin:20px 0; border:none; height:1px; width:100%; background-color:#404040;"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em">
+                                            Need Help? <br/>Contact the <a href="https://protect.checkpoint.com/v2/___https://www.ibm.com/account/profile/us?page=reghelpdesk___.YzJ1Omh1ZHNvbnNiYXljb21wYW55OmM6ZzoyNTU5ZWQ5ZWVlMTc5MjA3MDg4NDJmZGY4NjhjNTZiZDo2Ojg4ODg6ZjEyNTY3NmQ1YWYwN2ViNTkyYjE5OTk4OGU4ZDlkMDEyNDQ5NzAxYWI5NjVhYjZhNWQ4MTY4NjUzMTIzZjI5NzpoOlQ" title="Protected by Check Point: https://www.ibm.com/account/profile/us?page=reghelpdesk"
+                                                style="color:#B7ADAD; text-decoration:underline;" target="_blank">helpdesk</a>
+                                        </td>
+                                        <td style="background-color:#000; padding:20px 0px; color:#B7ADAD; font-size:10px; line-height:1.6em"
+                                            align="right">© Copyright IBM Corporation 2021
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </body>
+      </html>
+ 
+2024-05-20 11:02:36,740 INFO  [Log] OTP captured from mail body: 7372-330138 
+2024-05-20 11:02:36,742 INFO  [Log] Split OTP by - 
+2024-05-20 11:02:36,742 INFO  [Log] Entering verification code in IBM page.... 
+2024-05-20 11:02:36,742 INFO  [Log] Verification code: 330138 
+2024-05-20 11:02:40,760 INFO  [Log] Verification code entered 
+2024-05-20 11:02:41,554 INFO  [Log] Updated columns for id: 81 
+2024-05-20 11:02:41,556 INFO  [Log] Reading OMS DB Query input file... 
+2024-05-20 11:02:43,017 INFO  [Log] Worksheet: ProposedTemplate_30Minutes 
+2024-05-20 11:02:43,025 INFO  [Log] Rows count: 2 
+2024-05-20 11:02:43,026 INFO  [Log] Column count: 28 
+2024-05-20 11:02:43,204 INFO  [Log] Query: BAY OMS Online Orders Created in Last 30 mins 
+2024-05-20 11:02:43,204 INFO  [Log] Query BAY OMS Online Orders Created in Last 30 mins is in runtime window 
+2024-05-20 11:02:51,276 INFO  [Log] Loader disappeared: true 
+2024-05-20 11:05:52,384 INFO  [Log] Queue name: BAY OMS Online Orders Created in Last 30 mins 
+2024-05-20 11:05:52,384 INFO  [Log] Warning threshold: 5 
+2024-05-20 11:05:52,384 INFO  [Log] Critical threshold: 0 
+2024-05-20 11:05:52,384 INFO  [Log] Result count: Count Column not Found for AlertName BAY OMS Online Orders Created in Last 30 mins 
+2024-05-20 11:05:52,386 INFO  [Log] No critical alerts found to send email notification 
+2024-05-20 11:05:52,386 INFO  [Log] Sending warning email alert 
+2024-05-20 11:05:52,392 INFO  [Log] No Attachments Supplied for the Email 
+2024-05-20 11:05:52,533 INFO  [Log] Email sent successfully. 
+2024-05-20 11:05:52,539 INFO  [Log] Updated columns for id: 81 
+2024-05-20 11:05:52,539 INFO  [Log] Updating Transaction status 
